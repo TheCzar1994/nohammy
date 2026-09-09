@@ -181,7 +181,7 @@
 		position: relative;
 		z-index: 3;
 		width: min(100% - 2rem, 500px);
-		margin: -2.5rem auto 0;
+		margin: -2.5rem auto 2.5rem;
 	}
 
 	.social-grid {
