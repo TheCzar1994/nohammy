@@ -32,7 +32,7 @@ export const site: SiteConfig = {
 	name: 'nohammy',
 	kicker: 'STREAMER • DBD • OLLIE',
 	tagline: "Addicted to DBD and making it everyone's problem",
-	description: 'Official website for nohammy. Find streams, videos, socials and more.',
+	description: 'Official website for nohammy',
 
 	socials: [
 		{
