@@ -56,7 +56,7 @@ export const site: SiteConfig = {
 		{
 			label: 'Discord',
 			handle: 'Join nohammy by daylight',
-			href: 'https://discord.gg/Ff9W25Apn',
+			href: 'https://discord.com/invite/5srnCyxHF3',
 			icon: faDiscord
 		}
 	],
