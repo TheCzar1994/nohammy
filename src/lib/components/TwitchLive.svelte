@@ -11,6 +11,7 @@
 
 	let stream = $state<TwitchStream | null>(null);
 	let loaded = $state(false);
+	let unavailable = $state(false);
 	let canEmbed = $state(true);
 
 	async function refreshStream() {
@@ -21,9 +22,13 @@
 				}
 			});
 
-			// If Twitch itself is temporarily unavailable, preserve whatever
-			// state we already have instead of incorrectly showing offline.
+			// On later refresh failures, preserve the last known state.
 			if (!response.ok) {
+				if (!loaded) {
+					unavailable = true;
+					loaded = true;
+				}
+
 				return;
 			}
 
@@ -32,9 +37,15 @@
 			};
 
 			stream = result.stream;
+			unavailable = false;
 			loaded = true;
 		} catch (error) {
 			console.error('[Twitch] Failed to refresh stream status:', error);
+
+			if (!loaded) {
+				unavailable = true;
+				loaded = true;
+			}
 		}
 	}
 
@@ -59,7 +70,42 @@
 	});
 </script>
 
-{#if loaded && stream}
+{#if !loaded}
+	<div class="twitch-skeleton" aria-hidden="true">
+		<div class="twitch-skeleton__header">
+			<div class="twitch-skeleton__heading">
+				<div class="skeleton skeleton--badge"></div>
+
+				<div class="twitch-skeleton__heading-text">
+					<div class="skeleton skeleton--title"></div>
+					<div class="skeleton skeleton--meta"></div>
+				</div>
+			</div>
+
+			<div class="skeleton skeleton--button"></div>
+		</div>
+
+		<div class="twitch-skeleton__cards">
+			<div class="twitch-skeleton__card">
+				<div class="skeleton skeleton--thumbnail"></div>
+				<div class="skeleton skeleton--card-title"></div>
+				<div class="skeleton skeleton--card-meta"></div>
+			</div>
+
+			<div class="twitch-skeleton__card">
+				<div class="skeleton skeleton--thumbnail"></div>
+				<div class="skeleton skeleton--card-title"></div>
+				<div class="skeleton skeleton--card-meta"></div>
+			</div>
+
+			<div class="twitch-skeleton__card">
+				<div class="skeleton skeleton--thumbnail"></div>
+				<div class="skeleton skeleton--card-title"></div>
+				<div class="skeleton skeleton--card-meta"></div>
+			</div>
+		</div>
+	</div>
+{:else if stream}
 	<article class="twitch-live" aria-live="polite">
 		<header class="twitch-live__header">
 			<div class="twitch-live__heading">
@@ -99,11 +145,116 @@
 			</a>
 		{/if}
 	</article>
-{:else if loaded}
+{:else if !unavailable}
 	<TwitchClips />
 {/if}
 
 <style lang="scss">
+	.twitch-skeleton {
+		margin-bottom: 0.8rem;
+		padding: 1.5rem;
+		overflow: hidden;
+		border: 1px solid var(--border);
+		border-radius: 1.1rem;
+		background: var(--surface);
+		backdrop-filter: blur(16px);
+	}
+
+	.twitch-skeleton__header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 1.5rem;
+		margin-bottom: 1.25rem;
+	}
+
+	.twitch-skeleton__heading {
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+	}
+
+	.twitch-skeleton__heading-text {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+	}
+
+	.twitch-skeleton__cards {
+		display: grid;
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+		gap: 0.8rem;
+	}
+
+	.twitch-skeleton__card {
+		overflow: hidden;
+		padding-bottom: 0.9rem;
+		border: 1px solid var(--border);
+		border-radius: 0.9rem;
+		background: rgba(255, 255, 255, 0.025);
+	}
+
+	.skeleton {
+		position: relative;
+		overflow: hidden;
+		border-radius: 0.45rem;
+		background: rgba(255, 255, 255, 0.07);
+	}
+
+	.skeleton::after {
+		position: absolute;
+		inset: 0;
+		background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.075), transparent);
+		content: '';
+		transform: translateX(-100%);
+		animation: skeleton-shimmer 1.5s ease-in-out infinite;
+	}
+
+	.skeleton--badge {
+		width: 72px;
+		height: 28px;
+		border-radius: 999px;
+	}
+
+	.skeleton--title {
+		width: 150px;
+		height: 18px;
+	}
+
+	.skeleton--meta {
+		width: 110px;
+		height: 12px;
+	}
+
+	.skeleton--button {
+		width: 110px;
+		height: 40px;
+		border-radius: 0.8rem;
+	}
+
+	.skeleton--thumbnail {
+		width: 100%;
+		aspect-ratio: 16 / 9;
+		border-radius: 0;
+	}
+
+	.skeleton--card-title {
+		width: calc(100% - 1.8rem);
+		height: 14px;
+		margin: 0.9rem 0.9rem 0;
+	}
+
+	.skeleton--card-meta {
+		width: 55%;
+		height: 10px;
+		margin: 0.55rem 0.9rem 0;
+	}
+
+	@keyframes skeleton-shimmer {
+		100% {
+			transform: translateX(100%);
+		}
+	}
 	.twitch-live {
 		margin-bottom: 0.8rem;
 		overflow: hidden;
@@ -244,12 +395,36 @@
 		.twitch-live__title {
 			margin: 1rem 1.25rem 1.25rem;
 		}
+		.twitch-skeleton {
+			padding: 1.25rem;
+		}
+
+		.twitch-skeleton__header {
+			align-items: flex-start;
+			flex-direction: column;
+		}
+
+		.skeleton--button {
+			width: 100%;
+		}
+
+		.twitch-skeleton__cards {
+			grid-template-columns: 1fr;
+		}
+
+		.twitch-skeleton__card:nth-child(n + 2) {
+			display: none;
+		}
 	}
 
 	@media (prefers-reduced-motion: reduce) {
 		.twitch-live__button,
 		.twitch-live__mobile {
 			transition: none;
+		}
+
+		.skeleton::after {
+			animation: none;
 		}
 	}
 </style>

@@ -179,6 +179,18 @@ async function getFeaturedClips(
 	return result.data;
 }
 
+function shuffle<T>(items: T[]): T[] {
+	const shuffled = [...items];
+
+	for (let i = shuffled.length - 1; i > 0; i--) {
+		const j = Math.floor(Math.random() * (i + 1));
+
+		[shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+	}
+
+	return shuffled;
+}
+
 async function getClipsForWindow(
 	fetchFn: typeof fetch,
 	broadcasterId: string,
@@ -227,10 +239,10 @@ export async function getTwitchClips(fetchFn: typeof fetch): Promise<TwitchClip[
 	const broadcasterId = await getBroadcasterId(fetchFn);
 
 	// Featured clips are intentionally not restricted by age.
-	// If nohammy has featured an older clip, keep it eligible for the site.
-	const featuredClips = await getFeaturedClips(fetchFn, broadcasterId, twitch.clips.count);
+	// Pull a larger pool so different featured clips can be shown over time.
+	const featuredClips = await getFeaturedClips(fetchFn, broadcasterId, 20);
 
-	let clips = featuredClips.slice(0, twitch.clips.count);
+	let clips = shuffle(featuredClips).slice(0, twitch.clips.count);
 
 	// Fill any remaining slots with recent, non-featured clips.
 	if (clips.length < twitch.clips.count) {

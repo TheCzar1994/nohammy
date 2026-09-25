@@ -6,7 +6,8 @@
 		faArrowLeft,
 		faEye,
 		faPlay,
-		faUpRightFromSquare
+		faUpRightFromSquare,
+		faStar
 	} from '@fortawesome/free-solid-svg-icons';
 
 	import { twitch } from '$lib/config/twitch';
@@ -122,7 +123,7 @@
 					</div>
 
 					<h2 id="clips-heading">Clips from nohammy</h2>
-					<p>Featured favorites and recent clips while nohammy is offline.</p>
+					<p>Randomized featured favorites and recent clips while nohammy is offline</p>
 				</div>
 
 				<a class="twitch-clips__channel" href={twitch.url} target="_blank" rel="noreferrer">
@@ -139,7 +140,14 @@
 								<img src={clip.thumbnailUrl} alt="" loading="lazy" />
 
 								{#if clip.isFeatured}
-									<span class="clip-card__featured"> ★ Featured by nohammy </span>
+									<span
+										class="clip-card__featured"
+										aria-label="Featured by nohammy"
+										title="Featured by nohammy"
+									>
+										<span aria-hidden="true"><Fa icon={faStar} />&nbsp;</span>
+										<span class="clip-card__featured-text">Featured by nohammy</span>
+									</span>
 								{/if}
 
 								<span class="clip-card__play" aria-hidden="true">
@@ -166,7 +174,14 @@
 								<img src={clip.thumbnailUrl} alt="" loading="lazy" />
 
 								{#if clip.isFeatured}
-									<span class="clip-card__featured"> ★ Featured by nohammy </span>
+									<span
+										class="clip-card__featured"
+										aria-label="Featured by nohammy"
+										title="Featured by nohammy"
+									>
+										<span aria-hidden="true"><Fa icon={faStar} />&nbsp;</span>
+										<span class="clip-card__featured-text">Featured by nohammy</span>
+									</span>
 								{/if}
 
 								<span class="clip-card__play" aria-hidden="true">
@@ -475,6 +490,18 @@
 		.clip-card__meta {
 			align-items: flex-start;
 			flex-direction: column;
+		}
+		.clip-card__featured {
+			width: 2rem;
+			height: 2rem;
+			padding: 0;
+			justify-content: center;
+			border-radius: 50%;
+			font-size: 0.8rem;
+		}
+
+		.clip-card__featured-text {
+			display: none;
 		}
 	}
 
