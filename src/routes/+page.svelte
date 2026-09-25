@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { site } from '$lib/config/site';
+	import TwitchLive from '$lib/components/TwitchLive.svelte';
 	import Fa from 'svelte-fa';
 	import { faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 </script>
@@ -56,26 +57,30 @@
 		</div>
 	</section>
 
-	<section class="socials" aria-labelledby="social-heading">
-		<h2 id="social-heading" class="sr-only">Social links</h2>
+	<div class="content-stack">
+		<TwitchLive />
 
-		<nav class="social-grid">
-			{#each site.socials as social}
-				<a class="social-link" href={social.href} target="_blank" rel="noreferrer">
-					<div class="social-link__content">
-						<span class="social-link__platform"
-							><Fa style="margin-right: 0.75rem;" icon={social.icon} />{social.label}</span
+		<section class="socials" aria-labelledby="social-heading">
+			<h2 id="social-heading" class="sr-only">Social links</h2>
+
+			<nav class="social-grid">
+				{#each site.socials as social}
+					<a class="social-link" href={social.href} target="_blank" rel="noreferrer">
+						<div class="social-link__content">
+							<span class="social-link__platform"
+								><Fa style="margin-right: 0.75rem;" icon={social.icon} />{social.label}</span
+							>
+							<span class="social-link__handle">{social.handle}</span>
+						</div>
+
+						<span class="social-link__arrow" aria-hidden="true"
+							><Fa icon={faUpRightFromSquare} /></span
 						>
-						<span class="social-link__handle">{social.handle}</span>
-					</div>
-
-					<span class="social-link__arrow" aria-hidden="true"
-						><Fa icon={faUpRightFromSquare} /></span
-					>
-				</a>
-			{/each}
-		</nav>
-	</section>
+					</a>
+				{/each}
+			</nav>
+		</section>
+	</div>
 </main>
 
 <style lang="scss">
@@ -177,11 +182,16 @@
 		line-height: 1.6;
 	}
 
-	.socials {
+	.content-stack {
 		position: relative;
 		z-index: 3;
-		width: min(100% - 2rem, 500px);
+		width: min(100% - 2rem, 960px);
 		margin: -2.5rem auto 2.5rem;
+	}
+
+	.socials {
+		width: min(100%, 500px);
+		margin-inline: auto;
 	}
 
 	.social-grid {
