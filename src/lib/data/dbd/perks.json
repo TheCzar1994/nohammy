@@ -1,0 +1,2570 @@
+[
+  {
+    "id": "a-nurses-calling",
+    "name": "A Nurse's Calling",
+    "role": "killer",
+    "character": "The Nurse",
+    "description": "Unlocks potential in your Aura-reading ability:\n• The Auras of Survivors being healed or healing themselves are revealed to you within 28/30/32 metres.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/aNursesCalling.png"
+  },
+  {
+    "id": "a-place-for-us",
+    "name": "A Place For Us",
+    "role": "survivor",
+    "character": "Kwon Tae-young",
+    "description": "While healing an another Survivor, both you and the healed Survivor gain Elusive Status Effect.\nWhen you finish healing the Obsession, both you and the Obsession gain Elusive Status Effect for 20/25/30 seconds.\n\nReduces your chance of becoming the initial Obsession by reducing the default value by -100 %.\nThe Killer can only be obsessed with one Survivor at a time.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/aPlaceForUs.png"
+  },
+  {
+    "id": "ace-in-the-hole",
+    "name": "Ace in the Hole",
+    "role": "survivor",
+    "character": "Ace Visconti",
+    "description": "Causes all regular Items you retrieve from a Chest to come equipped with 1 to 2 Add-ons:\n\n• First Slot: 100 % chance to be equipped with an Add-on of Visceral Rarity or lower.\n\n• Second Slot: 50/75/100 % chance to be equipped with an Add-on of Uncommon Rarity or lower.\n\nAce in the Hole prevents any attached Add-ons on your currently held Item to be consumed upon escaping the Trial.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/aceInTheHole.png"
+  },
+  {
+    "id": "adrenaline",
+    "name": "Adrenaline",
+    "role": "survivor",
+    "character": "Meg Thomas",
+    "description": "Once the Exit Gates are powered, Adrenaline activates and triggers the following effects:\n\n• Heals you to the next Health State.\n\n• Grants a +50 % Haste Status Effect for 4 seconds.\n\nAdrenaline can be used while Exhausted and ignores an existing Status Effect.\nAdrenaline causes the Exhausted Status Effect for 60/50/40 seconds after use.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/adrenaline.png"
+  },
+  {
+    "id": "aftercare",
+    "name": "Aftercare",
+    "role": "survivor",
+    "character": "Jeff Johansen",
+    "description": "Unlocks potential in your Aura-reading ability:\n• You see the Auras of the 1/2/3 most recent Survivor(s) that helped you or vice versa:\n• Rescued from a Hook.\n\n• Completed a Healing action on.\n\n• They also see your Aura.\n\nAftercare resets its effects when you are hooked by the Killer.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/aftercare.png"
+  },
+  {
+    "id": "agitation",
+    "name": "Agitation",
+    "role": "killer",
+    "character": "The Trapper",
+    "description": "While carrying a Survivor, your Movement speed is increased by 6/12/18% and your Terror Radius is increased by 12 metres.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/agitation.png"
+  },
+  {
+    "id": "alert",
+    "name": "Alert",
+    "role": "survivor",
+    "character": "Feng Min",
+    "description": "Whenever the Killer performs the Break or Damage Action, Alert triggers:\n\n• Their Aura is revealed to you for 3/4/5 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/alert.png"
+  },
+  {
+    "id": "alien-instinct",
+    "name": "Alien Instinct",
+    "role": "killer",
+    "character": "The Xenomorph",
+    "description": "Whenever you hook a Survivor, Alien Instinct activates:\n\n• The Aura of the farthest Survivor from your current location who is in the Injured State is revealed to you for 8 seconds.\n\n• Causes that Survivor to suffer from the Oblivious Status Effect for 40/50/60 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/alienInstinct.png"
+  },
+  {
+    "id": "all-shaking-thunder",
+    "name": "All-Shaking Thunder",
+    "role": "killer",
+    "character": "The Houndmaster",
+    "description": "After falling from a height, All-Shaking Thunder activates for 15/20/25 seconds:\n\n• Increases the range of your Lunge Attack by +75 %.\n\nAll-Shaking Thunder has a cool-down of 5 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/allShakingThunder.png"
+  },
+  {
+    "id": "any-means-necessary",
+    "name": "Any Means Necessary",
+    "role": "survivor",
+    "character": "Yui Kimura",
+    "description": "Unlocks potential in your Aura-reading ability:\n\n• The Auras of dropped Pallets in the environment are revealed to you.\n\nWhile standing next to a dropped Pallet, press and hold the Active Ability button to trigger the following effect:\n\n• Resets the Pallet to its upright position over 5/4/3 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/anyMeansNecessary.png"
+  },
+  {
+    "id": "apocalyptic-ingenuity",
+    "name": "Apocalyptic Ingenuity",
+    "role": "survivor",
+    "character": "Rick Grimes",
+    "description": "Unlocks potential in your Aura-reading ability:\n\n• The Auras of broken Pallets are revealed to you within 24/28/32 metres.\n\nAfter unlocking or rummaging through 1 Chest, Apocalyptic Ingenuity gains a special ability.\nWhile standing next to the location of a broken Pallet, press and hold the Active Ability button for 3 seconds to use it:\n\n• Rebuilds it as a Fragile Pallet.\n• Fragile Pallets instantly break when dropped.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/apocalypticIngenuity.png"
+  },
+  {
+    "id": "appraisal",
+    "name": "Appraisal",
+    "role": "survivor",
+    "character": "Élodie Rakoto",
+    "description": "Start the Trial with 4 Tokens.\nWhile standing next to an unlocked and empty Chest, press and hold the Interaction button to perform the Rummage action:\n\n• Grants the ability to retrieve an extra Item from that Chest.\n• This consumes -1 Token and is limited to twice per Chest.\n\n• Increases the Rummaging speed by 40/60/80 %.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/appraisal.png"
+  },
+  {
+    "id": "autodidact",
+    "name": "Autodidact",
+    "role": "survivor",
+    "character": "Adam Francis",
+    "description": "Succeeding a Skill Check while healing another Survivor grants +1 Token, up to a maximum of 3/4/5 Tokens:\n• Suppresses Great Healing Skill Checks.\n\n• Causes Good Healing Skill Checks to grant Healing progress based on the number of accumulated Tokens:\n• 0 Tokens: -15 %.\n\n• 1 Token: +0 %.\n\n• 2 Tokens: +15 %.\n\n• 3 Tokens: +30 % (limit of Tier I).\n\n• 4 Tokens: +45 % (limit of Tier II).\n\n• 5 Tokens: +60 % (limit of Tier III).\n\nAutodidact is inactive when healing using a Med-Kit.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/autodidact.png"
+  },
+  {
+    "id": "awakened-awareness",
+    "name": "Awakened Awareness",
+    "role": "killer",
+    "character": "The Mastermind",
+    "description": "While carrying a Survivor, you benefit from the following effect:\n\n• The Auras of other Survivors within 16/18/20 metres of your location are revealed to you.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/awakenedAwareness.png"
+  },
+  {
+    "id": "babysitter",
+    "name": "Babysitter",
+    "role": "survivor",
+    "character": "Steve Harrington",
+    "description": "Whenever you unhook another Survivor, you benefit from the following effect:\n\n• The Aura of the Killer is revealed to you for 8 seconds.\n\nThe unhooked Survivor benefits from the following effects instead for 20/25/30 seconds:\n\n• Suppresses the creation of their Scratch Marks and Pools of Blood.\n\n• Increases the strength of their Haste Status Effect by +10 %.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/babysitter.png"
+  },
+  {
+    "id": "background-player",
+    "name": "Background Player",
+    "role": "survivor",
+    "character": "Renato Lyra",
+    "description": "Whenever the Killer picks up any other Survivor in the Dying State, Background Player activates for 10 seconds.\nWhile active, starting to run triggers the following effect:\n\n• Grants a +50 % Haste Status Effect for 5 seconds.\n\nBackground Player cannot be used while Exhausted.\nBackground Player causes the Exhausted Status Effect for 30/25/20 seconds after use.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/backgroundPlayer.png"
+  },
+  {
+    "id": "bada-bada-boom",
+    "name": "Bada Bada Boom",
+    "role": "survivor",
+    "character": "Dustin Henderson",
+    "description": "After completing 20 % worth of Generator repairs, Bada Bada Boom activates:\n\nWhile active, press Active Ability button next to a window to install a Trap, which stays active for up to 40/50/60 seconds.\n\nThe Trap tiggers when the Killer performs a vault through the window, causing the Killer to suffer from a -50 % Hindered Status Effect for 6 seconds.\n\nBada Bada Boom deactives after triggering successfully or once the timer runs out.\n\nThe Auras of Trapped Windows are revealed to all Survivors in yellow.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/BadaBadaBoom.png"
+  },
+  {
+    "id": "balanced-landing",
+    "name": "Balanced Landing",
+    "role": "survivor",
+    "character": "Nea Karlsson",
+    "description": "While falling from height, you benefit from the following effects:\n\n• Suppresses all noises related to falling and landing.\n\n• Reduces the duration of the Stagger upon landing by -75 %.\n\n• Grants a +50 % Haste Status Effect for 3 seconds.\n\nBalanced Landing cannot be used while Exhausted.\nBalanced Landing causes the Exhausted Status Effect for 60/50/40 seconds after use.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/balancedLanding.png"
+  },
+  {
+    "id": "bamboozle",
+    "name": "Bamboozle",
+    "role": "killer",
+    "character": "The Clown",
+    "description": "You benefit from the following permanent effect:\n• Increases your Vaulting speed by 5/10/15 %.\n\nWhenever you vault a Window, Bamboozle calls upon The Entity for the following effect:\n\n• Blocks it to all Survivors for 8/12/16 seconds.\n• Vaulting it again within that time resets the timer.\n\n• Vaulting a different one transfers the effect to it instead.\n\nBamboozle does not extend its effects to vaulting a dropped Pallet.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/bamboozle.png"
+  },
+  {
+    "id": "barbecue-chilli",
+    "name": "Barbecue & Chilli",
+    "role": "killer",
+    "character": "The Cannibal",
+    "description": "A deep bond with The Entity unlocks potential in one's Aura-reading ability.\n• After hooking a Survivor, all Survivors who are at least 60/50/40 metres away from that Hook have their Aura revealed to you for 5 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/barbecueAndChilli.png"
+  },
+  {
+    "id": "bardic-inspiration",
+    "name": "Bardic Inspiration",
+    "role": "survivor",
+    "character": "The Troupe",
+    "description": "It's time to give your audience a show.\nWill you bring the house down or will you choke?\nPress the Active Ability button while standing and motionless to enter the Performance interaction that lasts up to 15 seconds and empowers other Survivors within 16 metres of your location.\n\nThe empowering effect depends on the result of you rolling a d20 and lasts for 90 seconds after completing the Performance:\n\n• 1: You scream, but without notifying the Killer.\n\n• 2 - 10: Skill Checks grant +1 % Progression.\n\n• 11 - 19: Skill Checks grant +2 % Progression.\n\n• 20: Skill Checks grant +3 % Progression.\n\nBardic Inspiration has a cool-down of 110/100/90 seconds after completing the Performance or cancelling it.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/bardicInspiration.png"
+  },
+  {
+    "id": "batteries-included",
+    "name": "Batteries Included",
+    "role": "killer",
+    "character": "The Good Guy",
+    "description": "While within 16 metres of a completed Generator, you benefit from the following effect:\n\n• Grants a +5 % Haste Status Effect.\n• This effect lingers for 1/3/5 second(s).",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/batteriesIncluded.png"
+  },
+  {
+    "id": "beast-of-prey",
+    "name": "Beast of Prey",
+    "role": "killer",
+    "character": "The Huntress",
+    "description": "Whenever you trigger the Bloodlust Status Effect, Beast of Prey activates for 30/35/40 seconds:\n\n• Grants the Undetectable Status Effect.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/beastOfPrey.png"
+  },
+  {
+    "id": "better-than-new",
+    "name": "Better than New",
+    "role": "survivor",
+    "character": "Rebecca Chambers",
+    "description": "After you complete a Healing action on another Survivor, that Survivor gains 12/14/16% faster Blessing, Cleansing, Healing, and Chest Unlocking until they take damage.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/betterThanNew.png"
+  },
+  {
+    "id": "better-together",
+    "name": "Better Together",
+    "role": "survivor",
+    "character": "Nancy Wheeler",
+    "description": "While repairing any Generator, you and the other Survivors benefit from the following primary effect:\n\n• The Aura of that Generator is revealed to all Survivors and highlighted in yellow.\n\nWhenever the Killer downs another Survivor while you are repairing, you benefit from the following secondary effect:\n\n• The Auras of all Survivors are revealed to you for 20/25/30 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/betterTogether.png"
+  },
+  {
+    "id": "bite-the-bullet",
+    "name": "Bite the Bullet",
+    "role": "survivor",
+    "character": "Leon Scott Kennedy",
+    "description": "Pain hurts you as much as anyone, but you would prefer others do not know that.\nWhen healing yourself or another Survivor, you benefit from the following effects:\n\n• Suppresses all noises related to Healing and Grunts of Pain.\n\n• Failed Healing Skill Checks do not trigger a Loud Noise Notification.\n• Reduces the Penalty to 3/2/1 % of the total Progression.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/biteTheBullet.png"
+  },
+  {
+    "id": "bitter-murmur",
+    "name": "Bitter Murmur",
+    "role": "killer",
+    "character": "All",
+    "description": "Whenever a Generator is completed, the Auras of Survivors within 16 metres of that Generator are revealed for 5 seconds. When the final Generator is completed, the Auras of all Survivors are revealed for 5/7/10 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/bitterMurmur.png"
+  },
+  {
+    "id": "blast-mine",
+    "name": "Blast Mine",
+    "role": "survivor",
+    "character": "Jill Valentine",
+    "description": "After repairing Generators for the equivalent of 40 % of Progression, Blast Mine activates.\nWhile active, press the Active Ability button while standing next to a Generator to install a trap to it with a countdown of 100/110/120 seconds:\n\n• Trips half-way through the Killer attempting to damage the Trapped Generator:\n• Stuns the Killer for 4 seconds.\n\n• Blinds all Players within 12.5 metres of the Trapped Generator.\n\nThe trap is deactivated after its countdown has elapsed or it is tripped.\n\nThe Auras of Trapped Generators are revealed to all Survivors in yellow.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/blastMine.png"
+  },
+  {
+    "id": "blood-echo",
+    "name": "Blood Echo",
+    "role": "killer",
+    "character": "The Oni",
+    "description": "Whenever you hook a Survivor, Blood Echo triggers its effect:\n\n• Causes all Survivors in the Injured State to suffer from the Exhausted and Haemorrhage Status Effects for 20/25/30 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/bloodEcho.png"
+  },
+  {
+    "id": "blood-pact",
+    "name": "Blood Pact",
+    "role": "survivor",
+    "character": "Cheryl Mason",
+    "description": "When either you or the Obsession becomes injured, you see each other's Auras. Finishing a Healing action on the Obsession, or being healed by them, grants both of you 5/6/7% Haste while you remain within 16 metres of one another. Blood Pact is disabled while you are the Obsession and reduces your chance of becoming the initial Obsession.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/bloodPact.png"
+  },
+  {
+    "id": "blood-rush",
+    "name": "Blood Rush",
+    "role": "survivor",
+    "character": "Renato Lyra",
+    "description": "After being unhooked by any means, Blood Rush activates for 40/50/60 seconds.\nWhile active, press the Active Ability button to trigger the following effect:\n\n• Instantly recover from an existing Exhausted Status Effect.\n\nBlood Rush does not cause the Exhausted Status Effect.\nBlood Rush is deactivated prematurely when performing a Conspicuous Action.\nBlood Rush deactivates after use and is disabled for the remainder of the Trial once the Exit Gates are powered.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/bloodRush.png"
+  },
+  {
+    "id": "blood-warden",
+    "name": "Blood Warden",
+    "role": "killer",
+    "character": "The Nightmare",
+    "description": "As soon as at least one Exit Gate is opened, Blood Warden activates:\n• The Auras of Survivors are revealed to you, whenever they are inside the Exit Gate.\n\nOnce per Trial, hooking a Survivor while Blood Warden is active calls upon The Entity to trigger the following effect:\n\n• Blocks all opened Exit Gates for 40/50/60 seconds, preventing any remaining Survivor from leaving the Trial through them.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/bloodWarden.png"
+  },
+  {
+    "id": "bloodhound",
+    "name": "Bloodhound",
+    "role": "killer",
+    "character": "The Wraith",
+    "description": "Bloodhound causes the following effects:\n\n• Pools of Blood left by injured Survivors appear in bright red.\n\n• Extends their lifetime by 2/3/4 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/bloodhound.png"
+  },
+  {
+    "id": "boil-over",
+    "name": "Boil Over",
+    "role": "survivor",
+    "character": "Kate Denson",
+    "description": "You are a battler and do everything to escape a foe's grasp.\nWhile being carried by the Killer, the following effects apply:\n\n• Increases the strength of the Struggle Effects on the Killer from your Wiggling by 60/70/80 %.\n\n• Suppresses the ability of the Killer to read the Auras of all Hooks within 16 metres.\n\n• Grants +33 % of your current Wiggle progression upon landing, if the Killer drops from height.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/boilOver.png"
+  },
+  {
+    "id": "bond",
+    "name": "Bond",
+    "role": "survivor",
+    "character": "Dwight Fairfield",
+    "description": "Unlocks potential in your Aura-reading ability:\n• The Auras of all other Survivors are revealed to you within 20/28/36 metres.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/bond.png"
+  },
+  {
+    "id": "boon-circle-of-healing",
+    "name": "Boon: Circle of Healing",
+    "role": "survivor",
+    "character": "Mikaela Reid",
+    "description": "A Boon that offers comfort amidst the terror.\nPress and hold the Active Ability button on a Dull or Hex Totem to bless it and create a Boon Totem.\nAll Survivors within 24 metres hear soft chimes ringing out and benefit from its Boon Effects:\n\n• Increases the Altruistic Healing speeds by 50/75/100 % when not using a Med-Kit.\n\n• If a Survivor is injured, their Aura is revealed to all other Survivors.\n\nSurvivors can only be affected by one instance of Boon: Circle of Healing at a time.\n\nOnly one Totem can be blessed by your Boon Perks at a time and all of their effects are active on the same Boon Totem.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/boonCircleOfHealing.png"
+  },
+  {
+    "id": "boon-dark-theory",
+    "name": "Boon: Dark Theory",
+    "role": "survivor",
+    "character": "Yoichi Asakawa",
+    "description": "Press and hold the Active Ability button on a Dull or Hex Totem to bless it and create a Boon Totem.\nAll Survivors within 24 metres hear soft chimes ringing out and benefit from its Boon Effects:\n\n• Grants a +3 % Haste Status Effect.\n• This effect lingers for 2/3/4 seconds after leaving the Boon Totem's range.\n\nOnly one Totem can be blessed by your Boon Perks at a time and all of their effects are active on the same Boon Totem.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/boonDarkTheory.png"
+  },
+  {
+    "id": "boon-exponential",
+    "name": "Boon: Exponential",
+    "role": "survivor",
+    "character": "Jonah Vasquez",
+    "description": "Press and hold the Active Ability button on a Dull or Hex Totem to bless it and create a Boon Totem.\nAll Survivors within 24 metres hear soft chimes ringing out and benefit from its Boon Effects:\n\n• Increases the Recovery speed while in the Dying State by 90/95/100 %.\n\n• Unlocks the Self-Recovery ability, allowing them to fully recover from the Dying State.\n\nOnly one Totem can be blessed by your Boon Perks at a time and all of their effects are active on the same Boon Totem.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/boonExponential.png"
+  },
+  {
+    "id": "boon-illumination",
+    "name": "Boon: Illumination",
+    "role": "survivor",
+    "character": "Alan Wake",
+    "description": "Bless a Dull or Hex Totem to create a Boon Totem. Survivors within its range can see the Auras of Chests and Generators. While you have a lit Boon Totem, your Blessing and Cleansing speeds are increased by 6/8/10%.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/boonIllumination.png"
+  },
+  {
+    "id": "boon-shadow-step",
+    "name": "Boon: Shadow Step",
+    "role": "survivor",
+    "character": "Mikaela Reid",
+    "description": "A Boon that conceals the truth.\nPress and hold the Active Ability button on a Dull or Hex Totem to bless it and create a Boon Totem.\nAll Survivors within 24 metres hear soft chimes ringing out and benefit from its Boon Effects:\n\n• Scratch Marks are suppressed.\n\n• Auras are hidden from The Killer.\n• Both effects linger for 2/3/4 seconds after leaving the Boon Totem's range.\n\nOnly one Totem can be blessed by your Boon Perks at a time and all of their effects are active on the same Boon Totem.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/boonShadowStep.png"
+  },
+  {
+    "id": "boon-steadfast",
+    "name": "Boon: Steadfast",
+    "role": "survivor",
+    "character": "Aurora Stardotter",
+    "description": "Press and hold the Active Ability button on a Dull or Hex Totem to bless it and create a Boon Totem.\nAll Survivors within 24 metres hear soft chimes ringing out and benefit from its Boon Effects:\nGenerators within this Boon's range:\n\n• Regress -50 % slower.\n\n• Survivors repair them +8/9/10 % faster.\n\n• Survivors see their auras while inside the Boon's range.\n\nSurvivors can only be affected by one instance of Boon: Steadfast at a time.\n\nOnly one Totem can be blessed by your Boon Perks at a time and all of their effects are active on the same Boon Totem.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/BoonSteadfast.png"
+  },
+  {
+    "id": "borrowed-time",
+    "name": "Borrowed Time",
+    "role": "survivor",
+    "character": "Bill Overbeck",
+    "description": "Survivors you unhook retain their Unhook Protections for an additional 8/10/12 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/borrowedTime.png"
+  },
+  {
+    "id": "botany-knowledge",
+    "name": "Botany Knowledge",
+    "role": "survivor",
+    "character": "Claudette Morel",
+    "description": "You benefit from the following permanent effect:\n\n• Increases your Healing speed by 30/40/50 %.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/botanyKnowledge.png"
+  },
+  {
+    "id": "bound-by-obsession",
+    "name": "Bound by Obsession",
+    "role": "survivor",
+    "character": "All",
+    "description": "Whenever the Killer reads your Aura, you see the Killer's Aura for the same duration and your Cleansing, Healing, and Repairing speeds are increased by 2/4/6%. If you are the Obsession, your Aura is revealed to the Killer for 3 seconds every 30 seconds. You are more likely to become the initial Obsession.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/objectOfObsession.png"
+  },
+  {
+    "id": "breakdown",
+    "name": "Breakdown",
+    "role": "survivor",
+    "character": "Jeff Johansen",
+    "description": "After you are unhooked by any means, Breakdown triggers its effects:\n• Instantly breaks that Hook.\n• Increases its Auto-Repair timer to 180 seconds.\n\n• The Aura of the Killer is revealed to you for 4/5/6 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/breakdown.png"
+  },
+  {
+    "id": "breakout",
+    "name": "Breakout",
+    "role": "survivor",
+    "character": "Yui Kimura",
+    "description": "While within 5 metres of the Killer carrying another Survivor, the following effects apply:\n\n• Grants you a 6/8/10 % Haste Status Effect.\n\n• Increases the Wiggling speed of the carried Survivor by +25 %.\n\nSurvivors can only be affected by one instance of Breakout at a time.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/breakout.png"
+  },
+  {
+    "id": "brutal-strength",
+    "name": "Brutal Strength",
+    "role": "killer",
+    "character": "The Trapper",
+    "description": "While performing the Break or Damage action on Breakable Walls, Pallets, or Generators, Brutal Strength triggers its effect:\n\n• Increases the Action speed by 10/15/20 %.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/brutalStrength.png"
+  },
+  {
+    "id": "buckle-up",
+    "name": "Buckle Up",
+    "role": "survivor",
+    "character": "Ash Williams",
+    "description": "Whenever you are healing a dying Survivor, Buckle Up activates:\nDuring the Healing action, you and the dying Survivor benefit from the following primary effect:\n• The Aura of the Killer is revealed to you both.\n\nAfter completing the Healing action, the other Survivor benefits from the following secondary effects for 3/4/5 seconds:\n\n• Suppresses the creation of their Scratch Marks.\n\n• Grants them a +50 % Haste Status Effect.\n\nBuckle Up does not cause the Exhausted Status Effect.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/buckleUp.png"
+  },
+  {
+    "id": "built-to-last",
+    "name": "Built to Last",
+    "role": "survivor",
+    "character": "Felix Richter",
+    "description": "While hiding inside a Locker with a depleted Item equipped, Built to Last triggers the following effect after 12/10/8 seconds:\n\n• Recharges the Item to one of the following percentages:\n• First time: 99 %.\n\n• Second time: 66 %.\n\n• Third time: 33 %.\n\nBuilt to Last is disabled for the remainder of the Trial after triggering its effect for the third time.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/builtToLast.png"
+  },
+  {
+    "id": "call-of-brine",
+    "name": "Call of Brine",
+    "role": "killer",
+    "character": "The Onryō",
+    "description": "After performing the Damage Generator action on a Generator, Call of Brine applies its effects to it for 90 seconds:\n\n• Increases its Regression speed to 130/140/150 % of the default value.\n\n• Highlights its Aura to you in yellow.\n\n• Triggers a Loud Noise Notification whenever a Survivor succeeds a Good Skill Check while repairing it.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/callOfBrine.png"
+  },
+  {
+    "id": "calm-spirit",
+    "name": "Calm Spirit",
+    "role": "survivor",
+    "character": "Jake Park",
+    "description": "Nearby Crows no longer fly off unless you come within touching distance, and you do not scream. Interactions with Chests and Totems are silent, but your Unlocking, Blessing, and Cleansing speeds are reduced by 40/35/30%.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/calmSpirit.png"
+  },
+  {
+    "id": "camaraderie",
+    "name": "Camaraderie",
+    "role": "survivor",
+    "character": "Steve Harrington",
+    "description": "If you are hooked and enter the Struggle Phase, Camaraderie activates:\n\n• Pauses the Struggle Phase timer for 26/30/34 seconds as soon as any Survivor comes within 16 metres of your Hook.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/camaraderie.png"
+  },
+  {
+    "id": "celestial-witness",
+    "name": "Celestial Witness",
+    "role": "killer",
+    "character": "The Judgment",
+    "description": "Every 30 seconds, if the Obsession is 40 metres away from you, you see their aura for 2/2.5/3 seconds. Otherwise, the farthest Survivor becomes the Obsession.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/celestialWitness.png"
+  },
+  {
+    "id": "champion-of-light",
+    "name": "Champion of Light",
+    "role": "survivor",
+    "character": "Alan Wake",
+    "description": "While shining a Flashlight, Champion of Light triggers its primary effect:\n\n• Grants a +50 % Haste Status Effect.\n\nAfter blinding the Killer by any means, Champion of Light triggers its secondary effect:\n\n• Causes the Killer to suffer from a -20 % Hindered Status Effect for 6 seconds.\n• This effect does not stack.\n\nChampion of Light applies a cool-down of 60/50/40 seconds after blinding the Killer.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/championOfLight.png"
+  },
+  {
+    "id": "change-of-plan",
+    "name": "Change of Plan",
+    "role": "survivor",
+    "character": "Dustin Henderson",
+    "description": "You start the Trial with 2 Tokens.\n\nWhile hiding inside a Locker and holding a non-event Toolbox, press Active Ability button to spend 1 Token and transform your Toolbox into a Med-Kit of the same rarity with a random add-on of the same rarity.\n\nThe new Med-kit has 80/90/100 % of its charges.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/ChangeOfPlan.png"
+  },
+  {
+    "id": "chemical-trap",
+    "name": "Chemical Trap",
+    "role": "survivor",
+    "character": "Ellen Ripley",
+    "description": "After repairing Generators for a total of 20 %, Chemical Trap activates:\n\n• Press the Active Ability button while near a dropped Pallet to install a Trap, which stays active for 40/50/60 seconds.\n\n• When the Killer breaks the Trapped Pallet, its Trap explodes, spraying the Killer with a chemical compound:\n• Causes the Killer to suffer from a -50 % Hindered Status Effect for 4 seconds.\n\nChemical Trap deactivates after triggering successfully or once the timer runs out.\n\nThe Auras of Trapped Pallets are revealed to all Survivors in yellow.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/chemicalTrap.png"
+  },
+  {
+    "id": "clairvoyance",
+    "name": "Clairvoyance",
+    "role": "survivor",
+    "character": "Mikaela Reid",
+    "description": "After cleansing or blessing a Totem, Clairvoyance activates.\nWhile active, press and hold the Use Item button when empty-handed to unlock your full Aura-reading potential:\n\n• The Auras of the following objects within 64 metres are revealed to you for as long as you uphold the interaction, up to a maximum of 10/11/12 seconds:\n• Chests\n\n• Exit Gate Switches\n\n• Generators\n\n• Hatch\n\n• Hooks",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/clairvoyance.png"
+  },
+  {
+    "id": "clean-break",
+    "name": "Clean Break",
+    "role": "survivor",
+    "character": "Taurie Cain",
+    "description": "After completing a Healing action on another Survivor, Clean Break activates.\nPress the Active Ability button while being healed by another Survivor to trigger the following effects:\n\n• Suffer from the Broken Status Effect.\n\n• You are automatically healed 1 Health State after 75/60/45 seconds.\n• This effect is cancelled prematurely if you enter the Dying State.\n\nClean Break does not activate if you already suffer from Broken.\nClean Break deactivates after healing you.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/cleanBreak.png"
+  },
+  {
+    "id": "come-and-get-me",
+    "name": "Come and Get Me!",
+    "role": "survivor",
+    "character": "Rick Grimes",
+    "description": "After unhooking a Survivor, while crouched and stationary, press the Active Ability button to trigger the following effects:\n\n• Suppresses the creation of Grunts of Pain, Pools of Blood, and Scratch Marks for all injured or dying Survivors within 24 metres of your location for the next 10/12.5/15 seconds.\n\n• Causes you to scream and reveal your Aura to the Killer for 5 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/comeAndGetMe.png"
+  },
+  {
+    "id": "conviction",
+    "name": "Conviction",
+    "role": "survivor",
+    "character": "Michonne Grimes",
+    "description": "After having completed a Healing action on another Survivor, whenever you are in the Dying State, Conviction activates.\nWhile active, press the Active Ability button after reaching at least 25 % Recovery progress to trigger the following effects:\n\n• Unlocks the Self-Recovery ability, allowing you to fully recover from the Dying State.\n• Inflicts the Broken Status Effect.\n\n• Causes you to automatically re-enter the Dying State after 20/25/30 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/conviction.png"
+  },
+  {
+    "id": "corrective-action",
+    "name": "Corrective Action",
+    "role": "survivor",
+    "character": "Jonah Vasquez",
+    "description": "You start the Trial with 1/2/3 Token(s) and succeeding a Great Skill Check grants +1 Token, up to a maximum of 5 Tokens.\nWhile any other Survivor performs a skilful interaction that can trigger Skill Checks, they benefit from the following effects:\n\n• Converts any Failed Skill Check into a Good Skill Check.\n• This consumes -1 Token.\n\n• The Aura of that Survivor is revealed to you for 6 seconds.\n\nCorrective Action does not apply to special Skill Checks.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/correctiveAction.png"
+  },
+  {
+    "id": "corrupt-intervention",
+    "name": "Corrupt Intervention",
+    "role": "killer",
+    "character": "The Plague",
+    "description": "Your prayers invoke a dark power that meddles with the Survivors' chances of survival.\n• At the start of the Trial, the 3 Generators located farthest from you are blocked by The Entity for 80/100/120 seconds.\n\nCorrupt Intervention deactivates prematurely once the first Survivor is put into the Dying State.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/corruptIntervention.png"
+  },
+  {
+    "id": "coulrophobia",
+    "name": "Coulrophobia",
+    "role": "killer",
+    "character": "The Clown",
+    "description": "Survivors inside your Terror Radius suffer from the following effects:\n\n• Reduces all Healing speeds by 20/25/30 %.\n\n• Increases the Pointer-Rotation speed of Healing Skill Checks by +50 %.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/coulrophobia.png"
+  },
+  {
+    "id": "counterforce",
+    "name": "Counterforce",
+    "role": "survivor",
+    "character": "Jill Valentine",
+    "description": "You benefit from the following permanent effect:\n\n• Increases the default value of your Cleansing speed to 125 %.\n\nWhenever you cleanse a Totem, Counterforce triggers the following effects:\n\n• Increases your Cleansing speed by a stack-able +25 %.\n\n• The Aura of the Totem farthest from your current location is revealed to you for 10/12/14 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/counterforce.png"
+  },
+  {
+    "id": "coup-de-grace",
+    "name": "Coup de Grâce",
+    "role": "killer",
+    "character": "The Twins",
+    "description": "As the end nears, you go in for the kill.\nWhenever a Generator is completed, Coup de Grâce gains +2 Tokens, up to a maximum of 10 Tokens per Trial:\n\n• Increases the range of your next Lunge Attack by 70/75/80 %, while consuming -1 Token.\n\nCoup de Grâce can only hold a maximum of 5 Tokens at a time.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/coupDeGrace.png"
+  },
+  {
+    "id": "cross-examination",
+    "name": "Cross-Examination",
+    "role": "survivor",
+    "character": "Shane Wiigwaas",
+    "description": "While inside the Killer's Terror Radius and not being chased, you can see Light Marks the Killer leaves behind while moving. Light Marks have a duration of 10 seconds.\n\n• While standing on a Light Mark, gain Elusive Status Effect. This lingers for 3/4/5 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/CrossExamination.png"
+  },
+  {
+    "id": "cruel-limits",
+    "name": "Cruel Limits",
+    "role": "killer",
+    "character": "The Demogorgon",
+    "description": "Whenever a Generator is completed, Cruel Limits triggers its effect for 20/25/30 seconds:\n\n• Blocks all Windows for all Survivors.\n\n• The Auras of the Blocked Windows are revealed to you and highlighted in yellow.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/cruelLimits.png"
+  },
+  {
+    "id": "cull-the-weak",
+    "name": "Cull the Weak",
+    "role": "killer",
+    "character": "All",
+    "description": "Each time you hook a Survivor other than your Obsession, you gain +1 Token:\n• For as long as the Obsession is alive, all other Survivors suffer from a stack-able 2/2.5/3 % per Token Action Speed penalty to Repairing, Healing, and Sabotaging, up to a maximum of 22/27.5/33 % or 11 Tokens.\n\n• The Obsession is unaffected by this penalty and instead granted a permanent +33 % Action Speed bonus to Unhooking and Healing other Survivors.\n\nYou can only be obsessed with one Survivor at a time.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/dyingLight.png"
+  },
+  {
+    "id": "cut-loose",
+    "name": "Cut Loose",
+    "role": "survivor",
+    "character": "Thalita Lyra",
+    "description": "After performing a Rushed Vault action while being chased, Cut Loose activates for 4/5/6 seconds:\n\n• Suppresses all noises related to the Rushed Vault action, including the Loud Noise Notification for the Killer.\n\nWhile active, performing another Rushed Vault action resets the timer each time.\n\nCut Loose has a cool-down of 45 seconds after use and the timer has elapsed.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/cutLoose.png"
+  },
+  {
+    "id": "dance-with-me",
+    "name": "Dance With Me",
+    "role": "survivor",
+    "character": "Kate Denson",
+    "description": "When performing a Rushed action to vault a Window or exit a Locker, Dance With Me triggers its effect:\n• Suppresses the creation of your Scratch Marks for 5 seconds.\n\nDance With Me has a cool-down of 20/20/15 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/danceWithMe.png"
+  },
+  {
+    "id": "dark-arrogance",
+    "name": "Dark Arrogance",
+    "role": "killer",
+    "character": "The Lich",
+    "description": "Your Window Vaulting speed is increased by 15/20/25%, but the duration of blinds and Pallet stuns inflicted on you is increased by 15%.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/darkArrogance.png"
+  },
+  {
+    "id": "dark-devotion",
+    "name": "Dark Devotion",
+    "role": "killer",
+    "character": "The Plague",
+    "description": "Whenever the Obsession becomes injured by any means, Dark Devotion activates for 35/40/45 seconds:\n\n• Transfers your Terror Radius to the Obsession.\n• This Terror Radius is set to 40 metres.\n\n• Grants the Undetectable Status Effect.\n\nYou can only be obsessed with one Survivor at a time.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/darkDevotion.png"
+  },
+  {
+    "id": "dark-sense",
+    "name": "Dark Sense",
+    "role": "survivor",
+    "character": "All",
+    "description": "Whenever a Generator is completed, Dark Sense activates. The next time the Killer comes within 24 metres of you, their Aura is revealed for 5/7/10 seconds, after which Dark Sense deactivates.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/darkSense.png"
+  },
+  {
+    "id": "darkness-revealed",
+    "name": "Darkness Revealed",
+    "role": "killer",
+    "character": "The Dredge",
+    "description": "Searching a Locker has the following effect:\n\n• The Auras of Survivors within 8 metres of any Locker are revealed to you for 6/7/8 seconds.\n\nDarkness Revealed has a cool-down of 30 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/darknessRevealed.png"
+  },
+  {
+    "id": "dead-hard",
+    "name": "Dead Hard",
+    "role": "survivor",
+    "character": "David King",
+    "description": "After being unhooked by any means, Dead Hard activates:While injured and running, press the Active Ability button to trigger the following effect:\n\n• Grants the Endurance Status Effect for 0.5 seconds.\n\nDead Hard cannot be used while Exhausted.\nDead Hard causes the Exhausted Status Effect for 60/50/40 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/deadHard.png"
+  },
+  {
+    "id": "dead-mans-switch",
+    "name": "Dead Man's Switch",
+    "role": "killer",
+    "character": "The Deathslinger",
+    "description": "After hooking a Survivor, the first Generator a Survivor stops repairing is blocked by The Entity for 25/30/35 seconds and highlighted to you in white. Dead Man's Switch cannot activate while it is already blocking a Generator and has a 50-second cooldown.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/deadMansSwitch.png"
+  },
+  {
+    "id": "deadline",
+    "name": "Deadline",
+    "role": "survivor",
+    "character": "Alan Wake",
+    "description": "Whenever you are in the Injured State, Deadline activates:\n\n• Increases the Odds of triggering Skill Checks by 6/8/10 % while repairing or healing.\n• Causes Skill Checks to appear in random places.\n\n• Reduces the penalty for missed Skill Checks by -50 %.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/deadline.png"
+  },
+  {
+    "id": "deathbound",
+    "name": "Deathbound",
+    "role": "killer",
+    "character": "The Executioner",
+    "description": "Whenever a Survivor finishes healing another Survivor for the equivalent of 1 Health State, Deathbound activates:\n\n• Causes the Healer to scream and reveal their location.\n\n• Causes the Healer to suffer from the Oblivious Status Effect whenever they are farther than 12/8/4 metres from the other Survivor.\n\n• The Healer sees the Aura of the Healed Survivor while Deathbound is active.\n\nDeathbound deactivates after the Healer loses a Health State.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/deathbound.png"
+  },
+  {
+    "id": "deception",
+    "name": "Deception",
+    "role": "survivor",
+    "character": "Élodie Rakoto",
+    "description": "Press and hold the Sprint button while interacting with a Locker for the following effects:\n\n• Suppresses the creation of your Scratch Marks and Pools of Blood for 5 seconds.\n\n• Causes you to run past the targeted Locker, instead of entering it.\n\n• Causes its doors to swiftly open and close again, feining you having entered it in a rush.\n\n• Triggers a Loud Noise Notification for the Killer at its location.\n\nDeception has a cool-down of 25/20/15 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/deception.png"
+  },
+  {
+    "id": "deerstalker",
+    "name": "Deerstalker",
+    "role": "killer",
+    "character": "All",
+    "description": "Whenever a Survivor reads your Aura, their Aura is revealed to you for the same duration. Every 40/35/30 seconds, your Aura is revealed for 3 seconds to the Survivor with the lowest cumulative Chase time.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/deerstalker.png"
+  },
+  {
+    "id": "deja-vu",
+    "name": "Déjà Vu",
+    "role": "survivor",
+    "character": "All",
+    "description": "Unlocks potential in your Aura-reading ability:\n\n• The Auras of whichever 3 Generators are currently in closest proximity to one another are revealed to you.\n\n• Increases your Repair speed on those Generators by 4/5/6 %.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/dejaVu.png"
+  },
+  {
+    "id": "deliverance",
+    "name": "Deliverance",
+    "role": "survivor",
+    "character": "Adam Francis",
+    "description": "After safely unhooking another Survivor, Deliverance activates:\n• Grants the ability to perform a successful Self-Unhook at any point during the first Hook Stage.\n\n• Causes the Broken Status Effect for 160/140/120 seconds after unhooking yourself.\n\nDeliverance cannot be used during the second Hook Stage or if you are hooked as the Last Survivor Standing.\nDeliverance is disabled for the remainder of the Trial after use.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/deliverance.png"
+  },
+  {
+    "id": "desperate-measures",
+    "name": "Desperate Measures",
+    "role": "survivor",
+    "character": "Felix Richter",
+    "description": "Whenever any Survivor, including yourself, is not in the Healthy State, Desperate Measures activates:\n\n• Increases your Action speeds for Healing and Unhooking by a stack-able 16/18/20 % per injured, dying, or hooked Survivor, up to a maximum of 64/72/80 %.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/desperateMeasures.png"
+  },
+  {
+    "id": "detectives-hunch",
+    "name": "Detective's Hunch",
+    "role": "survivor",
+    "character": "David Tapp",
+    "description": "Unlocks potential in your Aura-reading ability.\nWhenever a Generator is completed, Detective's Hunch triggers its effect:\n• The Auras of the following objects within 32/48/64 metres of your location are revealed to you for 20 seconds:\n• Chests\n\n• Generators\n\n• Totems",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/detectivesHunch.png"
+  },
+  {
+    "id": "discordance",
+    "name": "Discordance",
+    "role": "killer",
+    "character": "The Legion",
+    "description": "Any Generator within a range of 64/96/128 metres that is being repaired by 2 or more Survivors is marked by a yellow Aura.\n• When the Generator is first highlighted, Discordance triggers a Loud Noise Notification on the Generator.\n\n• After the Generator is no longer within range or is being repaired by just 1 Survivor, the highlighted Aura will linger for another 4 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/discordance.png"
+  },
+  {
+    "id": "dissolution",
+    "name": "Dissolution",
+    "role": "killer",
+    "character": "The Dredge",
+    "description": "After 3 seconds of injuring a Survivor using a basic-attack, Dissolution activates for 13/14/15 seconds:\n\n• Instantly breaks the next Pallet that Survivor performs a Fast Vault across while inside your Terror Radius.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/dissolution.png"
+  },
+  {
+    "id": "distortion",
+    "name": "Distortion",
+    "role": "survivor",
+    "character": "Jeff Johansen",
+    "description": "Start the Trial with 1 Token.\nWhenever the Killer attempts to read your Aura, Distortion automatically consumes -1 Token to trigger the following effects for 8/10/12 seconds:\n• Blocks your Aura from being read.\n\n• Suppresses the creation of your Scratch Marks.\n\nDistortion recharges +1 Token every 15 seconds of being chased by the Killer, and can hold 2 Tokens.\nDistortion does not trigger its effects while in the Dying State.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/distortion.png"
+  },
+  {
+    "id": "distressing",
+    "name": "Distressing",
+    "role": "killer",
+    "character": "All",
+    "description": "You benefit from the following permanent effect:\n\n• Increases your Terror Radius by +30 %\n\n• All Survivors in your Terror Radius repair Generators -6/-7/-8 % slower.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/distressing.png"
+  },
+  {
+    "id": "diversion",
+    "name": "Diversion",
+    "role": "survivor",
+    "character": "Adam Francis",
+    "description": "After staying in the Terror Radius without being chased for 30/25/20 seconds, Diversion activates.\nWhile active, press the Active Ability button while crouched and motionless to throw a pebble in the direction you are facing:\n• Creates a distraction for the Killer at its landing location 20 metres away:\n• Triggers a Loud Noise Notification.\n\n• Creates fake Scratch Marks.\n\nDiversion deactivates after use.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/diversion.png"
+  },
+  {
+    "id": "do-no-harm",
+    "name": "Do No Harm",
+    "role": "survivor",
+    "character": "Orela Rose",
+    "description": "When healing another Survivor, depending on their accumulated Hook Stages, you benefit from the following effects:\n\n• Increases your Altruistic Healing speed by 30/40/50 % per Hook Stage, up to a maximum of 60/80/100 %.\n\n• Increases the Progression bonus of Great Healing Skill Checks by +3 % per Hook Stage, up to a maximum of +6 %.\n\n• Increases the odds of triggering a Skill Check by +5 % per Hook Stage, up to a maximum of +5 %Max.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/doNoHarm.png"
+  },
+  {
+    "id": "dominance",
+    "name": "Dominance",
+    "role": "killer",
+    "character": "The Dark Lord",
+    "description": "The first time each Chest or Totem is interacted with by a Survivor, The Entity blocks it for 8/12/16 seconds and its Aura is highlighted to you in white.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/dominance.png"
+  },
+  {
+    "id": "down-to-the-last",
+    "name": "Down to the Last",
+    "role": "survivor",
+    "character": "All",
+    "description": "Each time another Survivor is killed or sacrificed, gain 1 Token, up to 3. Each Token grants a 20/22/24 metre radius around you in which the Killer cannot read your Aura, up to 60/66/72 metres. When you are the last Survivor standing, your Generator Repair speed is increased by 75% and your Exit Gate and Hatch Opening speeds are increased by 50%. You are more likely to become the initial Obsession.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/downToTheLast.png"
+  },
+  {
+    "id": "dragons-grip",
+    "name": "Dragon's Grip",
+    "role": "killer",
+    "character": "The Blight",
+    "description": "After performing the Damage Generator action on a Generator, Dragon's Grip activates for 30 seconds.\nWhile active, the first Survivor interacting with that Generator suffers from the following effects:\n• Causes them to scream and reveal their location for 4 seconds.\n\n• Inflicts the Exposed Status Effect for 60 seconds.\n\nDragon's Grip has a cool-down of 60/45/30 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/dragonsGrip.png"
+  },
+  {
+    "id": "dramaturgy",
+    "name": "Dramaturgy",
+    "role": "survivor",
+    "character": "Nicolas Cage",
+    "description": "Whenever you are at full health, Dramaturgy activates.\nWhile active, press the Active Ability button while running to run with knees high for 0.5 seconds before benefitting from the following primary effect:\n\n• Grants a +25 Haste Status Effect for 2 seconds.\n\nAfterwards, Dramaturgy triggers any one of the following secondary effects, but never the same one twice in a row:\n\n• Grants a second instance of the primary Haste Status Effect.\n\n• Inflicts the Exposed Status Effect for 12 seconds.\n\n• Causes you to scream.\n\n• Grants a randomly selected Rare Item pre-equipped with a random selection of Add-ons.\n• This causes you to automatically drop any previously held Item.\n\nDramaturgy cannot be used while Exhausted.\nDramaturgy causes the Exhausted Status Effect for 60/50/40 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/dramaturgy.png"
+  },
+  {
+    "id": "duty-of-care",
+    "name": "Duty of Care",
+    "role": "survivor",
+    "character": "Orela Rose",
+    "description": "While healthy, taking a Protection Hit causes all other Survivors within 12 metres of your location to benefit from the following effect:\n\n• Grants them a +25 % Haste Status Effect for 4/5/6 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/dutyOfCare.png"
+  },
+  {
+    "id": "empathic-connection",
+    "name": "Empathic Connection",
+    "role": "survivor",
+    "character": "Yoichi Asakawa",
+    "description": "Injured Survivors can see your Aura, and you heal other Survivors 25/30/35% faster.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/empathicConnection.png"
+  },
+  {
+    "id": "empathy",
+    "name": "Empathy",
+    "role": "survivor",
+    "character": "Claudette Morel",
+    "description": "Unlocks potential in your Aura-reading ability:\n• The Auras of injured or dying Survivors are revealed to you within 64/96/128 metres.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/empathy.png"
+  },
+  {
+    "id": "enduring",
+    "name": "Enduring",
+    "role": "killer",
+    "character": "The Hillbilly",
+    "description": "You benefit from the following effect:\n\n• Reduces the duration of Pallet Stuns by 40/45/50 %.\n• This effect does not apply when stunned while carrying a Survivor.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/enduring.png"
+  },
+  {
+    "id": "eruption",
+    "name": "Eruption",
+    "role": "killer",
+    "character": "The Nemesis",
+    "description": "Performing the Damage Generator action on Generators highlights their Auras in yellow.\nWhenever a Survivor enters the Dying State by any means, Eruption triggers the following effects on all highlighted Generators:\n\n• Causes them to explode, damaging them.\n• Instantly regresses them by -10 % of their total Progression.\n\n• Causes them to start regressing afterwards.\n\n• Causes all Survivors currently repairing them to suffer from the following effects:\n• Causes them to scream.\n\n• Their Auras are revealed to you for 8/10/12 seconds.\n\nEruption has a cool-down of 30 seconds after triggering its effects, which also resets the highlighted Auras.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/eruption.png"
+  },
+  {
+    "id": "extrasensory-perception",
+    "name": "Extrasensory Perception",
+    "role": "survivor",
+    "character": "Eleven",
+    "description": "Crouch for 4 seconds to activate this perk. While active:\n\n• You see the Auras of Survivors, the Killer, and a variety of objects. These are revealed in an expanding 44 meter radius..\n• Revealed objects include Chests, Exit Gate, Generators, Hatch, Items, Pallets, Totems, and Windows.\n\n• You gain Elusive and Oblivious Status Effects\n\nWhen you stop crouching, or after 11 seconds, all effects of this perk end and it enters a 60/50/40 seconds cool-down.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/ExtrasensoryPerception.png"
+  },
+  {
+    "id": "exultation",
+    "name": "Exultation",
+    "role": "survivor",
+    "character": "Trevor Belmont",
+    "description": "While holding an Item, stunning the Killer by dropping a Pallet causes the following effects:\n\n• Recharges the Item by +75 %.\n\n• Upgrades its Rarity to the next available Tier.\n\nExultation has a cool-down of 30/25/20 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/exultation.png"
+  },
+  {
+    "id": "eyes-of-belmont",
+    "name": "Eyes of Belmont",
+    "role": "survivor",
+    "character": "Trevor Belmont",
+    "description": "Whenever a Generator is completed, the Aura of the Killer is revealed to you for 1/2/3 seconds.\n\n• Extends the duration of all instances of the Killer's Aura being revealed to you by +2 seconds.\n\nEyes of Belmont benefits from its own effect.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/eyesOfBelmont.png"
+  },
+  {
+    "id": "fast-track",
+    "name": "Fast Track",
+    "role": "survivor",
+    "character": "Lee Yun-jin",
+    "description": "Whenever you unhook a Survivor, Fast Track is granted 1 Token, up to a maximum of 1/2/3 Token(s)\n\n• Succeeding a Great Repair Skill Check consumes all accumulated Tokens.\n\n• Permanently reduces the Repair Charges requirement of that Generator by 5 charges per Token.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/fastTrack.png"
+  },
+  {
+    "id": "finesse",
+    "name": "Finesse",
+    "role": "survivor",
+    "character": "Lara Croft",
+    "description": "The threat of danger can motivate any creature to strengthen its resolve.\nWhenever you are healthy, Finesse activates:\n\n• Increases your Vaulting speed for a Fast Vault by +20 %.\n\nFinesse has a cool-down of 40/35/30 seconds after performing a Fast Vault.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/finesse.png"
+  },
+  {
+    "id": "fire-up",
+    "name": "Fire Up",
+    "role": "killer",
+    "character": "The Nightmare",
+    "description": "Whenever a Generator is completed, gain 1 Token, up to 5. Each Token increases your Pallet and Breakable Wall breaking, Generator damaging, Survivor pickup and drop, and Window vaulting speeds by 4/5/6%.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/fireUp.png"
+  },
+  {
+    "id": "five-moves-ahead",
+    "name": "Five Moves Ahead",
+    "role": "survivor",
+    "character": "Kwon Tae-young",
+    "description": "While you are being chased or are inside the Killer's Terror Radius, you perform Pallet Drop interactions 50% faster and see the Auras of the 5 closest Pallets and Windows. Dropping a Pallet while the perk is active causes a 40/35/30 second cooldown.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/fiveMovesAhead.png"
+  },
+  {
+    "id": "fixated",
+    "name": "Fixated",
+    "role": "survivor",
+    "character": "Nancy Wheeler",
+    "description": "You benefit from the following permanent effects:\n\n• Increases your Walking speed by 10/15/20 %.\n\n• Unlocks the ability to see your own Scratch Marks.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/fixated.png"
+  },
+  {
+    "id": "flashbang",
+    "name": "Flashbang",
+    "role": "survivor",
+    "character": "Leon Scott Kennedy",
+    "description": "You have adapted to a world in chaos and making what you can from the debris.\nAfter repairing Generators for a total of 50/45/40 %, Flashbang activates:\n\n• Press the Active Ability button while hiding inside a Locker to craft a Flash Grenade.\n\nFlashbang deactivates after use.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/flashbang.png"
+  },
+  {
+    "id": "flip-flop",
+    "name": "Flip-Flop",
+    "role": "survivor",
+    "character": "Ash Williams",
+    "description": "• Recovering in the Dying State also charges the Wiggle Meter at 50 % of the Recovery rate and up to a maximum of 40/45/50 % of Wiggle Progression.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/flipFlop.png"
+  },
+  {
+    "id": "flow-state",
+    "name": "Flow State",
+    "role": "survivor",
+    "character": "Kwon Tae-young",
+    "description": "Whenever a Generator is completed, gain 1 Token, up to 5. For each Token, your Blessing and Cleansing, Healing, and Unhooking speeds are increased by 8/9/10%.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/flowState.png"
+  },
+  {
+    "id": "fogwise",
+    "name": "Fogwise",
+    "role": "survivor",
+    "character": "Vittorio Toscano",
+    "description": "Unlocks potential in your Aura-reading ability while repairing Generators:\n\n• The Aura of the Killer is revealed to you for 4/5/6 seconds after succeeding a Great Repair Skill Check.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/fogwise.png"
+  },
+  {
+    "id": "for-the-people",
+    "name": "For the People",
+    "role": "survivor",
+    "character": "Zarina Kassir",
+    "description": "While healthy and healing another Survivor without using a Med-Kit, press the Active Ability button to trigger the following effects:\n\n• Trade 1 Health State with the other Survivor:\n• Instantly heals them to the Injured State, if they were dying or suffering from the Deep Wound Status Effect.\n\n• Instantly heals them to full health, if they were injured.\n\n• You yourself become injured and suffer from the Broken Status Effect for 80/70/60 seconds.\n\n• You become the Killer's Obsession, if not already.\n\nReduces your chance of becoming the initial Obsession by reducing the default value by -100 %.\nThe Killer can only be obsessed with one Survivor at a time.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/forThePeople.png"
+  },
+  {
+    "id": "forced-hesitation",
+    "name": "Forced Hesitation",
+    "role": "killer",
+    "character": "The Singularity",
+    "description": "Whenever a Survivor is put into the Dying State by any means, Forced Hesitation triggers its effect:\n\n• Causes all other Survivors within 16 metres of them suffer from a -20 % Hindered Status Effect for 10 seconds.\n\nForced Hesitation has a cool-down of 40/35/30 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/forcedHesitation.png"
+  },
+  {
+    "id": "forced-penance",
+    "name": "Forced Penance",
+    "role": "killer",
+    "character": "The Executioner",
+    "description": "Whenever a Survivor triggers a Protection Hit, they suffer from the following effect:\n\n• Inflicts the Broken Status Effect for 60/70/80 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/forcedPenance.png"
+  },
+  {
+    "id": "forever-entwined",
+    "name": "Forever Entwined",
+    "role": "killer",
+    "character": "The Ghoul",
+    "description": "Whenever a Survivors takes damage, Forever Entwined gains +1 Token, up to a maximum of 6/7/8 Tokens:\n\n• Increases the Action speeds for Dropping, Hooking, and Picking up a Survivor by a stack-able +4 % per Token, up to a maximum of 24/28/32 %.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/foreverEntwined.png"
+  },
+  {
+    "id": "franklins-demise",
+    "name": "Franklin's Demise",
+    "role": "killer",
+    "character": "The Cannibal",
+    "description": "Survivors hit with your vicious Basic Attack drop any equipped Item on impact:\n• The Auras of lost Items are revealed to within 32/48/64 metres.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/franklinsDemise.png"
+  },
+  {
+    "id": "friendly-competition",
+    "name": "Friendly Competition",
+    "role": "survivor",
+    "character": "Thalita Lyra",
+    "description": "When you complete a Generator together with at least one other Survivor, all participating Survivors gain 5% increased Repair speed for 100/110/120 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/friendlyCompetition.png"
+  },
+  {
+    "id": "friends-til-the-end",
+    "name": "Friends 'til the End",
+    "role": "killer",
+    "character": "The Good Guy",
+    "description": "When you hook any Survivors that is not the Obsession, the following effects apply to the Obsession:\n\n• Their Aura is revealed for 6/8/10 seconds.\n\n• They suffer from the Exposed Status Effect for 20 seconds.\n\nWhen you hook the Obsession, the following effects apply to a random Survivor:\n\n• Causes the Survivor to scream and reveal their location to the Killer.\n\n• They become the new Obsession.\n\nYou can only be obsessed with one Survivor at a time.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/friendsTilTheEnd.png"
+  },
+  {
+    "id": "fruits-of-your-labor",
+    "name": "Fruits of Your Labor",
+    "role": "survivor",
+    "character": "Aurora Stardotter",
+    "description": "Whenever a Generator is completed, gain a token.\nWhenever you finish repairing a Generator, for each token this perk has:\n\n• Gain +5 % Haste Status Effect for 2 seconds.\n\n• Gain 10/15/20 % healing progress.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/fruitsOfYourLabor.png"
+  },
+  {
+    "id": "furtive-chase",
+    "name": "Furtive Chase",
+    "role": "killer",
+    "character": "The Ghost Face",
+    "description": "After hooking the Obsession, you benefit from the following effects for 14/16/18 seconds:\n\n• Grants the Undetectable Status Effect.\n\n• Grants a +10 % Haste Status Effect.\n\nWhenever the Obsession is unhooked by another Survivor, the Obsession Status transfers to their Rescuer.\nYou can only be obsessed with one Survivor at a time.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/furtiveChase.png"
+  },
+  {
+    "id": "game-afoot",
+    "name": "Game Afoot",
+    "role": "killer",
+    "character": "The Skull Merchant",
+    "description": "While chasing the Obsession, breaking a Pallet or Breakable Wall or damaging a Generator grants 7% Haste for 8/9/10 seconds. Hitting the Survivor with the most cumulative Chase time with a Basic Attack causes them to become the Obsession.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/gameAfoot.png"
+  },
+  {
+    "id": "gearhead",
+    "name": "Gearhead",
+    "role": "killer",
+    "character": "The Deathslinger",
+    "description": "After a Survivor loses a Health State, Gearhead activates for 30 seconds:\n\n• While Gearhead is active, a Survivor succeeding a Good Skill Check while repairing reveals their Aura to you for 6/7/8 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/gearhead.png"
+  },
+  {
+    "id": "genetic-limits",
+    "name": "Genetic Limits",
+    "role": "killer",
+    "character": "The Singularity",
+    "description": "Whenever a Survivor loses a Health State by any means, Genetic Limits triggers its effect:\n\n• Causes them to suffer from the Exhausted Status Effect for 6/7/8 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/geneticLimits.png"
+  },
+  {
+    "id": "ghost-notes",
+    "name": "Ghost Notes",
+    "role": "survivor",
+    "character": "Vee Boonyasak",
+    "description": "While suffering from the Exhausted Status Effect, you benefit from the following effects:\n\n• Causes your Scratch Marks to disappear +50 % faster.\n\n• Increases your Recovery rate from that Status Effect by 5/7.5/10 %.\n\nGhost Notes does not cause the Exhausted Status Effect.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/ghostNotes.png"
+  },
+  {
+    "id": "grim-embrace",
+    "name": "Grim Embrace",
+    "role": "killer",
+    "character": "The Artist",
+    "description": "Your act of servitude to The Entity has not gone unnoticed.\nEach time a Survivor is hooked for the first time, Grim Embrace gains +1 Token and activates once you are at least 16 metres away from the Hook:\n\n• 1-3 Tokens: Blocks all Generators for 6/8/10 seconds.\n\n• 4 Tokens: Blocks all Generators for 40 seconds and the Aura of the Obsession is revealed to you for 6 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/grimEmbrace.png"
+  },
+  {
+    "id": "hardened",
+    "name": "Hardened",
+    "role": "survivor",
+    "character": "Lara Croft",
+    "description": "Live long enough, and survival will run in your blood.\nAfter unlocking a Chest and either blessing or cleansing a Totem, Hardened activates:\n\n• Suppresses the urge to scream from any cause and instead causes the Aura of the Killer to be revealed to you for 3/4/5 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/hardened.png"
+  },
+  {
+    "id": "haywire",
+    "name": "Haywire",
+    "role": "killer",
+    "character": "The Animatronic",
+    "description": "Whenever a Survivor stops opening an Exit Gate after accumulating at least 80 % Progression towards being opened, Haywire causes it to regress:\n\n• Regresses at a rate of 80/90/100 % of the normal Gate-Opening speed.\n\n• Causes Survivors to see the lights atop the switch flickering randomly while it regresses.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/haywire.png"
+  },
+  {
+    "id": "head-on",
+    "name": "Head On",
+    "role": "survivor",
+    "character": "Jane Romero",
+    "description": "After hiding in a Locker for 3 seconds, Head On activates.\nWhile active, hold the Sprint button while exiting the Locker to trigger its effect:\n\n• Causes you to forcefully launch yourself from the Locker, stunning the Killer if they are too close to it:\n• Has a Stun range of 2.5 metres.\n\n• Has a Stun duration of 3 seconds.\n\n• Triggers a Loud Noise Notification for the Killer upon missing.\n\nHead On cannot be used while Exhausted.\nHead On causes the Exhausted Status Effect for 60/50/40 seconds on a successful stun.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/headOn.png"
+  },
+  {
+    "id": "help-wanted",
+    "name": "Help Wanted",
+    "role": "killer",
+    "character": "The Animatronic",
+    "description": "Damaging a Generator causes it to become Compromised. When the Compromised Generator is completed, your successful Basic Attack recovery speed is increased by 25% for 40/50/60 seconds. Only one Generator can be Compromised at a time.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/helpWanted.png"
+  },
+  {
+    "id": "hex-blood-favour",
+    "name": "Hex: Blood Favour",
+    "role": "killer",
+    "character": "The Blight",
+    "description": "A Hex Totem lights at the start of the Trial. Whenever a Survivor loses a Health State by any means, all upright Pallets within 24/28/32 metres of that Survivor are blocked for 15 seconds. The effect ends permanently if the Hex Totem is blessed or cleansed.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/hexBloodFavour.png"
+  },
+  {
+    "id": "hex-crowd-control",
+    "name": "Hex: Crowd Control",
+    "role": "killer",
+    "character": "The Trickster",
+    "description": "Whenever a Survivors performs a Rushed Vault action at a Window, Hex: Crowd Control activates on a random Totem and triggers its effect:\n\n• Blocks that Window for all Survivors.\n\n• Increases basic-vault speed of blocked Windows by 15 %\n\n• Reveals auras of blocked Windows within 24 metres\n\nHex: Crowd Control has a limit of 4/5/6 Windows it can affect at a time.\nThe Hex Effects persist until the Hex Totem is either blessed or cleansed by a Survivor, disabling it for the remainder of the Trial.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/hexCrowdControl.png"
+  },
+  {
+    "id": "hex-devour-hope",
+    "name": "Hex: Devour Hope",
+    "role": "killer",
+    "character": "The Hag",
+    "description": "Hex: Devour Hope lights a Hex Totem at the start of the Trial, cursing Survivors with its Hex Effects.\nWhenever a Survivor is unhooked at least 24 metres from your location, Hex: Devour Hope gains +1 Token, up to a maximum of 5 Tokens:\n\n• At 2 Tokens: 10 seconds after hooking a Survivor, you are granted a 3/4/5 % Haste Status Effect for 10 seconds.\n\n• At 3 Tokens: Afflicts all Survivors with the Exposed Status Effect.\n\n• At 5 Tokens: Unlocks the Kill ability, allowing you to kill dying Survivors by your own hands.\n\nThe Hex Effects persist until the Hex Totem is either blessed or cleansed by a Survivor, disabling it for the remainder of the Trial.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/hexDevourHope.png"
+  },
+  {
+    "id": "hex-face-the-darkness",
+    "name": "Hex: Face the Darkness",
+    "role": "killer",
+    "character": "The Knight",
+    "description": "If there is still a Dull Totem in the environment, Hex: Face the Darkness lights a Hex Totem after injuring a Survivor by any means, cursing them with its Hex Effects.\nWhile cursed, the following effects trigger once every 35/30/25 seconds on all other Survivors outside of the Terror Radius:\n\n• Causes them to scream.\n\n• Their Auras are revealed to you for 2 seconds.\n\nHex: Face the Darkness is deactivated once the Cursed Survivor either returns to Healthy or enters the Dying State by any means, extinguishing the Hex Totem.\nThe Hex Effects persist until the Hex Totem is either blessed or cleansed by a Survivor, disabling it for the remainder of the Trial.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/hexFaceTheDarkness.png"
+  },
+  {
+    "id": "hex-fortunes-fool",
+    "name": "Hex: Fortune's Fool",
+    "role": "killer",
+    "character": "All",
+    "description": "If there is still a Dull Totem in the environment, Hex: Fortune's Fool lights a Hex Totem whenever you hook a Survivor for the first time, cursing them with its Hex Effects.\n\n• Inflicts the Oblivious Status Effect.\n\n• Blocks the Hex Totem for all other Survivors for 90 seconds.\n• Blocked Hex Totems cannot be cleansed or blessed by Survivors.\n\n• This does not affect the Cursed Survivor.\n\nThe Aura of the Hex Totem is revealed to the Cursed Survivor within 24/20/16 metres.\nThe Hex Effects persist until the Hex Totem is either blessed or cleansed by a Survivor, disabling it for the remainder of the Trial.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/hexPlaything.png"
+  },
+  {
+    "id": "hex-haunted-ground",
+    "name": "Hex: Haunted Ground",
+    "role": "killer",
+    "character": "The Spirit",
+    "description": "Hex: Haunted Ground lights 2 Hex Totems at the start of the Trial, laying a trap for Survivors.\nBlessing or cleansing either Hex Totem trips the trap and triggers the following effect:\n• Causes all Survivors to suffer from the Exposed Status Effect for 40/50/60 seconds.\n\nHex: Haunted Ground extinguishes the second Hex Totem after tripping its trap.\nHex: Haunted Ground is disabled for the remainder of the Trial after triggering its effect.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/hexHauntedGround.png"
+  },
+  {
+    "id": "hex-hive-mind",
+    "name": "Hex: Hive Mind",
+    "role": "killer",
+    "character": "The First",
+    "description": "The first time you hook any Survivor, a random Dull Totem becomes a Hex Totem, provided that a Dull Totem remains in the Trial Grounds.\n\nGenerators are highlighted; the intensity of the generator's Auras reveals their repair progress.\n\nAs soon as a total of 4 generators have been completed in the Trial:\n\n• All remaining generators explode, lose 6/8/10 % progess, and start regressing.\n\n• The associated Hex Totem becomes dull, and this perk becomes disabled for the remainder of the trial.\n\nThe Hex Effects persist until the Hex Totem is either blessed or cleansed by a Survivor, disabling it for the remainder of the Trial.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/hexHiveMind.png"
+  },
+  {
+    "id": "hex-huntress-lullaby",
+    "name": "Hex: Huntress Lullaby",
+    "role": "killer",
+    "character": "The Huntress",
+    "description": "Survivors performing Healing or Repairing actions suffer from the following effect:\n\n• Increases the Progression penalty for Failed Skill Checks by 2/4/6 %.\n\nEach time a Survivor is hooked, Hex: Huntress Lullaby grows in power and gains +1 Token, up to a maximum of 5 Tokens.\nSurvivors performing Healing or Repairing actions suffer from the following additional effect:\n\n• Reduces the time between the audio cue announcing an imminent Skill Check and it appearing, depending on the number of accumulated Tokens:\n• 1 Token: -14 %\n\n• 2 Tokens: -28 %\n\n• 3 Tokens: -42 %\n\n• 4 Tokens: -56 %\n\n• 5 Tokens: Suppresses the audio cue altogether.\n\nThe Hex Effects persist until the Hex Totem is either blessed or cleansed by a Survivor, disabling it for the remainder of the Trial.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/hexHuntressLullaby.png"
+  },
+  {
+    "id": "hex-no-one-escapes-death",
+    "name": "Hex: No One Escapes Death",
+    "role": "killer",
+    "character": "All",
+    "description": "Once the Exit Gates are powered, if there is still a Dull Totem remaining in the environment, Hex: No One Escapes Death activates and lights it:\n\n• Grants a 2/3/4 % Haste Status Effect.\n\n• Causes all Survivors to suffer from the Exposed Status Effect.\n\nOnce the Status Effect is revealed to Survivors, Hex: No One Escapes Death triggers the following effect:\n\n• The Aura of its Hex Totem is revealed to all Survivors within 4 metres.\n• This range gradually expands to 24 metres over the course of 30 seconds.\n\nHex: No One Escapes Death remains inactive if no Dull Totems are available.\n\nThe Hex Effects persist until the Hex Totem is either blessed or cleansed by a Survivor, disabling it for the remainder of the Trial.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/hexNoOneEscapesDeath.png"
+  },
+  {
+    "id": "hex-nothing-but-misery",
+    "name": "Hex: Nothing but Misery",
+    "role": "killer",
+    "character": "The Ghoul",
+    "description": "After damaging Survivors a total of 4 times with Basic Attacks, a random Dull Totem becomes a Hex Totem, cursing all Survivors:\n\n• Survivors damaged by a Basic Attack suffer from:\n• -5 % Hindered Status Effect for 10/12.5/15 seconds.\n\n• -10 % slower vaulting speed for 10/12.5/15 seconds.\n\nThe Hex Effects persist until the Hex Totem is either blessed or cleansed by a Survivor, disabling it for the remainder of the Trial.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/hexNothingButMisery.png"
+  },
+  {
+    "id": "hex-overture-of-doom",
+    "name": "Hex: Overture of Doom",
+    "role": "killer",
+    "character": "The Krasue",
+    "description": "Creates a Hex Totem that curses the farthest Generator from its location:\n\n• The Aura of the Cursed Generator is highlighted in yellow.\n\nWhen a Survivor repairs the Cursed Generator for at least 5 seconds, Hex: Overture of Doom triggers the following effects for 20/25/30 seconds:\n\n• Transfers your Terror Radius to the Cursed Generator.\n• This Terror Radius is set to 32 metres.\n\n• Grants the Undetectable Status Effect.\n\nOnce the Cursed Generator is repaired, the next farthest Generator becomes cursed.\nThe Hex Effects persist until the Hex Totem is either blessed or cleansed by a Survivor, disabling it for the remainder of the Trial.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/hexOvertureOfDoom.png"
+  },
+  {
+    "id": "hex-pentimento",
+    "name": "Hex: Pentimento",
+    "role": "killer",
+    "character": "The Artist",
+    "description": "Unlocks potential in your Aura-reading ability:\n\n• The Auras of cleansed Totems are revealed to you in white.\n\nPress the Interaction button over the remains of a cleansed Totem to resurrect it as a Rekindled Totem.\nFor each Rekindled Totem, Hex: Pentimento gains +1 Token, up to a maximum of 5 Tokens:\n\n• 1 Token: Reduces the Action speeds for Healing and Repairing by -20 %.\n\n• 2 to 5 Tokens: Increase the strength of the Action Speed penalty by a stackable 1/2/3 % per Token, up to a maximum of 24/28/32 %.\n\n• Survivors cursed by Hex: Pentimento see the Auras of Rekindled Totems within 16 metres.\n\nOnce Hex: Pentimento has reached its limit of 5 Tokens, it calls upon The Entity for the following effect:\n\n• Blocks all Rekindled Totems for the remainder of the Trial.\n\nTotems may only be rekindled once per Trial, with The Entity consuming the remains of Rekindled Totems once they are cleansed.\n\nThe Hex Effects persist until the Hex Totem is either blessed or cleansed by a Survivor, disabling it for the remainder of the Trial.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/hexPentimento.png"
+  },
+  {
+    "id": "hex-retribution",
+    "name": "Hex: Retribution",
+    "role": "killer",
+    "character": "The Deathslinger",
+    "description": "Whenever a Survivor blesses or cleanses a Totem, Hex: Retribution triggers its primary effect:\n\n• Causes that Survivor to suffer from the Oblivious Status Effect for 40/50/60 seconds.\n\nWhenever a Hex Totem is removed by any means, including its own, Hex: Retribution triggers its secondary effect:\n\n• The Auras of all Survivors are revealed to you for 20 seconds.\n\nThe Hex Effects persist until the Hex Totem is either blessed or cleansed by a Survivor, disabling it for the remainder of the Trial.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/hexRetribution.png"
+  },
+  {
+    "id": "hex-ruin",
+    "name": "Hex: Ruin",
+    "role": "killer",
+    "character": "The Hag",
+    "description": "All Generators not currently being repaired experience the following effect:\n\n• Causes them to automatically regress at 100/125/150 % of the default Regression rate.\n\nThe Hex Effects persist until the Hex Totem is either blessed or cleansed by a Survivor, disabling it for the remainder of the Trial.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/hexRuin.png"
+  },
+  {
+    "id": "hex-scared-to-death",
+    "name": "Hex: Scared to Death",
+    "role": "killer",
+    "character": "The Slasher",
+    "description": "When you Hook 3 different Survivors, Hex: Scared to Death activates on a random Dull Totem and triggers its effect:\n\n• Basic-breaking a Pallet during a chase causes all Survivors within 13 metres to scream and gain -11/-12/-13 % Hindered Status Effect for 3 seconds.\n\nThe Hex Effects persist until the Hex Totem is either blessed or cleansed by a Survivor, disabling it for the remainder of the Trial.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/hexScaredToDeath.png"
+  },
+  {
+    "id": "hex-the-third-seal",
+    "name": "Hex: The Third Seal",
+    "role": "killer",
+    "character": "The Hag",
+    "description": "The last 2/3/4 Survivors you hit with a Basic or Special Attack suffer permanently from the Blindness Status Effect.\nThe Hex Effects persist until the Hex Totem is either blessed or cleansed by a Survivor, disabling it for the remainder of the Trial.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/hexTheThirdSeal.png"
+  },
+  {
+    "id": "hex-thrill-of-the-hunt",
+    "name": "Hex: Thrill of the Hunt",
+    "role": "killer",
+    "character": "All",
+    "description": "Start the Trial with 5 Tokens, one for each Totem. Each Token reduces Survivor Blessing and Cleansing speeds by 8/9/10%, up to 40/45/50%. Lose 1 Token whenever a Totem is cleansed. The Hex remains active until its Hex Totem is blessed or cleansed.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/hexThrillOfTheHunt.png"
+  },
+  {
+    "id": "hex-two-can-play",
+    "name": "Hex: Two Can Play",
+    "role": "killer",
+    "character": "The Good Guy",
+    "description": "Anytime you are stunned or blinded by any Survivor a total of 4/3/2 times, and if there is not yet a Hex Totem already associated with Hex: Two Can Play and there is at least one Dull Totem remaining in the Trial Grounds, Hex: Two Can Play activates on a random Totem:\n\n• Blinds all Survivors who stun or blind you for 1.5 seconds.\n• This does not affect carried Survivors.\n\nThe Hex Effects persist until the Hex Totem is either blessed or cleansed by a Survivor, disabling it for the remainder of the Trial.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/hexTwoCanPlay.png"
+  },
+  {
+    "id": "hex-under-your-thumb",
+    "name": "Hex: Under Your Thumb",
+    "role": "killer",
+    "character": "The Judgment",
+    "description": "When a Survivor gains a Hook State, Hex: Under Your Thumb activates on a random Dull Totem:\n\n• Running Survivors cannot gain more than 25/20/15 % Haste at once.\n\n• Whenever a running Survivor within 32 metres gains Haste, the Survivor's location is revealed to you for 4 seconds.\n\nThe Hex Effects persist until the Hex Totem is either blessed or cleansed by a Survivor, disabling it for the remainder of the Trial.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/hexUnderYourThumb.png"
+  },
+  {
+    "id": "hex-undying",
+    "name": "Hex: Undying",
+    "role": "killer",
+    "character": "The Blight",
+    "description": "Whenever a Survivor is within 2/3/4 metres of a Dull Totem, Hex: Undying triggers its primary effect:\n\n• Their Aura is revealed to you for as long as they remain in that range.\n\nWhenever a Hex Totem is cleansed, Hex: Undying triggers its secondary effect:\n\n• Transfers the cleansed Hex to the Hex Totem associated with Hex: Undying instead, replacing it.\n\nThe Hex Effects persist until the Hex Totem is either blessed or cleansed by a Survivor, disabling it for the remainder of the Trial.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/hexUndying.png"
+  },
+  {
+    "id": "hex-wretched-fate",
+    "name": "Hex: Wretched Fate",
+    "role": "killer",
+    "character": "The Dark Lord",
+    "description": "You see your victim from afar and resolve to prolong their suffering.\nAfter a Generator is completed, Hex: Wretched Fate activates and lights a random Dull Totem, cursing the Obsession:\n\n• Reduces their Repair speed by 27/30/33 %.\n\n• The Aura of the Hex Totem is revealed to them within 12 metres.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/hexWretchedFate.png"
+  },
+  {
+    "id": "hoarder",
+    "name": "Hoarder",
+    "role": "killer",
+    "character": "The Twins",
+    "description": "You protect what little you have and are perceptive to those rummaging through your stockpiles.\n\nHoarder triggers a Loud Noise Notification for 4 seconds, whenever a Survivor performs any of the following actions within 32/48/64 metres of your location:\n\n• Unlocks a Chest.\n\n• Picks up any Item.\n\nHoarder spawns 2 additional Chests in the Trial.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/hoarder.png"
+  },
+  {
+    "id": "hope",
+    "name": "Hope",
+    "role": "survivor",
+    "character": "All",
+    "description": "Once the Exit Gates are powered, Hope activates for the remainder of the Trial:\n\n• Grants a 3/4/5 % Haste Status Effect.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/hope.png"
+  },
+  {
+    "id": "hubris",
+    "name": "Hubris",
+    "role": "killer",
+    "character": "The Knight",
+    "description": "Whenever a Survivor stuns you by any means, Hubris triggers its effect:\n\n• Causes them to suffer from the Exposed Status Effect for 20/25/30 seconds.\n\nHubris has a cool-down of 20 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/hubris.png"
+  },
+  {
+    "id": "human-greed",
+    "name": "Human Greed",
+    "role": "killer",
+    "character": "The Dark Lord",
+    "description": "One can always rely on the avarice of the living and use it to one's advantage.\nGrants the ability to kick opened Chests and close them.\n\n• The Auras of unopened Chests are revealed to you at all times.\n\n• The Auras of Survivors coming within 8 metres of unopened or closed Chests are revealed to you for 3/4/5 seconds.\n\nHuman Greed has a cool-down of 10 seconds on the ability to kick Chests.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/humanGreed.png"
+  },
+  {
+    "id": "hyperfocus",
+    "name": "Hyperfocus",
+    "role": "survivor",
+    "character": "Rebecca Chambers",
+    "description": "Succeeding a Great Skill Check while repairing or healing grants +1 Token, up to a maximum of 6 Tokens:\n\n• Increases the Skill Check Trigger odds and Pointer-Rotation speed by +4 % per Token each, up to a maximum of +24 %.\n\n• Increases the Skill Check Bonus progression by 10/20/30 % of its base value per Token, up to a maximum of 60/120/180 %.\n\nHyperfocus loses all Tokens after succeeding just a Good Skill Check, failing one, or if the action is interrupted by any means.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/hyperfocus.png"
+  },
+  {
+    "id": "hysteria",
+    "name": "Hysteria",
+    "role": "killer",
+    "character": "The Nemesis",
+    "description": "Whenever you injure a healthy Survivor, Hysteria triggers its effect:\n\n• Causes all Survivors currently in the Injured State to suffer from the Oblivious Status Effect for 30/35/40 seconds.\n• This effect also applies the Survivor triggering it.\n\nHysteria has a cool-down of 20 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/hysteria.png"
+  },
+  {
+    "id": "im-all-ears",
+    "name": "I'm All Ears",
+    "role": "killer",
+    "character": "The Ghost Face",
+    "description": "Whenever a Survivor performs a Rushed Vault action within 48 metres of your location, you benefit from the following effect:\n\n• The Aura of the Survivor is revealed to you for 8 seconds.\n\nI'm All Ears has a cool-down of 60/45/30 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/imAllEars.png"
+  },
+  {
+    "id": "infectious-fright",
+    "name": "Infectious Fright",
+    "role": "killer",
+    "character": "The Plague",
+    "description": "Whenever a Survivor is put into the Dying State by any means, all other Survivors within your Terror Radius will scream and reveal their current location to you for 4/5/6 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/infectiousFright.png"
+  },
+  {
+    "id": "inner-focus",
+    "name": "Inner Focus",
+    "role": "survivor",
+    "character": "Haddie Kaur",
+    "description": "You have honed your ability to see through the haze of the Ravage.\n• Grants the ability to see the Scratch Marks of other Survivors.\n\n• Whenever another Survivor loses a Health State due to the Killer, the Aura of the latter is revealed to your for 6/8/10 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/innerFocus.png"
+  },
+  {
+    "id": "inner-strength",
+    "name": "Inner Strength",
+    "role": "survivor",
+    "character": "Nancy Wheeler",
+    "description": "After cleansing a Totem of any kind, Inner Strength activates.\nWhile active, hiding inside a Locker for 10/9/8 seconds triggers the following effect:\n\n• Heals you to the next Health State.\n\nInner Strength deactivates after use.\nInner Strength cannot be used while suffering from the Broken Status Effect.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/innerStrength.png"
+  },
+  {
+    "id": "insidious",
+    "name": "Insidious",
+    "role": "killer",
+    "character": "All",
+    "description": "After standing still for 3/2/1 seconds, gain Undetectable for as long as you remain stationary. Insidious deactivates when you begin moving again.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/insidious.png"
+  },
+  {
+    "id": "invocation-treacherous-crows",
+    "name": "Invocation: Treacherous Crows",
+    "role": "survivor",
+    "character": "Taurie Cain",
+    "description": "When in the Basement near the circle, press the Active Ability button to begin the Invocation, which takes 60 seconds to complete.\nDuring an Invocation, your Aura is revealed to all other Survivors and they can join in, accelerating the process by +100 %, if they too have an Invocation Perk equipped, or by +50 %, if they have not.\n\nOnce the Invocation is completed, the following effects apply:\n\n• Whenever the Killer scares a Crow while a Survivor is inside their Terror Radius, their Aura is revealed to all Survivors for 1/1.5/2 seconds.\n\n• You automatically enter the Injured State from any previous Health State, and suffer from the Broken Status Effect for the remainder of the Trial.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/invocationTreacherousCrows.png"
+  },
+  {
+    "id": "invocation-weaving-spiders",
+    "name": "Invocation: Weaving Spiders",
+    "role": "survivor",
+    "character": "Sable Ward",
+    "description": "When in the Basement near the circle, press the Active Ability button to begin the Invocation, which takes 60 seconds to complete.\nDuring an Invocation, your Aura is revealed to all other Survivors and they can join in, accelerating the process by +100 %, if they too have an Invocation Perk equipped, or by +50 %, if they have not.\n\nOnce the Invocation is completed, the following effects apply:\n\n• Permanently reduces the Repair Charges requirement of all Generators in the Trial by 8/9/10 Charges.\n\n• You automatically enter the Injured State from any previous Health State, and suffer from the Broken Status Effect for the remainder of the Trial.\n\nCompleting this Invocation disables all other instances of Invocation: Weaving Spiders for the remainder of the Trial.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/invocationWeavingSpiders.png"
+  },
+  {
+    "id": "iron-grasp",
+    "name": "Iron Grasp",
+    "role": "killer",
+    "character": "All",
+    "description": "While carrying a Survivor, their wiggle-induced strafing is reduced by 75% and the time required for them to wiggle free is increased by 4/8/12%.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/ironGrasp.png"
+  },
+  {
+    "id": "iron-maiden",
+    "name": "Iron Maiden",
+    "role": "killer",
+    "character": "The Legion",
+    "description": "While interacting with an empty Locker, Iron Maiden applies its primary effect:\n• Increases your Search speed by 30/40/50 %.\n\nWhenever a Survivor exits a Locker, Iron Maiden triggers its secondary effects:\n\n• Causes them to scream and trigger a Loud Noise Notification at their current location.\n• This effect lingers for 4 seconds.\n\n• Causes them to suffer from the Exposed Status Effect for 30 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/ironMaiden.png"
+  },
+  {
+    "id": "iron-will",
+    "name": "Iron Will",
+    "role": "survivor",
+    "character": "Jake Park",
+    "description": "While injured, you benefit from the following effects:\n\n• Reduces the volume of Grunts of Pain by 80/90/100 %.\n\nIron Will cannot be used while Exhausted, but does not cause the Status Effect.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/ironWill.png"
+  },
+  {
+    "id": "keep-them-waiting",
+    "name": "Keep Them Waiting",
+    "role": "killer",
+    "character": "All",
+    "description": "Damaging any Survivor other than the Obsession with a Basic Attack causes Keep Them Waiting to gain +1 Token, up to a maximum of 6/7/8 Tokens.\nDamaging the Obsession with either a Basic or Special Attack causes Keep Them Waiting to lose -2 Tokens:\n• Grants a stack-able -5 % per Token Cool-down time reduction on successful Basic Attacks, up to a maximum of 30/35/40 %.\n\nKeep Them Waiting freezes its current Token Count once the Obsession is sacrificed or killed.\nYou can only be obsessed with one Survivor at a time.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/saveTheBestForLast.png"
+  },
+  {
+    "id": "kindred",
+    "name": "Kindred",
+    "role": "survivor",
+    "character": "All",
+    "description": "Whenever any Survivor is hooked, the Killer's Aura is revealed while they are within 8/12/16 metres of the Hook. If you are hooked, all Survivors see each other's Auras. If another Survivor is hooked, you see the Auras of all other Survivors.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/kindred.png"
+  },
+  {
+    "id": "knock-out",
+    "name": "Knock Out",
+    "role": "killer",
+    "character": "The Cannibal",
+    "description": "If a Survivor moves more than 6 metres away from a Pallet within 6 seconds of dropping it, they suffer 5% Hindered for 3/4/5 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/knockOut.png"
+  },
+  {
+    "id": "languid-touch",
+    "name": "Languid Touch",
+    "role": "killer",
+    "character": "The Lich",
+    "description": "When a Survivor scares off a Crow within 36 metres of your location, Languid Touch activates:\n\n• Causes that Survivor to suffer from the Exhausted Status Effect for 6/8/10 seconds.\n\nLanguid Touch has a cool-down of 5 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/languidTouch.png"
+  },
+  {
+    "id": "last-stand",
+    "name": "Last Stand",
+    "role": "survivor",
+    "character": "Michonne Grimes",
+    "description": "After staying in the Terror Radius without being chased for 120/105/90 seconds, Last Stand activates.\nWhile active, perform a Rushed Vault action to trigger its effect:\n\n• Stuns the Killer for 3 seconds, if they are within 2.5 metres of that Vault location.\n\nLast Stand is disabled for the remainder of the Trial after use.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/lastStand.png"
+  },
+  {
+    "id": "lay-waste",
+    "name": "Lay Waste",
+    "role": "killer",
+    "character": "The Judgment",
+    "description": "Damaging a Generator makes it regress +2 % faster for each Charge it has.\nThis perk has a cool-down of 55/50/45 seconds after damaging a Generator.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/layWaste.png"
+  },
+  {
+    "id": "leader",
+    "name": "Leader",
+    "role": "survivor",
+    "character": "Dwight Fairfield",
+    "description": "All other Survivors within 10 metres of your location benefit from the following effect:\n\n• Increases their Action speeds for Cleansing, Gate-Opening, Healing, Sabotaging, Unhooking, and Unlocking by 20/25/30 %.\n• This effect lingers for 15 seconds after leaving its Area of Effect.\n\nSurvivors can only be affected by one instance of Leader at a time.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/leader.png"
+  },
+  {
+    "id": "left-behind",
+    "name": "Left Behind",
+    "role": "survivor",
+    "character": "Bill Overbeck",
+    "description": "Once you are the Last Survivor Standing, Left Behind activates:\n\n• The Aura of the Hatch is revealed to you within 24/28/32 metres.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/leftBehind.png"
+  },
+  {
+    "id": "lend-a-hand",
+    "name": "Lend a Hand",
+    "role": "survivor",
+    "character": "Shane Wiigwaas",
+    "description": "Cleansing or Blessing a Totem activates this perk:\n\n• Once per Survivor, while healing a Survivor, press Activate Ability 2 to give the healed Survivor 2/3/4 permanent healing charges.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/lendaHand.png"
+  },
+  {
+    "id": "lethal-pursuer",
+    "name": "Lethal Pursuer",
+    "role": "killer",
+    "character": "The Nemesis",
+    "description": "At the start of the Trial, the Auras of all Survivors are revealed to you for 7/8/9 seconds.\n\n• Extends the duration of all instances of a Survivor Aura being revealed to you by +2 seconds.\n\nLethal Pursuer benefits from its own effect.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/lethalPursuer.png"
+  },
+  {
+    "id": "leverage",
+    "name": "Leverage",
+    "role": "killer",
+    "character": "The Skull Merchant",
+    "description": "Whenever a Survivor performs an Unhook action, they suffer from the following effect for 60 seconds:\n\n• Reduces their Healing speeds by 20/25/30 %.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/leverage.png"
+  },
+  {
+    "id": "light-footed",
+    "name": "Light-Footed",
+    "role": "survivor",
+    "character": "Ellen Ripley",
+    "description": "Whenever you are healthy, Light-Footed activates:\n\n• Suppresses the sound of your footsteps while running.\n\nLight-Footed has a cool-down of 14/12/10 seconds after performing a Rush Vault action.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/lightFooted.png"
+  },
+  {
+    "id": "lightborn",
+    "name": "Lightborn",
+    "role": "killer",
+    "character": "The Hillbilly",
+    "description": "Unlike other beasts of The Fog, you have adapted to light.\n• The Auras of Survivors attempting to blind you by any means are revealed to you for 6/8/10 seconds.\n\n• Grants immunity from being blinded from Flashlights, Firecrackers, Flash Grenades, and Blast Mine.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/lightborn.png"
+  },
+  {
+    "id": "lightweight",
+    "name": "Lightweight",
+    "role": "survivor",
+    "character": "All",
+    "description": "Your running is light and soft, making your tracks harder to follow.\n• Reduces the Lifetime of your Scratch Marks by 3/4/5 seconds.\n\n• Reduces the Spawn chance of patches of Scratch Marks by -60 %, making their spacing inconsistent.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/lightweight.png"
+  },
+  {
+    "id": "lithe",
+    "name": "Lithe",
+    "role": "survivor",
+    "character": "Feng Min",
+    "description": "Whenever you perform a Rushed Vault action, Lithe triggers its effect:\n• Grants a +50 % Haste Status Effect for 3 seconds.\n\nLithe cannot be used while Exhausted.\nLithe causes the Exhausted Status Effect for 60/50/40 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/lithe.png"
+  },
+  {
+    "id": "low-profile",
+    "name": "Low Profile",
+    "role": "survivor",
+    "character": "Ada Wong",
+    "description": "Whenever you are the only Survivor in the Trial not currently incapacitated by either being downed, carried, or hooked, Low Profile activates:\n\n• Suppresses your Grunts of Pain and the creation of Pools of Blood and Scratch Marks for 70/80/90 seconds.\n\nLow Profile deactivates after use and only accounts for Survivors still participating in the Trial.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/lowProfile.png"
+  },
+  {
+    "id": "lucky-break",
+    "name": "Lucky Break",
+    "role": "survivor",
+    "character": "Yui Kimura",
+    "description": "Whenever you are in the Injured State, Lucky Break activates:\n\n• Suppresses the creation of Pools of Blood and Scratch Marks for up to 40/50/60 seconds.\n\nWhenever you are healing another Survivor, Lucky Break recharges by the same amount of time spent performing the Healing action, up to its initial maximum.\nLucky Break deactivates once its timer runs out or whenever your Health State updates to any other but the Injured State.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/luckyBreak.png"
+  },
+  {
+    "id": "lucky-star",
+    "name": "Lucky Star",
+    "role": "survivor",
+    "character": "Ellen Ripley",
+    "description": "While hiding inside a Locker, you benefit from the following effect:\n\n• Suppresses your Grunts of Pain.\n\nAfter exiting the Locker you benefit from the following effects for 30 seconds:\n\n• Suppresses your Grunts of Pain and the creation of Pools of Blood.\n\n• The Auras of all other Survivors are revealed to you.\n\n• The Aura of the nearest Generator is revealed to you and highlighted in yellow.\n\nLucky Star has a cool-down of 35/30/25 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/luckyStar.png"
+  },
+  {
+    "id": "machine-learning",
+    "name": "Machine Learning",
+    "role": "killer",
+    "character": "The Singularity",
+    "description": "Damaging a Generator causes it to become Compromised; damaging another Generator transfers the Compromised state. When the Compromised Generator is completed, you gain Undetectable and 8% Haste for 40/50/60 seconds, after which Machine Learning deactivates.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/machineLearning.png"
+  },
+  {
+    "id": "mad-grit",
+    "name": "Mad Grit",
+    "role": "killer",
+    "character": "The Legion",
+    "description": "Whenever you are carrying a Survivor, Mad Grit activates:\n• Removes the Cool-down of missed Basic Attacks.\n\n• Pauses the Wiggle Progression of the carried Survivor for 2/3/4 seconds each time you successfully hit another Survivor.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/madGrit.png"
+  },
+  {
+    "id": "made-for-this",
+    "name": "Made for This",
+    "role": "survivor",
+    "character": "Gabriel Soma",
+    "description": "Whenever you are in the Injured State, Made for This activates.\nWhile active, completing a Healing action on another Survivor triggers the following primary effect:\n\n• Grants the Endurance Status Effect for 6/8/10 seconds.\n• Endurance is cancelled prematurely when performing a Conspicuous Action of any kind.\n\nWhile active and suffering from the Deep Wound Status Effect, running triggers the following secondary effect:\n\n• Grants a 1/2/3 % Haste Status Effect.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/madeForThis.png"
+  },
+  {
+    "id": "make-your-choice",
+    "name": "Make Your Choice",
+    "role": "killer",
+    "character": "The Pig",
+    "description": "Whenever a Survivor is rescued from a Hook, while you are farther than 32 metres away, Make Your Choice activates:\n• Causes the unhooking Survivor to scream and reveal their location to you.\n\n• Causes them to suffer from the Exposed Status Effect for 40/50/60 seconds.\n\nMake Your Choice has a cooldown of 40/50/60 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/makeYourChoice.png"
+  },
+  {
+    "id": "merciless-storm",
+    "name": "Merciless Storm",
+    "role": "killer",
+    "character": "The Onryō",
+    "description": "Whenever a Generator reaches 90 % of Repair progression, Merciless Storm triggers its effect:\n\n• All Survivors repairing that Generator are faced with a continuous stream of Skill Checks until the Generator is completed.\n\n• If any contributing Survivor fails a Skill Check or interrupts the action by any means, The Entity blocks the Generator for 16/18/20 seconds.\n\nMerciless Storm can only trigger once per Generator per Trial.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/mercilessStorm.png"
+  },
+  {
+    "id": "mettle-of-man",
+    "name": "Mettle of Man",
+    "role": "survivor",
+    "character": "Ash Williams",
+    "description": "After triggering a third Protection Hit by any means, Mettle of Man activates:\n\n• While in the Injured State, Mettle of Man shields you from the next attack that would put you into the Dying State.\n\n• After healing back to full health by any means, Mettle of Man reveals your Aura to the Killer whenever you are farther than 12/14/16 metres from their location.\n\nMettle of Man deactivates after entering the Dying State by any means.\n\nIncreases your chance of becoming the initial Obsession by increasing the default value by +100 %.\nThe Killer can only be obsessed with one Survivor at a time.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/mettleOfMan.png"
+  },
+  {
+    "id": "mindbreaker",
+    "name": "Mindbreaker",
+    "role": "killer",
+    "character": "The Demogorgon",
+    "description": "While repairing a Generator, Survivors suffer from the following effects:\n\n• Incurs the Blindness and Exhausted Status Effects.\n• Both Status Effects linger for 3/4/5 seconds after ending the interaction.\n\nMindbreaker cannot be used to override an existing Exhausted Status Effect, but pauses its timer instead.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/mindbreaker.png"
+  },
+  {
+    "id": "mirrored-illusion",
+    "name": "Mirrored Illusion",
+    "role": "survivor",
+    "character": "The Troupe",
+    "description": "A familiar spell made unfamiliar in this corrupted landscape.\nAfter repairing Generators for a total of 20 %, Mirrored Illusion activates:\n\n• Press the Active Ability button when next to either a Chest, Exit Gate, Generator, or a Totem to spawn a Static Illusion that lasts for 40/50/60 seconds.\n\nMirrored Illusion deactivates after triggering successfully.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/mirroredIllusion.png"
+  },
+  {
+    "id": "moment-of-glory",
+    "name": "Moment of Glory",
+    "role": "survivor",
+    "character": "Trevor Belmont",
+    "description": "After performing the Unlocking or Rummaging action on Chests a total of 1 time, Moment of Glory activates:\n\n• When you become injured, you instantly suffer from the Broken Status Effect.\n\n• You are automatically healed 1 Health State after 80/70/60 seconds.\n• This effect is cancelled prematurely if you enter the Dying State.\n\nMoment of Glory does not activate if you already suffer from the Broken Status Effect.\nMoment of Glory deactivates after healing you.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/momentOfGlory.png"
+  },
+  {
+    "id": "monitor-abuse",
+    "name": "Monitor & Abuse",
+    "role": "killer",
+    "character": "The Doctor",
+    "description": "While actively chasing a Survivor, Monitor & Abuse applies its primary effect:\n\n• Increases your Terror Radius by 5/10/15 %.\n\nWhile not actively chasing a Survivor, Monitor & Abuse applies its secondary effect:\n\n• Reduces your Terror Radius by 15/20/25 %.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/monitorAndAbuse.png"
+  },
+  {
+    "id": "nemesis",
+    "name": "Nemesis",
+    "role": "killer",
+    "character": "The Oni",
+    "description": "Whenever a Survivor other than your Obsession blinds you by any means or stuns you with a Pallet or a Locker, Nemesis triggers its primary effect:\n\n• Causes that Survivor to become your current Obsession.\n\nWhenever your Obsession switches to a different Survivor by any means, Nemesis triggers its secondary effects:\n\n• Causes that Survivor to suffer from the Oblivious Status Effect for 40/50/60 seconds.\n\n• Their Aura is revealed to you for 8 seconds.\n\nYou can only be obsessed with one Survivor at a time.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/nemesis.png"
+  },
+  {
+    "id": "no-holds-barred",
+    "name": "No Holds Barred",
+    "role": "killer",
+    "character": "All",
+    "description": "Each time a Generator is completed, No Holds Barred calls upon The Entity for the following effects:\n\n• Blocks the Generator with the most Progression for 15/20/25 seconds.\n\n• The Aura of the Blocked Generator is highlighted to you in white.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/noHoldsBarred.png"
+  },
+  {
+    "id": "no-mither",
+    "name": "No Mither",
+    "role": "survivor",
+    "character": "David King",
+    "description": "You suffer permanently from the Broken Status Effect in exchange for the following benefits:\n\n• Suppresses the creation of Pools of Blood.\n\n• Suppresses your Grunts of Pain while in the Injured State or in the Dying State.\n\n• Unlocks the Self-Recovery ability, allowing you to fully recover from the Dying State:\n• Increases the Recovery speed by 15/20/25 %.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/noMither.png"
+  },
+  {
+    "id": "no-one-left-behind",
+    "name": "No One Left Behind",
+    "role": "survivor",
+    "character": "All",
+    "description": "Once the Exit Gates are powered, you see the Auras of all other Survivors and your Healing and Unhooking speeds are increased by 50/75/100%. Survivors you unhook receive an additional 10% Haste and 5 seconds of Haste duration, resulting in 20% Haste for 15 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/noOneLeftBehind.png"
+  },
+  {
+    "id": "no-quarter",
+    "name": "No Quarter",
+    "role": "killer",
+    "character": "The Houndmaster",
+    "description": "Whenever a Survivor healing themselves by any means reaches 75 % Healing Progress, No Quarter triggers its effect:\n\n• The Survivor is faced with a continuous stream of Skill Checks until the Self-Heal is completed.\n\n• If they fail a Skill Check or interrupt the action by any means, they suffer from the Broken Status Effect for 20/25/30 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/noQuarter.png"
+  },
+  {
+    "id": "no-way-out",
+    "name": "No Way Out",
+    "role": "killer",
+    "character": "The Trickster",
+    "description": "Whenever you hook a Survivor for the first time, No Way Out gains +1 Token.\nOnce the Exit Gates are powered, No Way Out activates:\n\n• Causes the first Survivor to interact with either Exit Gate Switch to trigger a Loud Noise Notification at their location.\n\nUpon triggering the Loud Noise Notification, No Way Out calls upon The Entity for the following effect:\n\n• Blocks both Exit Gate Switches for 12 seconds.\n• This time is extended by an additional 6/9/12 seconds per accumulated Token, up to a combined maximum of 36/48/60 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/noWayOut.png"
+  },
+  {
+    "id": "none-are-free",
+    "name": "None Are Free",
+    "role": "killer",
+    "character": "The Ghoul",
+    "description": "Whenever you hook a Survivor for the first time, None Are Free gains +1 Token, up to a maximum of 4 Tokens.\nOnce all Generators are completed, None Are Free calls upon The Entity to trigger the following effect:\n\n• Blocks all Windows and upright Pallets for a stack-able 12/14/16 seconds per Token, up to a maximum of 48/56/64 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/noneAreFree.png"
+  },
+  {
+    "id": "nowhere-to-hide",
+    "name": "Nowhere to Hide",
+    "role": "killer",
+    "character": "The Knight",
+    "description": "Performing the Damage Generator action on a Generator triggers Nowhere to Hide:\n\n• The Auras of all Survivors within 24 metres of the Generator's location are revealed to you for 3/4/5 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/nowhereToHide.png"
+  },
+  {
+    "id": "off-the-record",
+    "name": "Off the Record",
+    "role": "survivor",
+    "character": "Zarina Kassir",
+    "description": "After being unhooked or unhooking yourself, Off the Record activates for 30/35/40 seconds:\n\n• Blocks your Aura from being revealed.\n\n• Suppresses your Grunts of Pain while in the Injured State.\n\n• Suppresses the creation of your Scratch Marks.\n\n• Grants the Endurance Status Effect.\n• Endurance is cancelled prematurely when performing a Conspicuous Action of any kind.\n\nOff the Record deactivates prematurely and is disabled for the remainder of the Trial upon powering the Exit Gates.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/offTheRecord.png"
+  },
+  {
+    "id": "one-two-three-four",
+    "name": "One-Two-Three-Four!",
+    "role": "survivor",
+    "character": "Vee Boonyasak",
+    "description": "While standing and idle, press the Active Ability button to start a Performance:\n\n• Lasts for up to 15 seconds.\n\n• Empowers Survivors within 16 metres of your location.\n\n• Triggers continuous Skill Checks.\n\nAfter successfully completing the Performance, empowered Survivors performing Healing or Repairing actions benefit from the following effect for 90 seconds:\n\n• Increases the chances of triggering Skill Checks by +20 %.\n\nOne-Two-Three-Four! has a cool-down of 110/100/90 seconds after cancelling or completing the Performance.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/oneTwoThreeFour.png"
+  },
+  {
+    "id": "open-handed",
+    "name": "Open-Handed",
+    "role": "survivor",
+    "character": "Ace Visconti",
+    "description": "All Survivors benefit from the following permanent effect:\n\n• Increases the radius of all Aura-reading abilities by 8/12/16 metres.\n\nOpen-Handed only affects Auras that emanate from the Survivor causing them.\nSurvivors can only be affected by one instance of Open-Handed at a time.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/openHanded.png"
+  },
+  {
+    "id": "oppression",
+    "name": "Oppression",
+    "role": "killer",
+    "character": "The Twins",
+    "description": "Performing the Damage Generator action on a Generator triggers the following effects:\n\n• Randomly selects up to 4 additional Generators that will also start regressing.\n• Triggers a difficult Skill Check for all Survivors currently repairing them.\n\nOppression has a cool-down of 45/40/35 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/oppression.png"
+  },
+  {
+    "id": "overcharge",
+    "name": "Overcharge",
+    "role": "killer",
+    "character": "The Doctor",
+    "description": "Performing the Damage Generator action on a Generator applies Overcharge:\n\n• The next Survivor interacting with that Generator is faced with a difficult Skill Check.\n• Instantly regresses that Generator by 2/3/4 % of its maximum possible Progression in addition to the default Progression penalty.\n\nAfter Overcharge is applied to a Generator, the following effect also applies:\n\n• Increases the Regression speed from 85 % to 130 % of its default value over the next 30 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/overcharge.png"
+  },
+  {
+    "id": "overcome",
+    "name": "Overcome",
+    "role": "survivor",
+    "character": "Jonah Vasquez",
+    "description": "Whenever you enter the Injured State from full health, Overcome triggers its effect:\n\n• Extends the duration of the On-hit Sprint boost by +2 seconds.\n\nOvercome cannot be used while Exhausted.\nOvercome causes the Exhausted Status Effect for 60/50/40 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/overcome.png"
+  },
+  {
+    "id": "overwhelming-presence",
+    "name": "Overwhelming Presence",
+    "role": "killer",
+    "character": "The Doctor",
+    "description": "Whenever a Survivor starts using an Item within 32 metres of your location, Overwhelming Presence triggers its primary effect:\n\n• Inflicts the Exhausted Status Effect for 15 seconds.\n\nWhenever a Survivor within 32 metres of your location becomes Exhausted by any means, Overwhelming Presence triggers its secondary effect:\n\n• The Aura of whichever Exhausted Survivor is closest to your location is revealed to you for 2/3/4 seconds.\n\nOverwhelming Presence has a cool-down of 25 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/overwhelmingPresence.png"
+  },
+  {
+    "id": "overzealous",
+    "name": "Overzealous",
+    "role": "survivor",
+    "character": "Haddie Kaur",
+    "description": "Fighting back against the Ravage motivates and inspires you.\nAfter cleansing or blessing a Totem, Overzealous activates:\n\n• Dull Totem: Increases your Repair speed by 8/9/10 %.\n\n• Hex Totem: Increases your Repair speed by 16/18/20 %.\n\nOverzealous deactivates after losing a Health State by any means.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/overzealous.png"
+  },
+  {
+    "id": "parental-guidance",
+    "name": "Parental Guidance",
+    "role": "survivor",
+    "character": "Yoichi Asakawa",
+    "description": "After stunning the Killer by any means, Parental Guidance triggers its effect:\n\n• Suppresses your Grunts of Pain and the creation of Scratch Marks and Pools of Blood for 5/6/7 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/parentalGuidance.png"
+  },
+  {
+    "id": "phantom-fear",
+    "name": "Phantom Fear",
+    "role": "killer",
+    "character": "The Animatronic",
+    "description": "Whenever a Survivor within your Terror Radius looks at you, they suffer from the following effects:\n\n• Causes them to scream and reveal their Aura to you for 2 seconds.\n\nPhantom Fear has a cool-down of 80/70/60 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/phantomFear.png"
+  },
+  {
+    "id": "pharmacy",
+    "name": "Pharmacy",
+    "role": "survivor",
+    "character": "Quentin Smith",
+    "description": "While unlocking a Chest, your Unlocking speed is increased by 75/100/125%, the audible range of the interaction is reduced by 12 metres, and completing the interaction guarantees an Emergency Med-Kit.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/pharmacy.png"
+  },
+  {
+    "id": "plot-twist",
+    "name": "Plot Twist",
+    "role": "survivor",
+    "character": "Nicolas Cage",
+    "description": "Whenever you are in the Injured State, Plot Twist activates.\nWhile active, press the Active Ability button while crouching and stationary to trigger the following primary effects:\n\n• Silently enter the Dying State without notifying the Killer.\n\n• Suppresses your Grunts of Pain and the creation of Pools of Blood.\n\n• Unlocks the Self-Recovery ability, allowing you to fully recover from the Dying State:\n• Increases the Recovery speed by +25 %.\n\nAfter self-recovering from the Dying State, you benefit from the following secondary effects:\n\n• Instantly heals you to full health.\n\n• Grants a +50 % Haste Status Effect for 2/3/4 seconds.\n\nPlot Twist is disabled after recovering by any means, but can be reactivated once more upon powering the Exit Gates.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/plotTwist.png"
+  },
+  {
+    "id": "plunderers-instinct",
+    "name": "Plunderer's Instinct",
+    "role": "survivor",
+    "character": "All",
+    "description": "The Auras of closed Chests and Items are revealed within 32/48/64 metres. When unlocking or rummaging through Chests, you have a 50% increased chance of finding a higher-rarity Item.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/plunderersInstinct.png"
+  },
+  {
+    "id": "poised",
+    "name": "Poised",
+    "role": "survivor",
+    "character": "Jane Romero",
+    "description": "Whenever a Generator is completed, Poised triggers its primary effect:\n\n• Suppresses the creation of your Scratch Marks for 20/25/30 seconds.\n\nWhenever you start repairing a Generator for the first time, Poised triggers its secondary effect:\n\n• The Aura of the Killer is revealed to you for 8 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/poised.png"
+  },
+  {
+    "id": "pop-goes-the-weasel",
+    "name": "Pop Goes the Weasel",
+    "role": "killer",
+    "character": "The Clown",
+    "description": "After hooking a Survivor, Pop Goes the Weasel activates for 35/40/45 seconds.\nWhile active, manually damaging a Generator triggers the following effect:\n\n• Increases the regression amount by +15 % resulting in 20 % regression.\n\nPop Goes the Weasel deactivates after use or once its timer elapses.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/popGoesTheWeasel.png"
+  },
+  {
+    "id": "potential-energy",
+    "name": "Potential Energy",
+    "role": "survivor",
+    "character": "Vittorio Toscano",
+    "description": "While repairing a Generator, press the Active Ability button to Store Potential Energy:\n\n• Repair Charges no longer progress the Generator and are instead converted into Tokens:\n• Gain 1 Token for the equivalent of 1 % Progression, up to a maximum of 10/15/20 Tokens.\n\n• Failed Repair Skill Checks incur a penalty depending on how many Tokens have been accumulated:\n• Not at Token Limit: Reduces the number of accumulated Tokens by -20 %.\n\n• At Token Limit: Regresses the Generator by -10 %.\n\nHaving accumulated at least 1 Token, press the Active Ability button again on the same or a different Generator to Release Potential Energy:\n\n• Consumes all accumulated Tokens.\n\n• Instantly progresses that Generator by +1 % per Token.\n\nPotential Energy deactivates after use or losing a Health State by any means, and will lose all accumulated Tokens in case of the latter.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/potentialEnergy.png"
+  },
+  {
+    "id": "power-struggle",
+    "name": "Power Struggle",
+    "role": "survivor",
+    "character": "Élodie Rakoto",
+    "description": "Whenever you are in the Dying State, you benefit from the following primary effect:\n\n• The Auras of upright Pallets are revealed to you.\n\nAfter reaching 25/20/15 % of Wiggle progression, Power Struggle unlocks the following secondary effect:\n\n• Grants the ability to drop a nearby Pallet while being carried by the Killer.\n• Stuns the Killer and causes them to release you from their grasp.\n\nPower Struggle deactivates after use.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/powerStruggle.png"
+  },
+  {
+    "id": "predator",
+    "name": "Predator",
+    "role": "killer",
+    "character": "The Wraith",
+    "description": "Whenever you lose a Survivor in a Chase, Predator triggers its effect:\n\n• Their Aura is revealed to you for 4 seconds.\n\nPredator has a cool-down of 60/50/40 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/predator.png"
+  },
+  {
+    "id": "premonition",
+    "name": "Premonition",
+    "role": "survivor",
+    "character": "All",
+    "description": "Projects a 45-degree detection cone in the direction you are looking with a range of 36 metres. Detecting the Killer within the cone triggers an audio cue. Premonition has a 60/45/30 second cooldown.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/premonition.png"
+  },
+  {
+    "id": "prove-thyself",
+    "name": "Prove Thyself",
+    "role": "survivor",
+    "character": "Dwight Fairfield",
+    "description": "Increases the Repair speed by a stack-able 6/8/10 % per other Survivor within 4 metres of your location, up to a maximum of 18/24/30 %.\nProve Thyself extends its effect to all Survivors within its range.\n\nSurvivors can only be affected by one instance of Prove Thyself at a time.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/proveThyself.png"
+  },
+  {
+    "id": "quick-quiet",
+    "name": "Quick & Quiet",
+    "role": "survivor",
+    "character": "Meg Thomas",
+    "description": "When performing a Rushed action to vault across Pallets or Windows, or to enter or exit Lockers, Quick & Quiet triggers its effect:\n\n• Suppresses all noises related to those interactions and the accompanying Loud Noise Notification.\n\nQuick & Quiet has a cool-down of 25/20/15 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/quickAndQuiet.png"
+  },
+  {
+    "id": "quick-gambit",
+    "name": "Quick Gambit",
+    "role": "survivor",
+    "character": "Vittorio Toscano",
+    "description": "While being chased by the Killer, the following effects apply:\n\n• The Auras of other Survivors are revealed to you.\n\n• Increases the Repair speed of other Survivors by 3/4/5 %.\n\nQuick Gambit has a cool-down of 40 seconds upon losing a Health State.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/quickGambit.png"
+  },
+  {
+    "id": "rampage",
+    "name": "Rampage",
+    "role": "killer",
+    "character": "The Slasher",
+    "description": "Whenever you basic-break a Pallet or a Breakable Wall, gain a token, up to 13.\n\n• Whenever you are blinded or Pallet-stunned, you are granted +1 % Haste Status Effect for each Token this perk has for 13 seconds.\n\nThis perk has a cool-down of 30/25/20 seconds after being blinded or Pallet-stunned while this perk has at least 1 token.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/rampage.png"
+  },
+  {
+    "id": "rancor",
+    "name": "Rancor",
+    "role": "killer",
+    "character": "The Spirit",
+    "description": "Whenever a Generator is completed, Rancor triggers its primary effects:\n• Causes all Survivors to scream and trigger a Loud Noise Notification at their current location.\n• This effect lingers for 3 seconds.\n\n• Your Aura is revealed to the Obsession for 5/4/3 seconds.\n\nOnce the Exit Gates are powered, Rancor additionally triggers its secondary effects on the Obsession:\n\n• Inflicts the Exposed Status Effect for the remainder of the Trial.\n\n• Grants the ability to kill them when in close proximity.\n\nYou can only be obsessed with one Survivor at a time.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/rancor.png"
+  },
+  {
+    "id": "rapid-brutality",
+    "name": "Rapid Brutality",
+    "role": "killer",
+    "character": "The Xenomorph",
+    "description": "You move with a speed and fury that makes blood run cold.\n• You can no longer gain the Bloodlust Status Effect.\n\n• Successfully hitting a Survivor with a Basic Attack grants you a +5 % Haste Status Effect for 8/9/10 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/rapidBrutality.png"
+  },
+  {
+    "id": "rapid-response",
+    "name": "Rapid Response",
+    "role": "survivor",
+    "character": "Orela Rose",
+    "description": "Whenever you become afflicted by the Exhausted Status Effect, Rapid Response triggers its effect:\n\n• The Aura of the Killer is revealed to you for 2 seconds.\n\nPerform a Rushed action to exit a Locker to voluntarily trigger the Status Effect for 30/25/20 seconds.\nRapid Response cannot be used to override an existing Exhausted Status Effect.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/rapidResponse.png"
+  },
+  {
+    "id": "ravenous",
+    "name": "Ravenous",
+    "role": "killer",
+    "character": "The Krasue",
+    "description": "The first time you hook each Survivor, gain 1 Token, up to 4. Upon reaching 4 Tokens, all Survivors scream and become Exposed for 40/50/60 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/ravenous.png"
+  },
+  {
+    "id": "reactive-healing",
+    "name": "Reactive Healing",
+    "role": "survivor",
+    "character": "Ada Wong",
+    "description": "Whenever another Survivor within 32 metres of your location loses a Health State by any means while you are in the Injured State, you benefit from the following effect:\n\n• Grants 40/45/50 % of your missing Healing Progression towards your Health Bar.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/reactiveHealing.png"
+  },
+  {
+    "id": "reassurance",
+    "name": "Reassurance",
+    "role": "survivor",
+    "character": "Rebecca Chambers",
+    "description": "While within 6 metres of a hooked Survivor, press the Active Ability button to trigger the following effects for 20/25/30 seconds:\n\n• Pauses the Sacrifice Process.\n• This also pauses the Struggle Skill Checks for Survivors in the Struggle Phase.\n\n• Causes the outline of that Survivor to be highlighted in white.\n\nReassurance can only be used once per Survivor per Hook Instance.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/reassurance.png"
+  },
+  {
+    "id": "red-herring",
+    "name": "Red Herring",
+    "role": "survivor",
+    "character": "Zarina Kassir",
+    "description": "After repairing a Generator for at least 1 second, Red Herring triggers its primary effect:\n\n• The Aura of that Generator is highlighted to you in yellow.\n\n• The highlight persists until either of the following occurs:\n• The Generator is completed.\n\n• You start repairing a different Generator.\n\n• You enter a Locker.\n\nWhen entering a Locker, Red Herring triggers its secondary effect:\n\n• Triggers a Loud Noise Notification for the Killer on the highlighted Generator.\n\nRed Herring has a cool-down of 25/20/15 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/redHerring.png"
+  },
+  {
+    "id": "remember-me",
+    "name": "Remember Me",
+    "role": "killer",
+    "character": "The Nightmare",
+    "description": "Whenever the Obsession loses a Health State by any means, Remember Me gains +1 Token, up to a maximum of 3/4/5 Tokens:\n• Increases the Opening time of both Exit Gates by a stack-able 6 seconds per Token, up to a maximum additional Opening time of 18/24/30 seconds.\n• This results in a maximum possible Opening time of 38/44/50 seconds for both Exit Gates.\n\nRemember Me does not apply its penalty to the Obsession, allowing them to open both Exit Gates in the default time of 20 seconds.\n\nYou can only be obsessed with one Survivor at a time.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/rememberMe.png"
+  },
+  {
+    "id": "repressed-alliance",
+    "name": "Repressed Alliance",
+    "role": "survivor",
+    "character": "Cheryl Mason",
+    "description": "You are accustomed to being hunted by malicious forces, and you have begun using it to your advantage.\nAfter repairing Generators for a total of 40/35/30 seconds, Repressed Alliance activates:\n\n• Press the Active Ability button to call upon The Entity to block the Generator you are currently repairing for 15 seconds, after which Repressed Alliance deactivates.\n\n• The Aura of the blocked Generator is revealed to all Survivors in white.\n\nRepressed Alliance can only be triggered when no other Survivors are repairing your Generator.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/repressedAlliance.png"
+  },
+  {
+    "id": "residual-manifest",
+    "name": "Residual Manifest",
+    "role": "survivor",
+    "character": "Haddie Kaur",
+    "description": "A lifetime of chasing the darkness has taught you that the best disinfectant is light.\n• After a successful Killer Blind, the Killer suffers from the Blindness Status Effect for 20/25/30 seconds.\n\n• Residual Manifest grants the ability to rummage through an opened Chest once per Trial and will guarantee a basic Flashlight.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/residualManifest.png"
+  },
+  {
+    "id": "resilience",
+    "name": "Resilience",
+    "role": "survivor",
+    "character": "All",
+    "description": "While injured, your Blessing and Cleansing, Healing, Exit Gate Opening, Generator Repairing, Hook Sabotaging, Chest Searching, Unhooking, and Window Vaulting speeds are increased by 3/6/9%.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/resilience.png"
+  },
+  {
+    "id": "resurgence",
+    "name": "Resurgence",
+    "role": "survivor",
+    "character": "Jill Valentine",
+    "description": "After you are unhooked by any means, Resurgence triggers the following effect:\n\n• Grants you 50/60/70 % of Healing progression.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/resurgence.png"
+  },
+  {
+    "id": "road-life",
+    "name": "Road Life",
+    "role": "survivor",
+    "character": "Vee Boonyasak",
+    "description": "While injured and repairing a Generator, Great Skill Checks grant 1 Token, Good Skill Checks grant none, and Failed Skill Checks remove 1 Token. At 6/5/4 Tokens, consume all Tokens to increase your Healing speed by 100% until you stop healing. Road Life deactivates after use and does not activate while you are Broken.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/roadLife.png"
+  },
+  {
+    "id": "rookie-spirit",
+    "name": "Rookie Spirit",
+    "role": "survivor",
+    "character": "Leon Scott Kennedy",
+    "description": "You keep a careful eye on objectives when they are slipping away.\nWhile repairing Generators, succeed 5/4/3 Good or Great Skill Checks to activate Rookie Spirit for the remainder of the Trial:\n\n• The Auras of any regressing Generators are revealed to you until they stop regressing by any means.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/rookieSpirit.png"
+  },
+  {
+    "id": "saboteur",
+    "name": "Saboteur",
+    "role": "survivor",
+    "character": "Jake Park",
+    "description": "Unlocks potential in your Aura-reading ability:\n• While the Killer is carrying another Survivor, the Auras of all Hooks within 56 metres of their original Pick-up location are revealed to you:\n• The Auras of normal Hooks are white.\n\n• The Auras of Scourge Hooks are yellow.\n\nUnlocks the ability to sabotage Hooks without Toolboxes:\n\n• Increases the Sabotage speed without a Toolbox by +30 %.\n• This effect has a cool-down of 70/65/60 seconds after use.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/saboteur.png"
+  },
+  {
+    "id": "salvations-cry",
+    "name": "Salvation's Cry",
+    "role": "survivor",
+    "character": "Aurora Stardotter",
+    "description": "When the Killer starts chasing you:\n\n• You see the auras of other Survivors for 1/2/3 seconds.\n\n• Survivors not being chased see your aura for 5 seconds\n\n• Survivors not being chased see the Killer's aura for 5 seconds",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/salvationsCry.png"
+  },
+  {
+    "id": "scavenger",
+    "name": "Scavenger",
+    "role": "survivor",
+    "character": "Gabriel Soma",
+    "description": "While holding a depleted Toolbox, Scavenger activates:\n\n• Succeeding at Great Repairing Skill Checks grants 1 Token, up to a maximum of 5 Tokens.\n\n• Reaching the maximum number of Tokens automatically consumes them and fully recharges the Toolbox.\n\n• Recharging a Toolbox will reduce your Repair speed by -50 % for the next 40/35/30 seconds.\n\nScavenger grants the ability to rummage through an opened Chest once per Trial and will guarantee a basic Toolbox.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/scavenger.png"
+  },
+  {
+    "id": "scene-partner",
+    "name": "Scene Partner",
+    "role": "survivor",
+    "character": "Nicolas Cage",
+    "description": "Whenever you are inside the Terror Radius, Scene Partner activates:\n\n• Looking at the Killer causes you to scream, which reveals their Aura for 4/5/6 seconds.\n\n• There is a chance of 50 % that you will scream again, extending the Aura-reveal duration by another +2 seconds.\n\nScene Partner has a cool-down of 40 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/scenePartner.png"
+  },
+  {
+    "id": "scourge-hook-floods-of-rage",
+    "name": "Scourge Hook: Floods of Rage",
+    "role": "killer",
+    "character": "The Onryō",
+    "description": "At the start of the Trial, 4 Hooks in the environment are changed into Scourge Hooks:\n\n• The Auras of these Scourge Hooks are highlighted in white.\n\nEach time a Survivor is unhooked from a Scourge Hook, the following effects apply:\n\n• The Auras of all other Survivors are revealed for 5/6/7 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/scourgeHookFloodsOfRage.png"
+  },
+  {
+    "id": "scourge-hook-hangmans-trick",
+    "name": "Scourge Hook: Hangman's Trick",
+    "role": "killer",
+    "character": "The Pig",
+    "description": "At the start of the Trial, 4 Hooks in the environment are changed into Scourge Hooks:\n\n• The Auras of these Scourge Hooks are highlighted in white.\n\nWhile carrying a Survivor, Scourge Hook: Hangman's Trick triggers its primary effect:\n\n• The Auras of all Survivors within 12/14/16 metres of a Scourge Hook are revealed to you.\n\nWhenever a Survivor starts the Sabotage action on any Hook, Scourge Hook: Hangman's Trick triggers its secondary effect:\n\n• Triggers a Loud Noise Notification at the location of that Hook.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/scourgeHookHangmansTrick.png"
+  },
+  {
+    "id": "scourge-hook-jagged-compass",
+    "name": "Scourge Hook: Jagged Compass",
+    "role": "killer",
+    "character": "The Houndmaster",
+    "description": "At the start of the Trial, 4 Hooks in the environment are changed into Scourge Hooks:\n\n• The Auras of these Scourge Hooks are highlighted in white.\n\nWhenever a Survivor is unhooked from a normal Hook, the following effect applies:\n\n• The Hook is converted into a Scourge Hook.\n\nWhenever you hook a Survivor onto a Scourge Hook, the following effect applies:\n\n• The Aura of the Generator with the most progression is highlighted in yellow for 6/8/10 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/scourgeHookJaggedCompass.png"
+  },
+  {
+    "id": "scourge-hook-monstrous-shrine",
+    "name": "Scourge Hook: Monstrous Shrine",
+    "role": "killer",
+    "character": "All",
+    "description": "At the start of the Trial, the 4 Basement Hooks and 4 additional Hooks become Scourge Hooks. While you are farther than 24 metres from a Survivor hooked on a Scourge Hook, their Sacrifice Process progresses 10/15/20% faster.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/scourgeHookMonstrousShrine.png"
+  },
+  {
+    "id": "scourge-hook-pain-resonance",
+    "name": "Scourge Hook: Pain Resonance",
+    "role": "killer",
+    "character": "The Artist",
+    "description": "Overwhelming pain reverberates outwards.\nAt the start of the Trial, 4 Hooks in the environment are changed into Scourge Hooks:\n\n• The Auras of these Scourge Hooks are highlighted in white.\n\nStart the Trial with 4 Token.\n\nWhenever a Survivor is hooked onto a Scourge Hook for the first time, Scourge Hook: Pain Resonance consumes -1 Token and applies the following effects:\n\n• Causes the Generator with the most progression to explode, damaging it.\n• Instantly regresses the Damaged Generator by 10/15/20 % of its total Progression.\n\n• Causes the Damaged Generator to start regressing afterwards.\n\n• Causes all Survivors repairing the Damaged Generator to scream.\n• This does not trigger a Loud Noise Notification.\n\nScourge Hook: Pain Resonance is disabled for the remainder of the Trial once all Tokens are consumed.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/scourgeHookPainResonance.png"
+  },
+  {
+    "id": "scourge-hook-weeping-wounds",
+    "name": "Scourge Hook: Weeping Wounds",
+    "role": "killer",
+    "character": "All",
+    "description": "At the start of the Trial, 4 Hooks in the environment are changed into Scourge Hooks:\n\n• The Auras of these Scourge Hooks are highlighted in white.\n\nEach time a Survivor is unhooked from a Scourge Hook, the following effects apply:\n\n• Causes that Survivor to suffer from the Haemorrhage Status Effect for 90 seconds.\n\nAfter the first time that Survivor is healed back to full health, they suffer from the following effect until they are injured again by any means:\n\n• Reduces their Action speeds for Healing and Repairing by 10/13/16 %.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/scourgeHookWeepingWounds.png"
+  },
+  {
+    "id": "second-wind",
+    "name": "Second Wind",
+    "role": "survivor",
+    "character": "Steve Harrington",
+    "description": "When you heal another Survivor for the equivalent of 1 Health State, Second Wind activates:\n\n• The next time you are unhooked or unhook yourself, you suffer from the Broken Status Effect until Second Wind deactivates.\n\n• You are automatically healed 1 Health State after 28/24/20 seconds.\n\nWhile Second Wind is active, the following conditions will deactivate it:\n\n• Successfully being healed by Second Wind.\n\n• Being put into the Dying State before the timer elapses.\n\nSecond Wind does not activate if you already suffer from the Broken Status Effect.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/secondWind.png"
+  },
+  {
+    "id": "secret-project",
+    "name": "Secret Project",
+    "role": "killer",
+    "character": "The First",
+    "description": "Whenever a Totem is blessed or cleansed, a random unblocked generator becomes blocked for 20/25/30 seconds.\n\nWhenever any number of Generators become blocked, you gain Undetectable Status Effect for 30 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/secretProject.png"
+  },
+  {
+    "id": "see-how-they-run",
+    "name": "See How They Run",
+    "role": "killer",
+    "character": "All",
+    "description": "Losing your Obsession in a chase causes See How They Run to gain +1 Token, up to a maximum of 3 Tokens, and performing a Basic or Special Attack with the potential to damage a Survivor causes it to lose -1 Token.\nWhile having at least 1 Token, you benefit from the following effect:\n• Grants a stack-able 3/4/5 % Haste Status Effect per Token, up to a maximum of 9/12/15 %.\n\nSee How They Run has a cool-down of 10 seconds between gaining additional Tokens.\n\nYou can only be obsessed with one Survivor at a time.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/playWithYourFood.png"
+  },
+  {
+    "id": "self-care",
+    "name": "Self-Care",
+    "role": "survivor",
+    "character": "Claudette Morel",
+    "description": "Unlocks the Self-Care ability:\n• Grants the ability to self-heal without needing a Med-Kit at 25/30/35 % of the regular Healing speed.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/selfCare.png"
+  },
+  {
+    "id": "self-preservation",
+    "name": "Self-Preservation",
+    "role": "survivor",
+    "character": "Lee Yun-jin",
+    "description": "Whenever another Survivor is hooked, you gain the Elusive Status Effect for 20/25/30 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/selfPreservation.png"
+  },
+  {
+    "id": "septic-touch",
+    "name": "Septic Touch",
+    "role": "killer",
+    "character": "The Dredge",
+    "description": "Whenever a Survivor performs a Healing action while inside the Terror Radius, they suffer from the following effects:\n\n• Inflicts the Blindness and Exhausted Status Effects.\n• These effects linger for 20/25/30 seconds after the Healing action is interrupted by any means.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/septicTouch.png"
+  },
+  {
+    "id": "shadowborn",
+    "name": "Shadowborn",
+    "role": "killer",
+    "character": "The Wraith",
+    "description": "Whenever you are blinded by any means, Shadowborn triggers its effect:\n\n• Grants a 6/8/10 % Haste Status Effect for 10 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/shadowborn.png"
+  },
+  {
+    "id": "shattered-hope",
+    "name": "Shattered Hope",
+    "role": "killer",
+    "character": "All",
+    "description": "To capture your prey, you must first extinguish their hope.\n• Instead of snuffing Boon Totems you destroy them.\n\n• Whenever a Totem is blessed, cleansed or destroyed:\n• All Totems are blocked for 16/18/20 seconds.\n\n• All blessed Totem auras are revealed to you for 16/18/20 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/shatteredHope.png"
+  },
+  {
+    "id": "shoulder-the-burden",
+    "name": "Shoulder the Burden",
+    "role": "survivor",
+    "character": "Taurie Cain",
+    "description": "Once per Trial, while you are not on Death Hook, use the Active Ability button in front of a hooked Survivor to unhook them and transfer 1 Hook Stage from them to yourself. You then scream and suffer from Exposed for 60/50/40 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/shoulderTheBurden.png"
+  },
+  {
+    "id": "silent-shadow",
+    "name": "Silent Shadow",
+    "role": "killer",
+    "character": "The Slasher",
+    "description": "When you hook a Survivor, you are granted Undetectable Status Effect for 11/12/13 seconds.\nWhen the Exit Gates are powered, you are granted Undetectable for the rest of the Trial.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/silentShadow.png"
+  },
+  {
+    "id": "slippery-meat",
+    "name": "Slippery Meat",
+    "role": "survivor",
+    "character": "All",
+    "description": "Grants 3 additional Self-Unhook attempts during your first Hook Stage and increases your chance of successfully Self-Unhooking by 2/3/4%.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/slipperyMeat.png"
+  },
+  {
+    "id": "sloppy-butcher",
+    "name": "Sloppy Butcher",
+    "role": "killer",
+    "character": "All",
+    "description": "Survivors hit with your vicious Basic Attack suffer from the following effects for 70/80/90 seconds:\n\n• Inflicts the Haemorrhage and Mangled Status Effects.\n\n• Modifies the potency of Haemorrhage:\n• Increases the Spawn frequency of Pools of Blood by 50/75/100 %.\n\n• Increases the Regression rate of partial Healing progression by +25 %.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/sloppyButcher.png"
+  },
+  {
+    "id": "small-game",
+    "name": "Small Game",
+    "role": "survivor",
+    "character": "All",
+    "description": "Projects a 45-degree detection cone in the direction you are looking with a range of 8/10/12 metres. Detecting a Totem triggers an audio cue and starts a 14/12/10 second cooldown. Each cleansed Totem grants a Token, up to 5, reducing the cone angle by 5 degrees per Token.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/smallGame.png"
+  },
+  {
+    "id": "smash-hit",
+    "name": "Smash Hit",
+    "role": "survivor",
+    "character": "Lee Yun-jin",
+    "description": "Whenever you stun the Killer with a Pallet , Smash Hit triggers its effect:\n\n• Grants a +50 % Haste Status Effect for 4 seconds.\n\nSmash Hit cannot be used while Exhausted.\nSmash Hit causes the Exhausted Status Effect for 30/25/20 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/smashHit.png"
+  },
+  {
+    "id": "solidarity",
+    "name": "Solidarity",
+    "role": "survivor",
+    "character": "Jane Romero",
+    "description": "While injured and healing another Survivor without a Med-Kit, you passively heal yourself at 50/60/70% of your Altruistic Healing speed.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/solidarity.png"
+  },
+  {
+    "id": "soul-guard",
+    "name": "Soul Guard",
+    "role": "survivor",
+    "character": "Cheryl Mason",
+    "description": "Whenever you heal or recover from the Dying State, Soul Guard triggers its primary effect:\n\n• Grants the Endurance Status Effect for 4/6/8 seconds.\n• Endurance is cancelled prematurely when performing a Conspicuous Action of any kind.\n\n• This ability has a cool-down of 30 seconds.\n\nWhile suffering from the Cursed Status Effect, Soul Guard applies its secondary effect:\n\n• Unlocks the Self-Recovery ability, allowing you to fully recover from the Dying State..",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/soulGuard.png"
+  },
+  {
+    "id": "specialist",
+    "name": "Specialist",
+    "role": "survivor",
+    "character": "Lara Croft",
+    "description": "Adventure. Exploration. Excavation.\nYou are in your element.\nWhenever you unlock or rummage through a Chest, Specialist gains +1 Token, up to a maximum of 6 Tokens:\n\n• Succeeding a Great Repair Skill Check while repairing a Generator consumes all Tokens.\n\n• Permanently reduces the Repair Charges requirement of that Generator by 2/3/4 Charges per Token, up to a maximum of 12/18/24 Charges.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/specialist.png"
+  },
+  {
+    "id": "spies-from-the-shadows",
+    "name": "Spies from the Shadows",
+    "role": "killer",
+    "character": "All",
+    "description": "Whenever a Survivor scares a Crow within 20/28/36 metres of you, you receive a Loud Noise Notification. Spies from the Shadows has a 5-second cooldown.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/spiesFromTheShadows.png"
+  },
+  {
+    "id": "spine-chill",
+    "name": "Spine Chill",
+    "role": "survivor",
+    "character": "All",
+    "description": "When the Killer is within 36 metres and looking at you with clear Line of Sight, Spine Chill lights up and increases your Blessing, Cleansing, Exit Gate Opening, Healing, Repairing, Sabotaging, Unhooking, and Chest Unlocking speeds by 2/4/6%. The speed bonus lingers for 0.5 seconds after the condition ends.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/spineChill.png"
+  },
+  {
+    "id": "spirit-fury",
+    "name": "Spirit Fury",
+    "role": "killer",
+    "character": "The Spirit",
+    "description": "After manually breaking a total of 4/3/2 dropped Pallets by any means, Spirit Fury activates:\n\n• Instantly breaks the next Pallet used by a Survivor to stun you.\n\nSpirit Fury deactivates after use and does not affect the duration of the Pallet Stun.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/spiritFury.png"
+  },
+  {
+    "id": "sprint-burst",
+    "name": "Sprint Burst",
+    "role": "survivor",
+    "character": "Meg Thomas",
+    "description": "Starting to run triggers Sprint Burst:\n• Grants a +50 % Haste Status Effect for 2 seconds.\n\nSprint Burst cannot be used while Exhausted.\nSprint Burst causes the Exhausted Status Effect for 60/50/40 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/sprintBurst.png"
+  },
+  {
+    "id": "stake-out",
+    "name": "Stake Out",
+    "role": "survivor",
+    "character": "David Tapp",
+    "description": "While inside the Killer's Terror Radius and not being chased, gain 1 Token every 15 seconds, up to 2/3/4 Tokens. While you have a Token, a Good Skill Check is converted into a Great Skill Check, consumes 1 Token, and grants an additional 1% Progression. Normal Great Skill Checks do not consume Tokens.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/stakeOut.png"
+  },
+  {
+    "id": "starstruck",
+    "name": "Starstruck",
+    "role": "killer",
+    "character": "The Trickster",
+    "description": "Whenever you are carrying a Survivor, Starstruck activates:\n\n• Causes all other Survivors in your Terror Radius to suffer from the Exposed Status Effect.\n• This effect lingers for 26/28/30 seconds after affected Survivors leave the Terror Radius or Starstruck deactivates.\n\nStarstruck deactivates after hooking or dropping the carried Survivor and has a cool-down of 60 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/starstruck.png"
+  },
+  {
+    "id": "still-sight",
+    "name": "Still Sight",
+    "role": "survivor",
+    "character": "The Troupe",
+    "description": "After standing still for 4/3/2 seconds, Still Sight activates:\n\n• The following Auras are revealed to you within 24 meters:\n• Killer\n\n• Chests\n\n• Generators\n\nStill Sight deactivates once you start moving again.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/stillSight.png"
+  },
+  {
+    "id": "streetwise",
+    "name": "Streetwise",
+    "role": "survivor",
+    "character": "Nea Karlsson",
+    "description": "Any Items with Charges you retrieve from Chests benefit from the following primary effect:\n\n• Increases their Charges permanently by 60/70/80 %.\n\nWhenever your currently equipped Item is depleted for the first time, Streetwise triggers its secondary effect:\n\n• The Aura of the Killer is revealed to you for 8 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/streetwise.png"
+  },
+  {
+    "id": "strength-in-shadows",
+    "name": "Strength in Shadows",
+    "role": "survivor",
+    "character": "Sable Ward",
+    "description": "Whenever you are inside the Basement, Strength in Shadows activates:\n\n• Unlocks the Strength in Shadows ability, allowing you to self-heal without needing a Med-Kit at 70 % of the normal Healing speed.\n\n• Upon finishing a heal in the Basement, the Aura of the Killer is revealed to you for 6/8/10 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/strengthInShadows.png"
+  },
+  {
+    "id": "stridor",
+    "name": "Stridor",
+    "role": "killer",
+    "character": "The Nurse",
+    "description": "You are acutely sensitive to the breathing of your prey.\n• Increases the volume of Grunts of Pain of injured Survivors by 30/40/50 %.\n\n• Increases the volume of regular breathing of Survivors by 15/20/25 %.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/stridor.png"
+  },
+  {
+    "id": "superior-anatomy",
+    "name": "Superior Anatomy",
+    "role": "killer",
+    "character": "The Mastermind",
+    "description": "Whenever a Survivor performs a Rush Vault within 12 metres of you, Superior Anatomy activates. Your next basic Window Vault is 30/35/40% faster, after which the perk deactivates. Superior Anatomy has a 25-second cooldown.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/superiorAnatomy.png"
+  },
+  {
+    "id": "surge",
+    "name": "Surge",
+    "role": "killer",
+    "character": "The Demogorgon",
+    "description": "Whenever you put a Survivor into the Dying State with your Basic Attack, Surge triggers its effect:\n\n• Causes all Generators within 32 metres of your location to instantly explode and start regressing.\n\n• Instantly regresses all affected Generators by 6/7/8 %.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/surge.png"
+  },
+  {
+    "id": "surveillance",
+    "name": "Surveillance",
+    "role": "killer",
+    "character": "The Pig",
+    "description": "Unlocks potential in your Aura-reading ability:\nThe Auras of damaged Generators are highlighted based on their current state:\n\n• White Aura: The Generator is currently regressing.\n\n• Yellow Aura: The Generator stopped regressing due to Survivor-intervention.\n• This effect lasts for 8/12/16 seconds, after which the Generator Aura returns to its default colour.\n\nWhile Survivors are repairing Generators, they suffer from the following effect:\n\n• Increases the audible range of all noises related to the Repair interaction by +8 metres.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/surveillance.png"
+  },
+  {
+    "id": "teamwork-collective-stealth",
+    "name": "Teamwork: Collective Stealth",
+    "role": "survivor",
+    "character": "Renato Lyra",
+    "description": "Whenever another Survivor finishes healing you, Teamwork: Collective Stealth activates, and both you and the Survivor who healed you benefit from the following effect:\n\n• Suppresses your Scratch Marks for as long as you stay within 8/12/16 metres of one another.\n• This effect lingers for 4 seconds once out of range and resumes upon re-entering it before that timer elapses.\n\nSurvivors can only be affected by one instance of Teamwork: Collective Stealth at a time.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/teamworkCollectiveStealth.png"
+  },
+  {
+    "id": "teamwork-full-circuit",
+    "name": "Teamwork: Full Circuit",
+    "role": "survivor",
+    "character": "Dustin Henderson",
+    "description": "For each Survivor repairing a generator with you, the size of the good Skill Check zone is increased by 15/20/25 %.\n\nWhile repairing with at least 1 other Survivor, you repair 5 % faster.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/teamworkFullCircuit.png"
+  },
+  {
+    "id": "teamwork-power-of-two",
+    "name": "Teamwork: Power of Two",
+    "role": "survivor",
+    "character": "Thalita Lyra",
+    "description": "Whenever you finish healing another Survivor, Teamwork: Power of Two activates, and both you and the healed Survivor benefit from the following effect:\n\n• Grants a +5 % Haste Status Effect for as long as you stay within 8/12/16 metres of one another.\n• This effect lingers for 4 seconds once out of range and resumes upon re-entering it before that timer elapses.\n\nSurvivors can only be affected by one instance of Teamwork: Power of Two at a time.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/teamworkPowerOfTwo.png"
+  },
+  {
+    "id": "teamwork-soft-spoken",
+    "name": "Teamwork: Soft-Spoken",
+    "role": "survivor",
+    "character": "Eleven",
+    "description": "For each other Survivor repairing a Generator with you, the range at which the Generator's repair noise is heard is reduced by 15/20/25 %.\n\nWhile repairing with at least 1 other Survivor, you repair 5 % faster.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/teamworkSoftSpoken.png"
+  },
+  {
+    "id": "teamwork-throw-down",
+    "name": "Teamwork: Throw Down",
+    "role": "survivor",
+    "character": "Michonne Grimes",
+    "description": "Whenever you blind the Killer by any means or stun them using a Pallet, Teamwork: Throw Down triggers its effect:\n\n• Grants the Endurance Status Effect to all other injured Survivors within 24 metres of your location for 6/8/10 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/teamworkThrowDown.png"
+  },
+  {
+    "id": "teamwork-toughen-up",
+    "name": "Teamwork: Toughen Up",
+    "role": "survivor",
+    "character": "Rick Grimes",
+    "description": "While injured, whenever another Survivor within 24 metres of your location blinds the Killer by any means or stuns them using a Pallet, Teamwork: Toughen Up triggers its effect:\n\n• Suppresses your Grunts of Pain, and the creation of Pools of Blood and Scratch Marks for 20/25/30 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/teamworkToughenUp.png"
+  },
+  {
+    "id": "technician",
+    "name": "Technician",
+    "role": "survivor",
+    "character": "Feng Min",
+    "description": "While repairing a Generator, the following effects apply:\n\n• Reduces the audible range of all noises related to the Repair interaction by -16 metres.\n\n• Increases the Progression penalty incurred when failing a Skill Check by 4/3/2 %.\n\n• Suppresses the explosion of the Generator and the Loud Noise Notification usually triggered by that.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/technician.png"
+  },
+  {
+    "id": "tenacity",
+    "name": "Tenacity",
+    "role": "survivor",
+    "character": "David Tapp",
+    "description": "Your ferocious tenacity in dire situations allows you to benefit from the following effects while in the Dying State:\n\n• Grants the ability to recover while crawling.\n\n• Grants a 30/40/50 % Haste Status Effect.\n\n• Reduces the volume of Grunts of Pain by -75 %.\n\n• Blocks your Aura from being read.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/tenacity.png"
+  },
+  {
+    "id": "terminus",
+    "name": "Terminus",
+    "role": "killer",
+    "character": "The Mastermind",
+    "description": "Once the Exit Gates are powered, Terminus activates:\n\n• Causes all injured, dying, or hooked Survivors to suffer from the Broken Status Effect.\n• This effect last until one of the Exit Gates is opened, after which it lingers for another 35/40/45 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/terminus.png"
+  },
+  {
+    "id": "territorial-imperative",
+    "name": "Territorial Imperative",
+    "role": "killer",
+    "character": "The Huntress",
+    "description": "Unlocks potential in your Aura-reading ability.\nWhenever a Survivor enters the Basement while you are farther than 24 metres from its entrance, Territorial Imperative activates:\n• The Aura of that Survivor is revealed to you for 4/5/6 seconds.\n\nTerritorial Imperative has a cool-down of 45 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/territorialImperative.png"
+  },
+  {
+    "id": "thanatophobia",
+    "name": "Thanatophobia",
+    "role": "killer",
+    "character": "The Nurse",
+    "description": "Whenever at least one Survivor is either injured, dying, or hooked, Thanatophobia activates.\nWhile active, all Survivors suffer from the following primary effect:\n\n• Incurs a stack-able 1/1.5/2 % Action-Speed penalty per injured, dying, or hooked Survivor for Cleansing, Repairing, and Sabotaging, up to a maximum of 4/6/8 %.\n\nIf all four Survivors are either injured, dying, or hooked, they suffer from the following secondary effect:\n\n• Increases the penalty by an additional +12 % to a total of 16/18/20 %.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/thanatophobia.png"
+  },
+  {
+    "id": "this-is-not-happening",
+    "name": "This Is Not Happening",
+    "role": "survivor",
+    "character": "All",
+    "description": "While injured, the Great Skill Check Success Zone is increased by 10/20/30% while Healing or Repairing.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/thisIsNotHappening.png"
+  },
+  {
+    "id": "thrilling-tremors",
+    "name": "Thrilling Tremors",
+    "role": "killer",
+    "character": "The Ghost Face",
+    "description": "After picking up a Survivor, Thrilling Tremors triggers its effects:\n\n• Blocks all Generators not currently being repaired by any Survivors for 16 seconds.\n\n• The Auras of Blocked Generators are highlighted to you in white.\n\nThrilling Tremors has a cool-down of 40/35/30 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/thrillingTremors.png"
+  },
+  {
+    "id": "thwack",
+    "name": "THWACK!",
+    "role": "killer",
+    "character": "The Skull Merchant",
+    "description": "Start the Trial with 3 Tokens.\nWhenever you break a Breakable Wall or a dropped Pallet, THWACK! consumes -1 Token and applies the following effect:\n\n• Causes all Survivors within 36 metres of your location to scream and reveal their Aura for 4/5/6 seconds.\n\nWhenever you hook a Survivor, THWACK! is granted +1 Token.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/thwack.png"
+  },
+  {
+    "id": "tinkerer",
+    "name": "Tinkerer",
+    "role": "killer",
+    "character": "The Hillbilly",
+    "description": "Whenever a Generator is repaired to 70 %, you benefit from the following effects:\n• Triggers a Loud Noise Notification for that Generator, revealing its location.\n\n• Grants the Undetectable Status Effect for the next 12/14/16 seconds.\n\nTinkerer can only trigger once per Generator per Trial.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/tinkerer.png"
+  },
+  {
+    "id": "trail-of-torment",
+    "name": "Trail of Torment",
+    "role": "killer",
+    "character": "The Executioner",
+    "description": "Performing the Damage Generator action on a Generator activates Trail of Torment:\n\n• Grants the Undetectable Status Effect.\n\n• The Aura of the Damaged Generator is revealed to all Survivors and highlighted in yellow.\n\nTrail of Torment deactivates after the Damaged Generator stops regressing by any means and has a cool-down of 60/45/30 seconds between activations.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/trailOfTorment.png"
+  },
+  {
+    "id": "troubleshooter",
+    "name": "Troubleshooter",
+    "role": "survivor",
+    "character": "Gabriel Soma",
+    "description": "When you are chased by the Killer, Troubleshooter activates:\n\n• The Aura of the Generator with the most progress is revealed to you.\n\n• The Aura of the Killer is revealed to you for 4/5/6 seconds after dropping a Pallet.\n\nThese effects linger for 6/8/10 seconds after ending the Chase, after which Troubleshooter deactivates.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/troubleshooter.png"
+  },
+  {
+    "id": "turn-back-the-clock",
+    "name": "Turn Back the Clock",
+    "role": "killer",
+    "character": "The First",
+    "description": "After hooking a Survivor, for 40/50/60 seconds, press the Active Ability button to make a target generator within 20 meters explode, lose -10 % progress, and start regressing.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/turnBackTheClock.png"
+  },
+  {
+    "id": "ultimate-weapon",
+    "name": "Ultimate Weapon",
+    "role": "killer",
+    "character": "The Xenomorph",
+    "description": "Whenever you search a Locker, Ultimate Weapon triggers its effects on all Survivors within 40 metres of its location:\n\n• Causes them to scream and reveal their location to you.\n\n• Inflicts the Blindness Status Effect for 30 seconds.\n\nUltimate Weapon has a cool-down of 55/50/45 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/ultimateWeapon.png"
+  },
+  {
+    "id": "unbound",
+    "name": "Unbound",
+    "role": "killer",
+    "character": "The Unknown",
+    "description": "When a Survivor becomes injured by any means, Unbound activates for 24/27/30 seconds. Vaulting a Window while active grants 7% Haste for 10 seconds. The Haste effect cannot stack with itself.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/unbound.png"
+  },
+  {
+    "id": "unbreakable",
+    "name": "Unbreakable",
+    "role": "survivor",
+    "character": "Bill Overbeck",
+    "description": "Whenever you are put in the Dying State by the Killer, Unbreakable activates:\n\n• Increases your Recovery speed by 25/30/35 %.\n\n• Unlocks the Self-Recovery ability, allowing you to fully recover from the Dying State.\n• This ability can only be used once per Trial.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/unbreakable.png"
+  },
+  {
+    "id": "undone",
+    "name": "Undone",
+    "role": "killer",
+    "character": "The Unknown",
+    "description": "Each failed Repair or Healing Skill Check by a Survivor grants 3 Tokens, up to 18/24/30. Damaging a Generator consumes all Tokens, instantly removes 1% of total Generator progress per Token and blocks it for 1 second per Token. The Generator begins regressing when unblocked. Undone has a 60-second cooldown.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/undone.png"
+  },
+  {
+    "id": "unforeseen",
+    "name": "Unforeseen",
+    "role": "killer",
+    "character": "The Unknown",
+    "description": "After performing the Damage Generator action on a Generator, you benefit from the following effects for 22/26/30 seconds:\n\n• Transfers your Terror Radius to the damaged Generator.\n• This Terror Radius is set to 32 metres.\n\n• Grants the Undetectable Status Effect.\n\nUnforeseen has a cool-down of 30 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/unforeseen.png"
+  },
+  {
+    "id": "unnerving-presence",
+    "name": "Unnerving Presence",
+    "role": "killer",
+    "character": "The Trapper",
+    "description": "While inside your Terror Radius, Survivors performing Repairing or Healing actions suffer from the following effects:\n\n• Increases the chances of triggering a Skill Check by +10 %.\n\n• Reduces the Success zone of those Skill Checks by 40/50/60 %.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/unnervingPresence.png"
+  },
+  {
+    "id": "unrelenting",
+    "name": "Unrelenting",
+    "role": "killer",
+    "character": "All",
+    "description": "Reduces the cooldown of missed Basic Attacks by 20/25/30%.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/unrelenting.png"
+  },
+  {
+    "id": "up-the-ante",
+    "name": "Up the Ante",
+    "role": "survivor",
+    "character": "Ace Visconti",
+    "description": "Unlocks the ability to attempt Self-Unhooks during the first Hook Stage for all Survivors.\nFor every Survivor still in the Trial, Up the Ante is granted +1 Token:\n\n• Increases the Luck at succeeding Self-Unhook attempts for all Survivors by a stack-able 1/2/3 % per Token, up to a maximum of 3/6/9 %.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/upTheAnte.png"
+  },
+  {
+    "id": "urban-evasion",
+    "name": "Urban Evasion",
+    "role": "survivor",
+    "character": "Nea Karlsson",
+    "description": "You benefit from the following permanent effect:\n\n• Increases your Movement speed while crouched by 90/95/100 %.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/urbanEvasion.png"
+  },
+  {
+    "id": "vigil",
+    "name": "Vigil",
+    "role": "survivor",
+    "character": "Quentin Smith",
+    "description": "You recover 20/25/30 % faster from the following:\n\n• The Exhausted Status Effect.\n\nVigil extends its effect to all Survivors within 16 metres of your location and lingers for 15 seconds after leaving its Area of Effect.\nSurvivors can only be affected by one instance of Vigil at a time.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/vigil.png"
+  },
+  {
+    "id": "visionary",
+    "name": "Visionary",
+    "role": "survivor",
+    "character": "Felix Richter",
+    "description": "You benefit from the following permanent effect:\n\n• The Auras of Generators are revealed to you within 32 metres.\n\nVisionary is temporarily deactivated for 20/18/16 seconds whenever a Generator is completed.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/visionary.png"
+  },
+  {
+    "id": "wake-up",
+    "name": "Wake Up!",
+    "role": "survivor",
+    "character": "Quentin Smith",
+    "description": "Unlocks potential in your Aura-reading ability.\nOnce all Generators are completed, Wake Up! activates:\n• The Auras of the Exit Gate Switches are revealed to you permanently while within 128 metres.\n\n• Your Aura is revealed to all other Survivors within 128 metres while you are opening an Exit Gate.\n\n• Increases your Gate-Opening speed by 8/9/10 % and by an additional #effect for each Survivor still alive in the Trial up to a maximum of 68/69/70 %.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/wakeUp.png"
+  },
+  {
+    "id": "wandering-eye",
+    "name": "Wandering Eye",
+    "role": "killer",
+    "character": "The Krasue",
+    "description": "Whenever you start chasing a Survivor, Wandering Eye triggers the following effect:\n\n• The Auras of all other injured Survivors within 20 metres of your location are revealed to you for 5 seconds.\n\nWandering Eye has a cool-down of 40/35/30 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/wanderingEye.png"
+  },
+  {
+    "id": "we-see-you",
+    "name": "We See You",
+    "role": "survivor",
+    "character": "Eleven",
+    "description": "Gain a token when the Killer reveals your Aura.\n\nWhen you have 4 tokens, they are all consumed, and the Killer's aura is revealed to you and all other Survivors for 10/12.5/15 seconds.\n\nThis perk has a 10-second cool-down when gaining a token.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/weSeeYou.png"
+  },
+  {
+    "id": "well-make-it",
+    "name": "We'll Make It",
+    "role": "survivor",
+    "character": "All",
+    "description": "After unhooking another Survivor, your Altruistic Healing speed is increased by 100% for 30/60/90 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/wellMakeIt.png"
+  },
+  {
+    "id": "were-gonna-live-forever",
+    "name": "We're Gonna Live Forever",
+    "role": "survivor",
+    "character": "David King",
+    "description": "Your few friends deserve the best protection.\nYou benefit from the following effect when healing a dying Survivor:\n\n• Increases your Healing speed by +100 %.\n\nAny dying Survivor you heal back to the Injured State benefits from the following effect:\n\n• Grants the Endurance Status Effect for 6/8/10 seconds.\n• This effect can only be triggered once every 30 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/wereGonnaLiveForever.png"
+  },
+  {
+    "id": "weave-attunement",
+    "name": "Weave Attunement",
+    "role": "killer",
+    "character": "The Lich",
+    "description": "Whenever an Item is depleted for the first time, it is automatically dropped:\n\n• The Auras of dropped Survivor Items are revealed to you, as well as the Auras of any Survivors within 12 metres of them.\n• Affected Survivors see the Aura of that Item as well.\n\n• Causes Survivors picking up a Survivor Item to suffer from the Oblivious Status Effect for 20/25/30 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/weaveAttunement.png"
+  },
+  {
+    "id": "whispers",
+    "name": "Whispers",
+    "role": "killer",
+    "character": "All",
+    "description": "You randomly hear the Entity's whispers whenever you are within 48/40/32 metres of a Survivor.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/whispers.png"
+  },
+  {
+    "id": "wicked",
+    "name": "Wicked",
+    "role": "survivor",
+    "character": "Sable Ward",
+    "description": "After you are unhooked by any means, Wicked triggers the following effect:\n\n• The Aura of the Killer is revealed to you for 16/18/20 seconds.\n\nWhile hooked inside the Basement, Wicked potentially triggers the following effect:\n\n• First Hook Stage: 100 % to succeed an attempted Self-Unhook.\n\n• Second Hook Stage: Does not trigger the effect.\n\n• Last Survivor Standing: Does not trigger the effect.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/wicked.png"
+  },
+  {
+    "id": "wide-open-throttle",
+    "name": "Wide Open Throttle",
+    "role": "survivor",
+    "character": "Shane Wiigwaas",
+    "description": "Fast-vaulting a Pallet triggers the following effects:\n\n• Gain 10/12.5/15 % Haste Status Effect for 3 seconds.\n\n• The Pallet is immediately reset, blocked by the Entity and revealed to all Survivors for 60 seconds.\n\nThis perk then goes on a 60 second cool-down.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/wideOpenThrottle.png"
+  },
+  {
+    "id": "will-to-live",
+    "name": "Will to Live",
+    "role": "survivor",
+    "character": "All",
+    "description": "Using whatever is at hand, you stab your aggressor in an ultimate attempt to escape.\nAfter being unhooked or unhooking yourself, Will to Live activates for the next 40/50/60 seconds:\n\n• When grabbed or picked up by the Killer, succeed a Skill Check to stab the Killer and escape from their grasp.\n• Stuns the Killer for 4 seconds.\n\n• Causes you to become the next Obsession.\n\nWill to Live is deactivated once the Exit Gates are powered.\nWill to Live is disabled for the remainder of the Trial after use.\n\nWill to Live is deactivated prematurely when performing a Conspicuous Action.\n\nIncreases your chance of becoming the initial Obsession by increasing the default value by +100 %.\nThe Killer can only be obsessed with one Survivor at a time.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/decisiveStrike.png"
+  },
+  {
+    "id": "windows-of-opportunity",
+    "name": "Windows of Opportunity",
+    "role": "survivor",
+    "character": "Kate Denson",
+    "description": "Unlocks potential in your Aura-reading ability.\n\n• The Auras of Windows are revealed to you within 40/35/30 seconds..\n\n• You vault Windows +10 % faster.\n\nWindows of Opportunity goes on a 40/35/30 seconds cool-down when you vault a Window.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/windowsOfOpportunity.png"
+  },
+  {
+    "id": "wiretap",
+    "name": "Wiretap",
+    "role": "survivor",
+    "character": "Ada Wong",
+    "description": "After repairing a Generator for the equivalent of 40 % of Progression, Wiretap activates.\nWhile active, press the Active Ability button while standing next to a Generator to install a listening device to it with a countdown of 100/110/120 seconds:\n\n• Reveals the Aura of the Killer coming within 14 metres of the Bugged Generator to all Survivors.\n\nThe listening device is deactivated after its countdown has elapsed or the Bugged Generator is damaged.\n\nThe Auras of Bugged Generators are revealed to all Survivors in yellow.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/wiretap.png"
+  },
+  {
+    "id": "zanshin-tactics",
+    "name": "Zanshin Tactics",
+    "role": "killer",
+    "character": "The Oni",
+    "description": "Unlocks potential in your Aura-reading ability:\n\n• The Auras of Pallets and Windows are revealed to you within 32 metres.\n\nWhenever a Survivor drops a Pallet, Zanshin Tactics triggers the following effect:\n\n• Their Aura is revealed to you for 3/4/5 seconds.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/zanshinTactics.png"
+  }
+]

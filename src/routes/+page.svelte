@@ -2,7 +2,7 @@
 	import { site } from '$lib/config/site';
 	import TwitchLive from '$lib/components/TwitchLive.svelte';
 	import Fa from 'svelte-fa';
-	import { faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
+	import { faDice, faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 </script>
 
 <svelte:head>
@@ -59,6 +59,25 @@
 
 	<div class="content-stack">
 		<TwitchLive />
+
+		<section class="dbd-tools" aria-labelledby="dbd-tools-heading">
+			<h2 id="dbd-tools-heading" class="sr-only">Dead by Daylight tools</h2>
+
+			<a class="dbd-tool-card" href="/dbd/randomizer">
+				<span class="dbd-tool-card__icon" aria-hidden="true">
+					<Fa icon={faDice} />
+				</span>
+
+				<span class="dbd-tool-card__content">
+					<strong>DBD Perk Randomizer</strong>
+					<span>Pick your characters. Let The Entity pick your build</span>
+				</span>
+
+				<span class="dbd-tool-card__arrow" aria-hidden="true">
+					<Fa icon={faUpRightFromSquare} />
+				</span>
+			</a>
+		</section>
 
 		<section class="socials" aria-labelledby="social-heading">
 			<h2 id="social-heading" class="sr-only">Social links</h2>
@@ -187,6 +206,76 @@
 		z-index: 3;
 		width: min(100% - 2rem, 960px);
 		margin: -2.5rem auto 2.5rem;
+	}
+
+	.dbd-tools {
+		width: 100%;
+		margin-bottom: 0.8rem;
+	}
+
+	.dbd-tool-card {
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+		min-height: 100px;
+		padding: 1.25rem 1.5rem;
+		border: 1px solid color-mix(in srgb, var(--accent) 25%, var(--border));
+		border-radius: 1.1rem;
+		background:
+			linear-gradient(135deg, color-mix(in srgb, var(--accent) 9%, transparent), transparent 55%),
+			var(--surface);
+		text-decoration: none;
+		backdrop-filter: blur(16px);
+		transition:
+			background 150ms ease,
+			border-color 150ms ease,
+			transform 150ms ease;
+	}
+
+	.dbd-tool-card:hover {
+		border-color: color-mix(in srgb, var(--accent) 60%, transparent);
+		background:
+			linear-gradient(135deg, color-mix(in srgb, var(--accent) 15%, transparent), transparent 55%),
+			var(--surface-hover);
+		transform: translateY(-2px);
+	}
+
+	.dbd-tool-card__icon {
+		display: grid;
+		width: 48px;
+		height: 48px;
+		flex: 0 0 auto;
+		place-items: center;
+		border-radius: 0.8rem;
+		color: var(--accent);
+		background: color-mix(in srgb, var(--accent) 14%, transparent);
+		font-size: 1.25rem;
+	}
+
+	.dbd-tool-card__content {
+		display: flex;
+		min-width: 0;
+		flex: 1;
+		flex-direction: column;
+		gap: 0.3rem;
+	}
+
+	.dbd-tool-card__content strong {
+		font-size: 1.05rem;
+	}
+
+	.dbd-tool-card__content span {
+		color: var(--text-muted);
+		font-size: 0.85rem;
+	}
+
+	.dbd-tool-card__arrow {
+		color: var(--text-muted);
+		transition: color 150ms ease;
+	}
+
+	.dbd-tool-card:hover .dbd-tool-card__arrow {
+		color: var(--accent);
 	}
 
 	.socials {
