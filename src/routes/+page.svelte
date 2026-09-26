@@ -2,7 +2,7 @@
 	import { site } from '$lib/config/site';
 	import TwitchLive from '$lib/components/TwitchLive.svelte';
 	import Fa from 'svelte-fa';
-	import { faDice, faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
+	import { faDice, faUpRightFromSquare, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 </script>
 
 <svelte:head>
@@ -74,7 +74,7 @@
 				</span>
 
 				<span class="dbd-tool-card__arrow" aria-hidden="true">
-					<Fa icon={faUpRightFromSquare} />
+					<Fa icon={faArrowRight} />
 				</span>
 			</a>
 		</section>
