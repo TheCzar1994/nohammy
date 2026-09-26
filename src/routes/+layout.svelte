@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<link rel="icon" href="nohammheart.webp" />
+	<link rel="icon" href="/nohammheart.webp" />
 </svelte:head>
 
 {@render children()}
