@@ -1,0 +1,222 @@
+[
+  {
+    "id": "azarovs-resting-place",
+    "name": "Azarov's Resting Place",
+    "realm": "Autohaven Wreckers"
+  },
+  {
+    "id": "badham-preschool",
+    "name": "Badham Preschool",
+    "realm": "Springwood"
+  },
+  {
+    "id": "blood-lodge",
+    "name": "Blood Lodge",
+    "realm": "Autohaven Wreckers"
+  },
+  {
+    "id": "coal-tower",
+    "name": "Coal Tower",
+    "realm": "The MacMillan Estate"
+  },
+  {
+    "id": "dead-dawg-saloon",
+    "name": "Dead Dawg Saloon",
+    "realm": "Grave of Glenvale"
+  },
+  {
+    "id": "dead-sands",
+    "name": "Dead Sands",
+    "realm": "Forsaken Boneyard"
+  },
+  {
+    "id": "disturbed-ward",
+    "name": "Disturbed Ward",
+    "realm": "Crotus Prenn Asylum"
+  },
+  {
+    "id": "eyrie-of-crows",
+    "name": "Eyrie of Crows",
+    "realm": "Forsaken Boneyard"
+  },
+  {
+    "id": "fallen-refuge",
+    "name": "Fallen Refuge",
+    "realm": "Withered Isle"
+  },
+  {
+    "id": "family-residence",
+    "name": "Family Residence",
+    "realm": "Yamaoka Estate"
+  },
+  {
+    "id": "father-campbells-chapel",
+    "name": "Father Campbell's Chapel",
+    "realm": "Crotus Prenn Asylum"
+  },
+  {
+    "id": "forgotten-ruins",
+    "name": "Forgotten Ruins",
+    "realm": "The Decimated Borgo"
+  },
+  {
+    "id": "fractured-cowshed",
+    "name": "Fractured Cowshed",
+    "realm": "Coldwind Farm"
+  },
+  {
+    "id": "freddy-fazbears-pizza",
+    "name": "Freddy Fazbear's Pizza",
+    "realm": "Withered Isle"
+  },
+  {
+    "id": "garden-of-joy",
+    "name": "Garden of Joy",
+    "realm": "Withered Isle"
+  },
+  {
+    "id": "gas-heaven",
+    "name": "Gas Heaven",
+    "realm": "Autohaven Wreckers"
+  },
+  {
+    "id": "greenville-square",
+    "name": "Greenville Square",
+    "realm": "Withered Isle"
+  },
+  {
+    "id": "grim-pantry",
+    "name": "Grim Pantry",
+    "realm": "Backwater Swamp"
+  },
+  {
+    "id": "groaning-storehouse",
+    "name": "Groaning Storehouse",
+    "realm": "The MacMillan Estate"
+  },
+  {
+    "id": "ironworks-of-misery",
+    "name": "Ironworks of Misery",
+    "realm": "The MacMillan Estate"
+  },
+  {
+    "id": "midwich-elementary-school",
+    "name": "Midwich Elementary School",
+    "realm": "Silent Hill"
+  },
+  {
+    "id": "mothers-dwelling",
+    "name": "Mother's Dwelling",
+    "realm": "Red Forest"
+  },
+  {
+    "id": "mount-ormond-resort",
+    "name": "Mount Ormond Resort",
+    "realm": "Ormond"
+  },
+  {
+    "id": "nostromo-wreckage",
+    "name": "Nostromo Wreckage",
+    "realm": "Dvarka Deepwood"
+  },
+  {
+    "id": "ormond-lake-mine",
+    "name": "Ormond Lake Mine",
+    "realm": "Ormond"
+  },
+  {
+    "id": "raccoon-city-police-station-east-wing",
+    "name": "Raccoon City Police Station East Wing",
+    "realm": "Raccoon City"
+  },
+  {
+    "id": "raccoon-city-police-station-west-wing",
+    "name": "Raccoon City Police Station West Wing",
+    "realm": "Raccoon City"
+  },
+  {
+    "id": "rancid-abattoir",
+    "name": "Rancid Abattoir",
+    "realm": "Coldwind Farm"
+  },
+  {
+    "id": "rotten-fields",
+    "name": "Rotten Fields",
+    "realm": "Coldwind Farm"
+  },
+  {
+    "id": "sanctum-of-wrath",
+    "name": "Sanctum of Wrath",
+    "realm": "Yamaoka Estate"
+  },
+  {
+    "id": "shelter-woods",
+    "name": "Shelter Woods",
+    "realm": "The MacMillan Estate"
+  },
+  {
+    "id": "suffocation-pit",
+    "name": "Suffocation Pit",
+    "realm": "The MacMillan Estate"
+  },
+  {
+    "id": "the-game",
+    "name": "The Game",
+    "realm": "Gideon Meat Plant"
+  },
+  {
+    "id": "the-pale-rose",
+    "name": "The Pale Rose",
+    "realm": "Backwater Swamp"
+  },
+  {
+    "id": "the-shattered-square",
+    "name": "The Shattered Square",
+    "realm": "The Decimated Borgo"
+  },
+  {
+    "id": "the-temple-of-purgation",
+    "name": "The Temple of Purgation",
+    "realm": "Red Forest"
+  },
+  {
+    "id": "the-thompson-house",
+    "name": "The Thompson House",
+    "realm": "Coldwind Farm"
+  },
+  {
+    "id": "the-underground-complex",
+    "name": "The Underground Complex",
+    "realm": "Hawkins National Laboratory"
+  },
+  {
+    "id": "toba-landing",
+    "name": "Toba Landing",
+    "realm": "Dvarka Deepwood"
+  },
+  {
+    "id": "torment-creek",
+    "name": "Torment Creek",
+    "realm": "Coldwind Farm"
+  },
+  {
+    "id": "treatment-theatre",
+    "name": "Treatment Theatre",
+    "realm": "Léry's Memorial Institute"
+  },
+  {
+    "id": "tricksters-delusion",
+    "name": "Trickster's Delusion",
+    "realm": "Sleepless District"
+  },
+  {
+    "id": "wreckers-yard",
+    "name": "Wreckers' Yard",
+    "realm": "Autohaven Wreckers"
+  },
+  {
+    "id": "wretched-shop",
+    "name": "Wretched Shop",
+    "realm": "Autohaven Wreckers"
+  }
+]
