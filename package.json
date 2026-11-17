@@ -32,7 +32,7 @@
 		"svelte-check": "^4.6.0",
 		"typescript": "^6.0.3",
 		"typescript-eslint": "^8.60.1",
-		"vite": "^8.0.16"
+		"vite": "^8.3.8"
 	},
 	"dependencies": {
 		"@fortawesome/free-brands-svg-icons": "^7.3.1",
