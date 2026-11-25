@@ -184,6 +184,14 @@
     "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/beastOfPrey.png"
   },
   {
+    "id": "best-gift-ever",
+    "name": "Best Gift Ever",
+    "role": "survivor",
+    "character": "Sienna Shaw",
+    "description": "Best Gift Ever starts the Trial with 4/5/6 Tokens:\nThe first time you drop an Item of each type, spend 1 Token to cause the dropped to be consumed by The Entity and benefit from an effect based on the Item:\n• Flashlights: stunning the Killer causes them to be blinded for 2 seconds.\n\n• Fog Vials: fast-vaulting causes your Scratch Marks to disappear +50 % faster for 5 seconds.\n\n• Keys: you can rummage each Chest once.\n\n• Maps: you see auras that last for a duration for +1 second longer.\n\n• Med-Kits: healing a Survivor causes you to gain healing progress at 25 % speed.\n\n• Toolboxes: you see auras of the 3 closest Generators.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/bestGiftEver.png"
+  },
+  {
     "id": "better-than-new",
     "name": "Better than New",
     "role": "survivor",
@@ -404,7 +412,7 @@
     "name": "Calm Spirit",
     "role": "survivor",
     "character": "Jake Park",
-    "description": "You experience the following effects during a Trial:\n\n• Nearby Crows no longer fly off and alert others to your presence, unless you come within touching distance.\n\n• Suppresses the urge to scream from any cause at all times.\n\n• Suppresses all noises related to interacting with the following Props:\n• Chests\n\n• Totems\n\n• Increases the Action speeds for Blessing, Cleansing, and Unlocking by 8/9/10 %.",
+    "description": "You experience the following effects during a Trial:\n\n• Nearby Crows no longer fly off and alert others to your presence, unless you come within touching distance.\n\n• Suppresses the urge to scream from any cause at all times.\n\n• Suppresses all noises related to interacting with the following Props:\n• Chests\n\n• Totems\n\n• Increases the Action speeds for Blessing, Cleansing, and Unlocking by 23/24/25 %.",
     "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/calmSpirit.png"
   },
   {
@@ -420,7 +428,7 @@
     "name": "Celestial Witness",
     "role": "killer",
     "character": "The Judgment",
-    "description": "Every 30 seconds, if the Obsession is 40 metres away from you, you see their aura for 2/2.5/3 seconds. Otherwise, the farthest Survivor becomes the Obsession.",
+    "description": "Every 30 seconds, if the Obsession is 40 metres away from you, you see their aura for 2/2.5/3 seconds.\nOtherwise, the farthest Survivor becomes the Obsession.",
     "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/celestialWitness.png"
   },
   {
@@ -564,7 +572,7 @@
     "name": "Dark Arrogance",
     "role": "killer",
     "character": "The Lich",
-    "description": "Whenever you are vaulting a Window, you benefit from the following effect:\n\n• Increases the Vaulting speed by 15/20/25 %.\n\n• Increases all basic-attack recovery speeds by +10 %.\n\nWhenever you are stunned with a Pallet or blinded by any means, you suffer from the following effects:\n\n• Reduces the Recovery speed from Pallet Stuns by -25 %.\n\n• Increases the duration of Killer Blinds by +25 %.",
+    "description": "Permanently benefit from the following effects:\n\n• Increases the Vaulting speed by +15 %.\n\n• Increases successful basic-attack recovery speed by 13/14/15 %.\n\nPermanently suffer from the following effects:\n\n• Reduces the Recovery speed from Pallet Stuns by -15 %.\n\n• Increases the duration of Killer Blinds by +15 %.",
     "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/darkArrogance.png"
   },
   {
@@ -580,7 +588,7 @@
     "name": "Dark Sense",
     "role": "survivor",
     "character": "All",
-    "description": "Unlocks potential in your Aura-reading ability.\nWhenever a Generator is completed, Dark Sense activates:\n• When the Killer gets within 24 metres of you, Dark Sense activates for 13/14/15 seconds:\n• You see the Killer's aura.\n\n• You see auras of other Survivors.\n\n• You see the auras of Pallets and Windows within 32 metres.\n\nDark Sense deactivates after use.",
+    "description": "Unlocks potential in your Aura-reading ability.\nDark Sense starts with and gains 1 Token whenever a Generator is completed. Dark Sense can hold up to 5 Tokens at once.\n• When the Killer gets within 24 metres of you, Dark Sense consumes 1 Token and activates for 13/14/15 seconds:\n• You see the Killer's aura.\n\n• You see auras of other Survivors.\n\n• You see the auras of Pallets and Windows within 32 metres.\n\nDark Sense deactivates after use.",
     "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/darkSense.png"
   },
   {
@@ -844,7 +852,7 @@
     "name": "Five Moves Ahead",
     "role": "survivor",
     "character": "Kwon Tae-young",
-    "description": "This perk activates while you are being chased by the Killer or are inside the Killer's Terror Radius:\n\n• After you drop a Pallet, you start moving 50 % earlier.\n\n• See the auras of the 5 closest Pallets.\n\nThis perk goes on a 40/35/30 seconds cool-down when you drop a Pallet while this perk is activated.",
+    "description": "Five Moves Ahead activates while you are being chased by the Killer or are inside the Killer's Terror Radius:\n\n• After you drop a Pallet, you start moving 50 % earlier.\n\n• See the auras of the 5 closest Pallets.\n\nFive Moves Ahead goes on a 40/35/30 seconds cool-down when you drop a Pallet.",
     "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/fiveMovesAhead.png"
   },
   {
@@ -950,6 +958,14 @@
     "character": "Aurora Stardotter",
     "description": "Whenever a Generator is completed, gain a token.\nWhenever you finish repairing a Generator, for each token this perk has:\n\n• Gain +5 % Haste Status Effect for 2 seconds.\n\n• Gain 10/15/20 % healing progress.",
     "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/fruitsOfYourLabor.png"
+  },
+  {
+    "id": "funny-business",
+    "name": "Funny Business",
+    "role": "killer",
+    "character": "The Terrifier",
+    "description": "Damaging a Generator grants +10 % Haste Status Effect for 10 seconds and triggers one random effect:\n• Retain the Haste effect for 5 seconds longer.\n\n• Get stunned for 2 seconds.\n\n• Block the Generator for 30 seconds.\n\n• The Generator spews out confetti! But nothing actually happens.\n\nThe same effect cannot happen twice in a row\nThis perk then goes on a 60/50/40 seconds cool-down.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/funnyBusiness.png"
   },
   {
     "id": "furtive-chase",
@@ -1336,6 +1352,14 @@
     "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/saveTheBestForLast.png"
   },
   {
+    "id": "kill-spree",
+    "name": "Kill Spree",
+    "role": "killer",
+    "character": "The Terrifier",
+    "description": "When all Survivors have reached the second Hook Stage and all Generators have been completed, you can kill Survivors.\nWhile killing a Survivor, Exit Gate Switches are blocked by The Entity and for 12/18/20 seconds after.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/killSpree.png"
+  },
+  {
     "id": "kindred",
     "name": "Kindred",
     "role": "survivor",
@@ -1368,6 +1392,14 @@
     "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/lastStand.png"
   },
   {
+    "id": "laughingstock",
+    "name": "Laughingstock",
+    "role": "killer",
+    "character": "The Terrifier",
+    "description": "Survivors within 12 metres of a completed Generator suffer from:\n• Exhausted and Oblivious Status Effects\n\nThese effects linger for 3/4/5 seconds.\nYou also see auras of completed Generators.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/laughingStock.png"
+  },
+  {
     "id": "lay-waste",
     "name": "Lay Waste",
     "role": "killer",
@@ -1396,7 +1428,7 @@
     "name": "Lend a Hand",
     "role": "survivor",
     "character": "Shane Wiigwaas",
-    "description": "Cleansing or Blessing a Totem activates this perk:\n\n• Once per Survivor, while healing a Survivor, press Activate Ability 2 to give the healed Survivor 2/3/4 permanent healing charges.",
+    "description": "Cleansing or Blessing a Totem activates Lend a Hand:\n\n• Once per Survivor, while healing a Survivor, press Activate Ability 2 to give the healed Survivor 2/3/4 permanent healing charges.",
     "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/lendaHand.png"
   },
   {
@@ -1620,7 +1652,7 @@
     "name": "Off the Record",
     "role": "survivor",
     "character": "Zarina Kassir",
-    "description": "After being unhooked or unhooking yourself, Off the Record activates for 30/35/40 seconds:\n\n• Blocks your Aura from being revealed.\n\n• Suppresses your Grunts of Pain while in the Injured State.\n\n• Suppresses the creation of your Scratch Marks.\n\n• Grants the Endurance Status Effect.\n• Endurance is cancelled prematurely when performing a Conspicuous Action of any kind.\n\nOff the Record deactivates prematurely and is disabled for the remainder of the Trial upon powering the Exit Gates.",
+    "description": "After being unhooked or unhooking yourself, Off the Record activates for 30/35/40 seconds:\n\n• Blocks your Aura from being revealed.\n\n• Suppresses your Grunts of Pain while in the Injured State.\n\n• Grants the Endurance Status Effect.\n• Endurance is cancelled prematurely when performing a Conspicuous Action of any kind.\n\nOff the Record deactivates prematurely and is disabled for the remainder of the Trial upon powering the Exit Gates.",
     "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/offTheRecord.png"
   },
   {
@@ -1828,7 +1860,7 @@
     "name": "Ravenous",
     "role": "killer",
     "character": "The Krasue",
-    "description": "Whenever you hook a Survivor for the first time, Ravenous gains +1 Token, up to a maximum of 4 Tokens.\nFor each Token:\n\n• Grants +4 % Haste Status Effect while carrying a Survivor.\n\n• Increases your hooking speed by +4 %.\n\nOnce you accumulate 4 Tokens, all Survivors suffer from the following effects:\n\n• Causes them to scream.\n\n• Inflicts the Exposed Status Effect for 80/85/90 seconds.",
+    "description": "Whenever you hook a Survivor for the first time, Ravenous gains +1 Token, up to a maximum of 4 Tokens.\nFor each Token:\n\n• Grants +4 % Haste Status Effect while carrying a Survivor.\n\n• Increases your hooking speed by +4 %.\n\nOnce you accumulate 4 Tokens, all Survivors suffer from the following effects:\n\n• Causes them to scream.\n\n• Inflicts the Exposed Status Effect for 60/65/70 seconds.",
     "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/ravenous.png"
   },
   {
@@ -1900,7 +1932,7 @@
     "name": "Road Life",
     "role": "survivor",
     "character": "Vee Boonyasak",
-    "description": "While injured and repairing a Generator, regular Skill Checks have the following effects:\n\n• Gain +1 Token for Great Repair Skill Checks.\n\n• Gain 0 Tokens for Good Repair Skill Checks.\n\n• Lose -1 Token for Failed Repair Skill Checks.\n\nOnce you accumulate 6/5/4 Tokens, consume all Tokens to benefit from the following effect:\n\n• Unlocks the ability to heal yourself\n\n• Increases your Self-Healing speed by +10 % until you stop healing and for 4 seconds after.",
+    "description": "While injured and repairing a Generator, regular Skill Checks have the following effects:\n\n• Gain +1 Token for Great Repair Skill Checks.\n\n• Gain 0 Tokens for Good Repair Skill Checks.\n\n• Lose -1 Token for Failed Repair Skill Checks.\n\nOnce you accumulate 6/5/4 Tokens, consume all Tokens to benefit from the following effect:\n\n• Unlocks the ability to self-heal. You also self-heal +10 % faster.\n• Road Life deactivates 4 seconds after you stop self-healing.",
     "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/roadLife.png"
   },
   {
@@ -1972,7 +2004,7 @@
     "name": "Scourge Hook: Monstrous Shrine",
     "role": "killer",
     "character": "All",
-    "description": "At the start of the Trial, the 4 Hooks located inside the Basement and an additional 4 Hooks located throughout the Trial Grounds are all changed into Scourge Hooks:\n\n• The Auras of Scourge Hooks are highlighted to you in white.\n\nWhenever you are farther than 24 metres from a Survivor hooked onto a Scourge Hook, the following effect applies:\n\n• All Generators regress at 150/175/200 % of the default Regression rate.",
+    "description": "At the start of the Trial, the 4 Hooks located inside the Basement and an additional 4 Hooks located throughout the Trial Grounds are all changed into Scourge Hooks:\n\n• The Auras of Scourge Hooks are highlighted to you in white.\n\nWhenever you are farther than 24 metres from a Survivor hooked onto a Scourge Hook, the following effect applies:\n\n• All Generators regress at +200 % of the default Regression rate.\n• This persists for 20/25/30 seconds after the Survivor is unhooked.",
     "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/scourgeHookMonstrousShrine.png"
   },
   {
@@ -2048,6 +2080,14 @@
     "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/shadowborn.png"
   },
   {
+    "id": "shared-trauma",
+    "name": "Shared Trauma",
+    "role": "survivor",
+    "character": "Sienna Shaw",
+    "description": "Taking a protection hit causes you and all Survivors within 12 metres to recover from Exhausted while running for 30/35/40 seconds.\nYou also see auras of Survivors suffering from Exhausted within 32 metres.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/sharedTrauma.png"
+  },
+  {
     "id": "shattered-hope",
     "name": "Shattered Hope",
     "role": "killer",
@@ -2076,7 +2116,7 @@
     "name": "Slippery Meat",
     "role": "survivor",
     "character": "All",
-    "description": "You have developed an efficient way to get off Hooks.\n• Other Survivors unhook you 90/95/100 % faster.\n\n• Increases the Haste granted by Unhook Protections by +5 %.",
+    "description": "You have developed an efficient way to get off Hooks.\n• Other Survivors unhook you 65/70/75 % faster.\n\n• Increases the Haste granted by Unhook Protections by +7 %.",
     "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/slipperyMeat.png"
   },
   {
@@ -2448,6 +2488,14 @@
     "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/urbanEvasion.png"
   },
   {
+    "id": "valkyries-rage",
+    "name": "Valkyrie's Rage",
+    "role": "survivor",
+    "character": "Sienna Shaw",
+    "description": "Valkyrie's Rage activates after being chased for 40/35/30 seconds:\n\n• The next time you Pallet-stun the Killer, they are stunned for +75 % longer.\n• Valkyrie's Rage then deactivates.",
+    "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/valkyriesRage.png"
+  },
+  {
     "id": "vigil",
     "name": "Vigil",
     "role": "survivor",
@@ -2516,7 +2564,7 @@
     "name": "Whispers",
     "role": "killer",
     "character": "All",
-    "description": "Whenever any Survivor is within 28/26/24 metres of your location:\n\n• Causes you to hear the sporadic whispers of The Entity, indicating a Survivor's presence.\n\nWhenever any Survivor is outside 28/26/24 metres of your location:\n\n• Gain +5 % Haste Status Effect.",
+    "description": "Whenever any Survivor is within 28/26/24 metres of your location:\n\n• Causes you to hear the sporadic whispers of The Entity, indicating a Survivor's presence.\n\nWhenever any Survivor is outside 28/26/24 metres of your location:\n\n• Gain +7 % Haste Status Effect.",
     "iconUrl": "https://cdn.theczar1994.dev/dbd/perks/whispers.png"
   },
   {
