@@ -1,5 +1,5 @@
 import type { RequestHandler } from './$types';
-import maps from '$lib/data/dbd/maps.json';
+import maps from '#lib/data/dbd/maps.json';
 
 export const prerender = false;
 

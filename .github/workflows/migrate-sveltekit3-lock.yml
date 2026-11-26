@@ -1,0 +1,33 @@
+name: Regenerate SvelteKit 3 migration lockfile
+
+on:
+  push:
+    branches:
+      - chore/sveltekit-3-migration-20261125
+
+permissions:
+  contents: write
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+      - name: Regenerate and validate package-lock
+        run: |
+          npm install --package-lock-only --ignore-scripts
+          npm ci
+          npm run check
+          npm run build
+      - name: Commit generated lockfile
+        run: |
+          if ! git diff --quiet -- package-lock.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add package-lock.json
+            git commit -m "chore: refresh lockfile for SvelteKit 3"
+            git push
+          fi

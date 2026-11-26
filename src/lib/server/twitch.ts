@@ -1,6 +1,6 @@
 import { env } from '$env/dynamic/private';
-import { twitch } from '$lib/config/twitch';
-import type { TwitchClip, TwitchStream } from '$lib/types/twitch';
+import { twitch } from '#lib/config/twitch.js';
+import type { TwitchClip, TwitchStream } from '#lib/types/twitch.js';
 
 type TwitchTokenResponse = {
 	access_token: string;

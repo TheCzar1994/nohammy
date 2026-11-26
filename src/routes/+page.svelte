@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { site } from '$lib/config/site';
-	import TwitchLive from '$lib/components/TwitchLive.svelte';
+	import { site } from '#lib/config/site.js';
+	import TwitchLive from '#lib/components/TwitchLive.svelte';
 	import Fa from 'svelte-fa';
 	import { faDice, faUpRightFromSquare, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 </script>

@@ -1,5 +1,5 @@
 import { json, type RequestHandler } from '@sveltejs/kit';
-import { getTwitchClips } from '$lib/server/twitch';
+import { getTwitchClips } from '#lib/server/twitch.js';
 
 export const GET: RequestHandler = async ({ fetch, setHeaders }) => {
 	setHeaders({
