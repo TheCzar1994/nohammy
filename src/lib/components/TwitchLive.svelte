@@ -4,10 +4,14 @@
 	import { faTwitch } from '@fortawesome/free-brands-svg-icons';
 	import { faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 
-	import TwitchEmbed from '$lib/components/TwitchEmbed.svelte';
-	import TwitchClips from '$lib/components/TwitchClips.svelte';
-	import { twitch } from '$lib/config/twitch';
-	import type { TwitchStream } from '$lib/types/twitch';
+	import TwitchEmbed from './TwitchEmbed.svelte';
+	import TwitchClips from './TwitchClips.svelte';
+	import { twitch } from '../config/twitch';
+	type TwitchStream = {
+		gameName: string;
+		viewerCount: number;
+		title: string;
+	};
 
 	let stream = $state<TwitchStream | null>(null);
 	let loaded = $state(false);

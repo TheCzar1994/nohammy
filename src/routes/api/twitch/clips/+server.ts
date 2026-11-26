@@ -1,5 +1,5 @@
-import { json, type RequestHandler } from '@sveltejs/kit';
-import { getTwitchClips } from '$lib/server/twitch';
+import { type RequestHandler } from '@sveltejs/kit';
+import { getTwitchClips } from '#lib/server/twitch.ts';
 
 export const GET: RequestHandler = async ({ fetch, setHeaders }) => {
 	setHeaders({
@@ -9,13 +9,13 @@ export const GET: RequestHandler = async ({ fetch, setHeaders }) => {
 	try {
 		const clips = await getTwitchClips(fetch);
 
-		return json({
+		return Response.json({
 			clips
 		});
 	} catch (error) {
 		console.error('[Twitch] Failed to get clips:', error);
 
-		return json(
+		return Response.json(
 			{
 				clips: [],
 				unavailable: true

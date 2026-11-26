@@ -1,6 +1,6 @@
-import { env } from '$env/dynamic/private';
-import { twitch } from '$lib/config/twitch';
-import type { TwitchClip, TwitchStream } from '$lib/types/twitch';
+import { TWITCH_CLIENT_ID, TWITCH_CLIENT_SECRET } from '$app/env/private';
+import { twitch } from '#lib/config/twitch.ts';
+import type { TwitchClip, TwitchStream } from '#lib/types/twitch.ts';
 
 type TwitchTokenResponse = {
 	access_token: string;
@@ -16,19 +16,9 @@ type TwitchHelixStream = {
 	started_at: string;
 };
 
-type TwitchStreamsResponse = {
-	data: TwitchHelixStream[];
-};
-
-type TwitchHelixUser = {
-	id: string;
-	login: string;
-	display_name: string;
-};
-
-type TwitchUsersResponse = {
-	data: TwitchHelixUser[];
-};
+type TwitchStreamsResponse = { data: TwitchHelixStream[] };
+type TwitchHelixUser = { id: string; login: string; display_name: string };
+type TwitchUsersResponse = { data: TwitchHelixUser[] };
 
 type TwitchHelixClip = {
 	id: string;
@@ -50,24 +40,15 @@ type TwitchHelixClip = {
 	is_featured: boolean;
 };
 
-type TwitchClipsResponse = {
-	data: TwitchHelixClip[];
-	pagination: {
-		cursor?: string;
-	};
-};
-
-type CachedToken = {
-	accessToken: string;
-	expiresAt: number;
-};
+type TwitchClipsResponse = { data: TwitchHelixClip[]; pagination: { cursor?: string } };
+type CachedToken = { accessToken: string; expiresAt: number };
 
 let cachedToken: CachedToken | null = null;
 let cachedBroadcasterId: string | null = null;
 
 function getCredentials() {
-	const clientId = env.TWITCH_CLIENT_ID;
-	const clientSecret = env.TWITCH_CLIENT_SECRET;
+	const clientId = TWITCH_CLIENT_ID;
+	const clientSecret = TWITCH_CLIENT_SECRET;
 
 	if (!clientId || !clientSecret) {
 		throw new Error('Twitch credentials are not configured');
