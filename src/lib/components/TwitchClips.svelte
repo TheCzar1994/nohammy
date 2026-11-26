@@ -10,8 +10,8 @@
 		faStar
 	} from '@fortawesome/free-solid-svg-icons';
 
-	import { twitch } from '$lib/config/twitch';
-	import type { TwitchClip } from '$lib/types/twitch';
+	import { twitch } from '#lib/config/twitch.ts';
+	import type { TwitchClip } from '#lib/types/twitch.ts';
 
 	let clips = $state<TwitchClip[]>([]);
 	let selectedClip = $state<TwitchClip | null>(null);

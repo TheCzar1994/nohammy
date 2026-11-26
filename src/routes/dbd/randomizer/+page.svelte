@@ -1,13 +1,13 @@
 <script lang="ts">
-	import { browser } from '$app/environment';
+	import { browser } from '$app/env';
 	import { onMount } from 'svelte';
 
 	import Fa from 'svelte-fa';
 	import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
-	import perkData from '$lib/data/dbd/perks.json';
-	import { getCharacterIcon } from '$lib/data/dbd/character-icons';
-	import type { DbdPerk, DbdRole } from '$lib/types/dbd';
+	import perkData from '#lib/data/dbd/perks.json';
+	import { getCharacterIcon } from '#lib/data/dbd/character-icons.ts';
+	import type { DbdPerk, DbdRole } from '#lib/types/dbd.ts';
 
 	const STORAGE_KEY = 'nohammy:dbd-randomizer';
 
@@ -36,7 +36,6 @@
 	);
 
 	const selectedCharacters = $derived(selections[role]);
-
 	const filteredCharacters = $derived(
 		characters.filter((character) =>
 			character.toLowerCase().includes(characterSearch.trim().toLowerCase())

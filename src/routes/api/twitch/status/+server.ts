@@ -1,5 +1,5 @@
-import { json, type RequestHandler } from '@sveltejs/kit';
-import { getTwitchStream } from '$lib/server/twitch';
+import { type RequestHandler } from '@sveltejs/kit';
+import { getTwitchStream } from '#lib/server/twitch.ts';
 
 export const GET: RequestHandler = async ({ fetch, setHeaders }) => {
 	setHeaders({
@@ -9,13 +9,13 @@ export const GET: RequestHandler = async ({ fetch, setHeaders }) => {
 	try {
 		const stream = await getTwitchStream(fetch);
 
-		return json({
+		return Response.json({
 			stream
 		});
 	} catch (error) {
 		console.error('[Twitch] Failed to get stream status:', error);
 
-		return json(
+		return Response.json(
 			{
 				stream: null,
 				unavailable: true

@@ -1,5 +1,5 @@
 import type { RequestHandler } from './$types';
-import killers from '$lib/data/dbd/killers.json';
+import killers from '#lib/data/dbd/killers.json';
 
 export const prerender = false;
 

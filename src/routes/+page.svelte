@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { site } from '$lib/config/site';
-	import TwitchLive from '$lib/components/TwitchLive.svelte';
+	import { site } from '#lib/config/site.ts';
+	import TwitchLive from '#lib/components/TwitchLive.svelte';
 	import Fa from 'svelte-fa';
 	import { faDice, faUpRightFromSquare, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 </script>
@@ -86,15 +86,15 @@
 				{#each site.socials as social}
 					<a class="social-link" href={social.href} target="_blank" rel="noreferrer">
 						<div class="social-link__content">
-							<span class="social-link__platform"
-								><Fa style="margin-right: 0.75rem;" icon={social.icon} />{social.label}</span
-							>
+							<span class="social-link__platform">
+								<Fa style="margin-right: 0.75rem;" icon={social.icon} />{social.label}
+							</span>
 							<span class="social-link__handle">{social.handle}</span>
 						</div>
 
-						<span class="social-link__arrow" aria-hidden="true"
-							><Fa icon={faUpRightFromSquare} /></span
-						>
+						<span class="social-link__arrow" aria-hidden="true">
+							<Fa icon={faUpRightFromSquare} />
+						</span>
 					</a>
 				{/each}
 			</nav>
