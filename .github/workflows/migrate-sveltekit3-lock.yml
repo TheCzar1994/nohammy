@@ -4,16 +4,12 @@ on:
   push:
     branches:
       - chore/sveltekit-3-migration-20261125
-  pull_request:
-    branches:
-      - main
 
 permissions:
   contents: write
 
 jobs:
   migrate:
-    if: github.event_name == 'push' || github.head_ref == 'chore/sveltekit-3-migration-20261125'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -34,6 +30,7 @@ jobs:
             git add package-lock.json
             git commit -m "chore: refresh lockfile for SvelteKit 3"
             git push
+          fi
       - name: Check and build
         run: |
           npm run check
