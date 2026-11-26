@@ -4,15 +4,21 @@ on:
   push:
     branches:
       - chore/sveltekit-3-migration-20261125
+  pull_request:
+    branches:
+      - main
 
 permissions:
   contents: write
 
 jobs:
   migrate:
+    if: github.event_name == 'push' || github.head_ref == 'chore/sveltekit-3-migration-20261125'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
       - uses: actions/setup-node@v4
         with:
           node-version-file: .node-version
