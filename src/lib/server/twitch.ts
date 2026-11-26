@@ -1,4 +1,4 @@
-import { env } from '$env/dynamic/private';
+import { TWITCH_CLIENT_ID, TWITCH_CLIENT_SECRET } from '$app/env/private';
 import { twitch } from '#lib/config/twitch.js';
 import type { TwitchClip, TwitchStream } from '#lib/types/twitch.js';
 
@@ -66,8 +66,8 @@ let cachedToken: CachedToken | null = null;
 let cachedBroadcasterId: string | null = null;
 
 function getCredentials() {
-	const clientId = env.TWITCH_CLIENT_ID;
-	const clientSecret = env.TWITCH_CLIENT_SECRET;
+	const clientId = TWITCH_CLIENT_ID;
+	const clientSecret = TWITCH_CLIENT_SECRET;
 
 	if (!clientId || !clientSecret) {
 		throw new Error('Twitch credentials are not configured');

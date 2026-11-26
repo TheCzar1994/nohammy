@@ -22,12 +22,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version-file: .node-version
-      - name: Regenerate and validate package-lock
+      - name: Regenerate package-lock
         run: |
           npm install --package-lock-only --ignore-scripts
           npm ci
-          npm run check
-          npm run build
       - name: Commit generated lockfile
         run: |
           if ! git diff --quiet -- package-lock.json; then
@@ -36,4 +34,8 @@ jobs:
             git add package-lock.json
             git commit -m "chore: refresh lockfile for SvelteKit 3"
             git push
+      - name: Check and build
+        run: |
+          npm run check
+          npm run build
           fi
